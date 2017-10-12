@@ -1,7 +1,15 @@
-.logo {
-    img {
-        max-width: 90%;
-        position: relative;
-        bottom: 13px;
+.navbar-default {
+    background-color: black;
+
+    a {
+        color: white;
+    }
+    // logo section
+    .logo {
+        img {
+            max-width: 90%;
+            position: relative;
+            bottom: 13px;
+        }
     }
 }
