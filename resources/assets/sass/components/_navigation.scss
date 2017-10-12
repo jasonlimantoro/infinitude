@@ -1,11 +1,7 @@
-.navbar-brand {
-    width: 200px;
-    a {
-        img {
-            position: absolute;
-            width: 100%;
-            left: 200px;
-            top: -10px;
-        }
+.logo {
+    img {
+        max-width: 90%;
+        position: relative;
+        bottom: 13px;
     }
 }
