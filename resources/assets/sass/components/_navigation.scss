@@ -25,6 +25,7 @@
         .dropdown-menu {
             background-color: $black-default;
             li > a {
+                color: white !important;
                 &:hover {
                     background-color: transparent;
                 }
@@ -42,4 +43,10 @@
             bottom: 13px;
         }
     }
+}
+// logo in mobile devices
+.navbar-brand.visible-xs > img {
+    max-width: 35%;
+    position: fixed;
+    top: 15px;
 }

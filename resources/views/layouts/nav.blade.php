@@ -8,6 +8,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+            <a href="/" class="navbar-brand visible-xs">
+                <img src="/images/Infinitude_menu_logo.png" class="img-responsive" alt="logo">
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

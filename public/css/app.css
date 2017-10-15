@@ -8382,6 +8382,10 @@ button.close {
   background-color: #232220;
 }
 
+.navbar-default .navbar-nav .dropdown-menu li > a {
+  color: white !important;
+}
+
 .navbar-default .navbar-nav .dropdown-menu li > a:hover {
   background-color: transparent;
 }
@@ -8396,5 +8400,11 @@ button.close {
   max-width: 90%;
   position: relative;
   bottom: 13px;
+}
+
+.navbar-brand.visible-xs > img {
+  max-width: 35%;
+  position: fixed;
+  top: 15px;
 }
 
