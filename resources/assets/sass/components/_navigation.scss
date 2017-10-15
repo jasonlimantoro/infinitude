@@ -2,13 +2,17 @@
     background-color: black;
     .navbar-nav {
         li > a {
-            color: white;
+            &, &:focus {
+                color: white;
+            }
             &:hover {
                 color: $orange-default;
             }
         }
         .open {
             a {
+                background-color: transparent;
+                color: white;
                 &:hover, &:focus {
                     background-color: transparent;
                     color: $orange-default;
