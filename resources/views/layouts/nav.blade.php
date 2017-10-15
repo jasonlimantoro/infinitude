@@ -21,25 +21,17 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Vision and Mission</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Organization</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Forum</a></li>
+                                <li><a href="#">Seminar</a></li>
+                                <li><a href="#">Workshop</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -58,33 +50,22 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Be Involved<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">Become a Volunteer</a></li>
+                                <li><a href="#">Become a Donator</a></li>
+                                <li><a href="#">Infinitude Merchandise</a></li>
                             </ul>
                         </li>
 
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
+                                <li><a href="#">General Meeting</a></li>
+                                <li><a href="#">Wonder Woman</a></li>
+                                <li><a href="#">Sehat Cerdas Bersama</a></li>
                             </ul>
                         </li>
 
                         <li><a href="#">Contact Us</a></li>
-
-
-
                     </ul>
                 </div>
 
