@@ -1,8 +1,28 @@
 .navbar-default {
     background-color: black;
-
-    a {
-        color: white;
+    .navbar-nav {
+        li > a {
+            color: white;
+            &:hover {
+                color: $orange-default;
+            }
+        }
+        .open {
+            a {
+                &:hover, &:focus {
+                    background-color: transparent;
+                    color: $orange-default;
+                }
+            }
+        }
+        .dropdown-menu {
+            background-color: black;
+            li > a {
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+        }
     }
     // logo section
     .logo {

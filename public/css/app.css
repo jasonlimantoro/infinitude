@@ -8354,8 +8354,26 @@ button.close {
   background-color: black;
 }
 
-.navbar-default a {
+.navbar-default .navbar-nav li > a {
   color: white;
+}
+
+.navbar-default .navbar-nav li > a:hover {
+  color: #fc9d5d;
+}
+
+.navbar-default .navbar-nav .open a:hover,
+.navbar-default .navbar-nav .open a:focus {
+  background-color: transparent;
+  color: #fc9d5d;
+}
+
+.navbar-default .navbar-nav .dropdown-menu {
+  background-color: black;
+}
+
+.navbar-default .navbar-nav .dropdown-menu li > a:hover {
+  background-color: transparent;
 }
 
 .navbar-default .logo img {
