@@ -18,7 +18,7 @@
             <div class="row">
                 
                 {{--  left-to-logo  --}}
-                <div class="col-md-offset-2 col-md-3 left-to-logo">
+                <div class="col-sm-5 col-md-offset-2 col-md-3 left-to-logo">
                     <ul class="nav navbar-nav">
                         <li><a href="#">Home<span class="sr-only">(current)</span></a></li>
                         <li class="dropdown">
@@ -41,14 +41,14 @@
                 </div>
 
                 {{--  Logo Section  --}}
-                <div class="col-md-2 logo hidden-xs">
+                <div class="col-sm-2 col-md-2 logo hidden-xs">
                     <a href="/" class="navbar-brand">
                         <img src="/images/Infinitude_menu_logo.png" class="img-responsive" alt="logo">
                     </a>
                 </div>
 
                 {{--  right-to-logo  --}}
-                <div class="col-md-4 right-to-logo">
+                <div class="col-sm-5 col-md-4 right-to-logo">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Be Involved<span class="caret"></span></a>

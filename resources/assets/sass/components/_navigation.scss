@@ -12,6 +12,11 @@
             background-color: $orange-default !important;
         }
     }
+    @include media-query(ipad, both) {
+        a {
+            font-size: 12px !important;
+        }
+    }
     .navbar-nav {
         li > a {
             &, &:focus {
@@ -42,14 +47,44 @@
             @include media-query (laptop-retina) {
                 margin-top: 10px !important;
             }
+            @include media-query (ipad, both) {
+                margin-top: 10px !important;
+            }
         }
     }
     // logo section
     .logo {
+        @include media-query(ipad, portrait) {
+            a {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
         img {
             max-width: 90%;
             position: relative;
             bottom: 13px;
+            @include media-query(ipad, portrait) {
+                max-width: 100%;
+                bottom: 8px;
+            }
+            @include media-query(ipad, landscape) {
+                bottom: 10px;
+            }
+            @include media-query(ipadpro, portrait) {
+                max-width: 90%;
+                bottom: 10px;
+            }
+        }
+    }
+    .left-to-logo {
+        @include media-query(ipad, landscape) {
+            width: 33.33333333% !important;
+            margin-left: 80px;
+        }
+        @include media-query(ipadpro, portrait) {
+            width: 33.33333333% !important;
+            margin-left: 80px;
         }
     }
 }
@@ -58,4 +93,10 @@
     max-width: 35%;
     position: fixed;
     top: 15px;
+    @include media-query(iphone6, landscape) {
+        max-width: 20%;
+    }
+    @include media-query(iphone6plus, landscape) {
+        max-width: 20%;
+    }
 }
