@@ -8358,6 +8358,19 @@ button.close {
   background-color: #232220;
 }
 
+.navbar-default .navbar-toggle {
+  border-color: #fc9d5d !important;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fc9d5d !important;
+}
+
 .navbar-default .navbar-nav li > a,
 .navbar-default .navbar-nav li > a:focus {
   color: white;
@@ -8383,7 +8396,7 @@ button.close {
 }
 
 .navbar-default .navbar-nav .dropdown-menu li > a {
-  color: white !important;
+  color: white;
 }
 
 .navbar-default .navbar-nav .dropdown-menu li > a:hover {

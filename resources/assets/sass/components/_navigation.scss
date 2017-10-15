@@ -3,6 +3,15 @@
 }
 .navbar-default {
     background-color: $black-default;
+    .navbar-toggle {
+        border-color: $orange-default !important;
+        &:focus, &:hover {
+            background-color: transparent !important;
+        }
+        .icon-bar {
+            background-color: $orange-default !important;
+        }
+    }
     .navbar-nav {
         li > a {
             &, &:focus {
@@ -25,7 +34,7 @@
         .dropdown-menu {
             background-color: $black-default;
             li > a {
-                color: white !important;
+                color: white;
                 &:hover {
                     background-color: transparent;
                 }
