@@ -2,8 +2,9 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
+// helpers
 @import "helpers/variables";
+@import "helpers/mixins";
 
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
