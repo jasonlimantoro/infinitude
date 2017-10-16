@@ -3,6 +3,12 @@
 }
 .navbar-default {
     background-color: $black-default;
+    .navbar-collapse {
+        margin-top: 10px;
+        @include media-query(laptop-retina) {
+            margin-top: 0px;
+        }
+    }
     .navbar-toggle {
         border-color: $orange-default !important;
         &:focus, &:hover {
@@ -91,7 +97,7 @@
 // logo in mobile devices
 .navbar-brand.hidden-md.hidden-sm > img {
     max-width: 35%;
-    position: fixed;
+    position: absolute;
     top: 15px;
     @include media-query(iphone6, landscape) {
         max-width: 20%;

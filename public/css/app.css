@@ -8374,6 +8374,16 @@ button.close {
   background-color: #232220;
 }
 
+.navbar-default .navbar-collapse {
+  margin-top: 10px;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .navbar-default .navbar-collapse {
+    margin-top: 0px;
+  }
+}
+
 .navbar-default .navbar-toggle {
   border-color: #fc9d5d !important;
 }
@@ -8486,7 +8496,7 @@ button.close {
 
 .navbar-brand.hidden-md.hidden-sm > img {
   max-width: 35%;
-  position: fixed;
+  position: absolute;
   top: 15px;
 }
 
