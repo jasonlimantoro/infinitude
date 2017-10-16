@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-brand visible-xs">
+            <a href="/" class="navbar-brand hidden-md hidden-sm">
                 <img src="/images/Infinitude_menu_logo.png" class="img-responsive" alt="logo">
             </a>
         </div>

@@ -89,7 +89,7 @@
     }
 }
 // logo in mobile devices
-.navbar-brand.visible-xs > img {
+.navbar-brand.hidden-md.hidden-sm > img {
     max-width: 35%;
     position: fixed;
     top: 15px;
