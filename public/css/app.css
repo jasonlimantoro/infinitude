@@ -1,5 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
 
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* ----------- iPhone X ----------- */
+
+/* ----------- iPad 1, 2, 3, 4, Mini, Air, Pro 9.7" ----------- */
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* ----------- Laptops ----------- */
+
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -2022,7 +2038,7 @@ pre code {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .container {
     width: 970px;
   }
@@ -2560,7 +2576,7 @@ pre code {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .col-md-1,
   .col-md-2,
   .col-md-3,
@@ -3225,7 +3241,7 @@ table th[class*="col-"] {
   min-height: 0.01%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 667px) {
   .table-responsive {
     width: 100%;
     margin-bottom: 16.5px;
@@ -5359,7 +5375,7 @@ tbody.collapse.in {
   max-height: 340px;
 }
 
-@media (max-device-width: 480px) and (orientation: landscape) {
+@media (max-device-width: 375px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
   .navbar-fixed-bottom .navbar-collapse {
     max-height: 200px;
@@ -7489,7 +7505,7 @@ button.close {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .modal-lg {
     width: 900px;
   }
@@ -8119,7 +8135,7 @@ button.close {
   display: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .visible-xs {
     display: block !important;
   }
@@ -8138,25 +8154,25 @@ button.close {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .visible-xs-block {
     display: block !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .visible-xs-inline {
     display: inline !important;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .visible-sm {
     display: block !important;
   }
@@ -8175,25 +8191,25 @@ button.close {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .visible-sm-block {
     display: block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   .visible-md {
     display: block !important;
   }
@@ -8212,19 +8228,19 @@ button.close {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   .visible-md-block {
     display: block !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   .visible-md-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   .visible-md-inline-block {
     display: inline-block !important;
   }
@@ -8267,19 +8283,19 @@ button.close {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   .hidden-xs {
     display: none !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .hidden-sm {
     display: none !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1200px) and (max-width: 1600px) {
   .hidden-md {
     display: none !important;
   }
