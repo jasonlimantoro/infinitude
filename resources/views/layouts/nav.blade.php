@@ -41,7 +41,7 @@
                 </div>
 
                 {{--  Logo Section  --}}
-                <div class="col-sm-2 col-md-2 logo hidden-xs">
+                <div class="col-sm-2 col-md-2 logo visible-md visible-sm">
                     <a href="/" class="navbar-brand">
                         <img src="/images/Infinitude_menu_logo.png" class="img-responsive" alt="logo">
                     </a>
