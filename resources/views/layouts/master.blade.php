@@ -13,7 +13,7 @@
     @include('layouts.nav')
 
 
-    <div class="container">
+    <div class="container-fluid">
         {{--  Main Content  --}}
         @yield('content')
 
