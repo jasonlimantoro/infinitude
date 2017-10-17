@@ -22,10 +22,11 @@
     {{--  Footer  --}}
     @include('layouts.footer')
     
+    {{--  Main js asset  --}}
+    <script src="/js/app.js"></script>
+    
     {{--  Specific Javascript file (if any)  --}}
     @yield('script')
     
-    {{--  Main js asset  --}}
-    <script src="/js/app.js"></script>
 </body>
 </html>
