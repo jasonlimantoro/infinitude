@@ -56,8 +56,39 @@
         
         <div class="row bg-about">
             <img src="/images/about us_BG.png" alt="about us" class="img-responsive">
-            <div class="col-md-offset-8 col-md-4 visible-md">
-                <h1>Vision</h1>
+            <div class="col-md-offset-7 col-md-4 visible-md">
+                <div class="vision">
+                    <img src="logo" alt="logo">
+                    <h1>VISION</h1>
+                    <p>
+                        To be a community that gives an everlasting impact in improving the quality of healthcare and education among youth and children in need in South East Asia region
+                    </p>
+                </div>
+
+                <div class="mission">
+                    <img src="logo" alt="logo">
+                    <h1>MISSIONS</h1>
+                    <div class="row-divider-mission">
+                        <div class="col-md-4">
+                            <p>
+                                To promote health awareness and healthy lifestyle
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                To make healthcare educational materials fun and engaging
+                            </p>
+                            <div class="vl-1"></div> 
+                        </div>
+                        
+                        <div class="col-md-4">
+                        <p>
+                            To distribute basic healthcare and education needs to rural areas
+                        </p>
+                            <div class="vl-2"></div> 
+                        </div>
+                    </div>
+                </div>
             
             </div>
         </div>

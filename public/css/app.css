@@ -8577,6 +8577,12 @@ a:hover {
   background-color: #302d2c;
 }
 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .section2 .row.about h1 {
+    margin-left: 10%;
+  }
+}
+
 .section2 .row.about h1 span {
   font-weight: 100;
 }
@@ -8595,11 +8601,37 @@ a:hover {
   /* make it transparent */
 }
 
-.section2 .row.bg-about div {
+.section2 .row.bg-about div.col-md-offset-7.col-md-4.visible-md {
   position: absolute;
   top: 0;
-  width: 100%;
   height: 100%;
+}
+
+.section2 .row.bg-about .vision {
+  width: initial !important;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.section2 .row.bg-about .mission {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.section2 .row.bg-about .mission .vl-1 {
+  border-left: 1px solid #fc9d5d;
+  position: relative;
+  height: 130px;
+  bottom: 130px;
+  right: 15px;
+}
+
+.section2 .row.bg-about .mission .vl-2 {
+  border-left: 1px solid #fc9d5d;
+  position: relative;
+  height: 130px;
+  bottom: 150px;
+  right: 15px;
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
