@@ -52,10 +52,11 @@
     <div class="section2">
         <div class="row about">
             <h1> <span>ABOUT</span> INFINITUDE</h1>
+        </div>
         
         <div class="row bg-about">
             <img src="/images/about us_BG.png" alt="about us" class="img-responsive">
-            <div class="md-offset-8 md-4">
+            <div class="col-md-offset-8 col-md-4 visible-md">
                 <h1>Vision</h1>
             
             </div>
