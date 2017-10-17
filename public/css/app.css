@@ -8372,6 +8372,9 @@ button.close {
 
 .navbar-default {
   background-color: #232220;
+  margin-bottom: 0px;
+  border: 0;
+  border-radius: 0;
 }
 
 .navbar-default .navbar-collapse {
@@ -8425,6 +8428,8 @@ button.close {
 
 .navbar-default .navbar-nav .dropdown-menu {
   background-color: #232220;
+  border: 0;
+  border-radius: 0;
 }
 
 .navbar-default .navbar-nav .dropdown-menu li > a {
@@ -8510,5 +8515,12 @@ button.close {
   .navbar-brand.hidden-md.hidden-sm > img {
     max-width: 20%;
   }
+}
+
+.section1 .row {
+  background-image: url("/images/Home_BG.png");
+  background-size: cover;
+  height: 0;
+  padding-top: 66.64%;
 }
 

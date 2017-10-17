@@ -3,6 +3,9 @@
 }
 .navbar-default {
     background-color: $black-default;
+    margin-bottom: 0px;
+    border: 0;
+    border-radius: 0;
     .navbar-collapse {
         margin-top: 10px;
         @include media-query(laptop-retina) {
@@ -44,6 +47,8 @@
         }
         .dropdown-menu {
             background-color: $black-default;
+            border: 0;
+            border-radius: 0;
             li > a {
                 color: white;
                 &:hover {
