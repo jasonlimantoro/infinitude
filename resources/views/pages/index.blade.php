@@ -7,7 +7,7 @@
             
         </div>
         <div class="row welcome">
-            <h1>Welcome to Infinitude</h1>
+            <h1>WELCOME TO INFINITUDE</h1>
             <div class="par">
                 <p>
                     INFINITUDE is a social community for young adults in Singapore to reach out to general youth and
@@ -23,9 +23,46 @@
                 </p>
             
             </div>
-            <button class="btn btn-primary" onclick='horay()'>Click Me</button>
         </div>
-    
+        <div class="row rei">
+            <div class="col-md-offset-2 col-md-2">
+                <img src="icon" alt="icon">
+                <h1>Reach</h1>
+                <p>
+                    To reach out to youth and disadvantaged children in the rural areas in South East Asian countries
+                </p>
+            </div>
+            <div class="col-md-offset-1 col-md-2">
+                <img src="icon" alt="icon">
+                <h1>Engage</h1>
+                <p>
+                    To design an engaging and interactive sessions according to the age group and specific needs in the region
+                </p>
+            </div>
+            <div class="col-md-offset-1 col-md-2">
+                <img src="icon" alt="icon">
+                <h1>Impact</h1>
+                <p>
+                    To make everlasting impact by providing healthcare knowledge and education the young generation
+                </p>
+            </div>
+        
+        </div>
+    </div> <!-- endsection1 -->
+    <div class="section2">
+        <div class="row about">
+            <h1> <span>ABOUT</span> INFINITUDE</h1>
+        
+        <div class="row bg-about">
+            <img src="/images/about us_BG.png" alt="about us" class="img-responsive">
+            <div class="md-offset-8 md-4">
+                <h1>Vision</h1>
+            
+            </div>
+        </div>
+        
+        </div>
+
     </div>
 
 @endsection
