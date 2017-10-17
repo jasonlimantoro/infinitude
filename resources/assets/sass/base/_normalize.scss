@@ -1,4 +1,6 @@
 // to normalize body because of navbar-fixed-top
-body {
-    padding-top: 70px;
+@include media-query(laptop-retina) {
+    body {
+        padding-top: 70px;
+    }
 }
