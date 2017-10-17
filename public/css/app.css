@@ -8577,6 +8577,10 @@ a:hover {
   background-color: #302d2c;
 }
 
+.section2 .row.about {
+  padding-top: 50px;
+}
+
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   .section2 .row.about h1 {
     margin-left: 10%;

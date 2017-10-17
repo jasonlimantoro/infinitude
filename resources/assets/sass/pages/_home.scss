@@ -24,6 +24,7 @@
         background-color: $dark-grey-default;
     }
     .row.about {
+        padding-top: 50px;
         h1 {
             @include media-query(laptop-retina) {
                 margin-left: 10%;
