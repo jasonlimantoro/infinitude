@@ -1,8 +1,16 @@
 .section1 {
-    .row {
+    .row:first-child{
         background-image: url("/images/Home_BG.png");
         background-size: cover;
         height: 0;
         padding-top: 66.64%;
+    }
+    .row.welcome {
+        text-align: center;
+        background-color: $dark-grey-default;
+        .par {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
     }
 }
