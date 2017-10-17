@@ -50,7 +50,7 @@
         </div>
     </div> <!-- endsection1 -->
     <div class="section2">
-        <div class="row about">
+        <div class="row about" id="about-us">
             <h1> <span>ABOUT</span> INFINITUDE</h1>
         </div>
         
@@ -106,6 +106,10 @@
         function horay() {
             alert('Horrray!')
         }
+        $('body').scrollspy({
+            target: '#navbar-menu',
+            offset: 70
+        });
     </script>
     
 @endsection

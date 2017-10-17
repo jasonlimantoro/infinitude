@@ -20,17 +20,17 @@
                 {{--  left-to-logo  --}}
                 <div class="col-sm-5 col-md-offset-2 col-md-3 left-to-logo">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                        <li><a href="/">Home<span class="sr-only">(current)</span></a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Vision and Mission</a></li>
+                                <li><a href="#about-us">Vision and Mission</a></li>
                                 <li><a href="#">History</a></li>
                                 <li><a href="#">Organization</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs <span class="caret"></span></a>
+                            <a href="#programs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Forum</a></li>
                                 <li><a href="#">Seminar</a></li>
@@ -51,7 +51,7 @@
                 <div class="col-sm-5 col-md-4 right-to-logo">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Be Involved<span class="caret"></span></a>
+                            <a href="#be-involved" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Be Involved<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Become a Volunteer</a></li>
                                 <li><a href="#">Become a Donator</a></li>
@@ -60,7 +60,7 @@
                         </li>
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
+                            <a href="#gallery" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">General Meeting</a></li>
                                 <li><a href="#">Wonder Woman</a></li>
@@ -68,7 +68,7 @@
                             </ul>
                         </li>
 
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#contact-us">Contact Us</a></li>
                     </ul>
                 </div>
 
