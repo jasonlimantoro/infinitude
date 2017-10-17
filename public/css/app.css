@@ -8383,6 +8383,7 @@ button.close {
     position: fixed;
     z-index: 1000;
     top: 0;
+    z-index: 1000;
   }
 }
 
@@ -8549,6 +8550,10 @@ a:hover {
   color: #fc9d5d;
 }
 
+.section1 .row {
+  background-color: #302d2c;
+}
+
 .section1 .row:first-child {
   background-image: url("/images/Home_BG.png");
   background-size: cover;
@@ -8558,12 +8563,50 @@ a:hover {
 
 .section1 .row.welcome {
   text-align: center;
-  background-color: #302d2c;
 }
 
 .section1 .row.welcome .par {
   padding-left: 15%;
   padding-right: 15%;
+}
+
+.section1 .row.rei {
+  padding-top: 20px;
+}
+
+.section2 .row {
+  background-color: #302d2c;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .section2 .row.about h1 {
+    margin-left: 10%;
+  }
+}
+
+.section2 .row.about h1 span {
+  font-weight: 100;
+}
+
+.section2 .row.bg-about {
+  position: relative;
+  background-image: url("/images/about us_BG.png");
+  background-size: cover;
+}
+
+.section2 .row.bg-about img {
+  vertical-align: top;
+  width: 100%;
+  /* max width */
+  opacity: 0;
+  /* make it transparent */
+}
+
+.section2 .row.bg-about div {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
