@@ -8641,8 +8641,12 @@ a:hover {
 }
 
 .section3 .row .img-history {
-  padding-left: 0px;
-  padding-right: 0px;
+  background-image: url("/images/History_BG.png");
+  background-size: cover;
+}
+
+.section3 .row .img-history img {
+  visibility: hidden;
 }
 
 body {

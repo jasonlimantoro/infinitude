@@ -99,6 +99,7 @@
     <div class="section3">
         <div class="row">
             <div class="col-md-offset-1 col-md-4 desc-history">
+                <img src="icon" alt="icon">
                 <h3>HISTORY</h3>
                 <p>The founder initiated to build up this community after conducting informal seminars with youth from secondary to tertiary students</p>
             </div>
