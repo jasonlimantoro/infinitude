@@ -37,18 +37,9 @@
         
     }
     .row.bg-about {
-        position: relative;
-        background-image: url("/images/about us_BG.png");
-        background-size: cover;
-        img {
-            vertical-align: top;
-            width: 100%; /* max width */
-            opacity: 0;  /* make it transparent */
-        }
-        div.col-md-offset-7.col-md-4.visible-md {
-            position: absolute;
-            top: 0;
-            height: 100%;
+        .img-about {
+            padding-left: 0px;
+            padding-right: 0px;
         }
         .vision {
             width: initial !important;

@@ -55,8 +55,10 @@
         </div>
         
         <div class="row bg-about">
-            <img src="/images/about us_BG.png" alt="about us" class="img-responsive">
-            <div class="col-md-offset-7 col-md-4 visible-md">
+            <div class="col-md-7 col-xs-12 img-about">
+                <img src="/images/about us_BG.png" alt="about us" class="img-responsive">
+            </div>
+            <div class="col-md-4 visible-md">
                 <div class="vision">
                     <img src="logo" alt="logo">
                     <h1>VISION</h1>
