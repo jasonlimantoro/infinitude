@@ -8564,7 +8564,9 @@ a:hover {
   color: #fc9d5d;
 }
 
-.section1 .row {
+.section1 .row,
+.section2 .row,
+.section3 .row {
   background-color: #302d2c;
 }
 
@@ -8586,10 +8588,6 @@ a:hover {
 
 .section1 .row.rei {
   padding-top: 20px;
-}
-
-.section2 .row {
-  background-color: #302d2c;
 }
 
 .section2 .row.about {

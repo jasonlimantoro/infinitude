@@ -1,7 +1,10 @@
-.section1 {
+.section1, .section2, .section3 {
     .row {
         background-color: $dark-grey-default;
     }
+}
+
+.section1 {
     .row:first-child{
         background-image: url("/images/Home_BG.png");
         background-size: cover;
@@ -20,9 +23,6 @@
     }
 }
 .section2 {
-    .row {
-        background-color: $dark-grey-default;
-    }
     .row.about {
         padding-top: 50px;
         h1 {

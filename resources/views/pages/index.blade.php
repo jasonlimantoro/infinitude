@@ -94,9 +94,12 @@
             
             </div>
         </div>
-        
-        </div>
 
+    </div> <!-- endsection2 -->
+    <div class="section3">
+        <div class="row">
+            
+        </div>
     </div>
 
 @endsection
