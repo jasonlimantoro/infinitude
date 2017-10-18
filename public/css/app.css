@@ -8636,6 +8636,15 @@ a:hover {
   right: 15px;
 }
 
+.section3 .row .desc-history {
+  text-align: center;
+}
+
+.section3 .row .img-history {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 body {
   position: relative;
 }

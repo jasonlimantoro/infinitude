@@ -61,7 +61,7 @@
             <div class="col-md-4 visible-md">
                 <div class="vision">
                     <img src="logo" alt="logo">
-                    <h1>VISION</h1>
+                    <h3>VISION</h3>
                     <p>
                         To be a community that gives an everlasting impact in improving the quality of healthcare and education among youth and children in need in South East Asia region
                     </p>
@@ -69,7 +69,7 @@
 
                 <div class="mission">
                     <img src="logo" alt="logo">
-                    <h1>MISSIONS</h1>
+                    <h3>MISSIONS</h3>
                     <div class="row-divider-mission">
                         <div class="col-md-4">
                             <p>
@@ -98,6 +98,14 @@
     </div> <!-- endsection2 -->
     <div class="section3">
         <div class="row">
+            <div class="col-md-offset-1 col-md-4 desc-history">
+                <h3>HISTORY</h3>
+                <p>The founder initiated to build up this community after conducting informal seminars with youth from secondary to tertiary students</p>
+            </div>
+            <div class="col-md-7 img-history">
+                <img src="/images/History_BG.png" alt="history" class="img-responsive">
+            
+            </div>
             
         </div>
     </div>
