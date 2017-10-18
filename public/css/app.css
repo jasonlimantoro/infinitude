@@ -8424,6 +8424,21 @@ button.close {
   color: #fc9d5d;
 }
 
+.navbar-default .navbar-nav li.active {
+  border-bottom: 2px solid #fc9d5d;
+}
+
+.navbar-default .navbar-nav li.active a,
+.navbar-default .navbar-nav li.active a:focus {
+  background-color: transparent;
+  color: white;
+}
+
+.navbar-default .navbar-nav li.active a:hover {
+  background-color: transparent;
+  color: #fc9d5d;
+}
+
 .navbar-default .navbar-nav .open a {
   background-color: transparent;
   color: white;

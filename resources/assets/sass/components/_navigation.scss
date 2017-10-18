@@ -41,6 +41,17 @@
                 color: $orange-default;
             }
         }
+        li.active {
+            border-bottom: 2px solid $orange-default;
+            a, a:focus {
+                background-color: transparent;
+                color: white;
+            }
+            a:hover {
+                background-color: transparent;
+                color: $orange-default;
+            }
+        }
         .open {
             a {
                 background-color: transparent;
