@@ -2,6 +2,9 @@
     .row {
         background-color: $dark-grey-default;
     }
+    .title {
+        padding-top: 50px;
+    }
 }
 
 .section1 {
@@ -24,7 +27,6 @@
 }
 .section2 {
     .row.about {
-        padding-top: 50px;
         h1 {
             @include media-query(laptop-retina) {
                 margin-left: 10%;

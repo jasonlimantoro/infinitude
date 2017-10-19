@@ -50,7 +50,7 @@
         </div>
     </div> <!-- endsection1 -->
     <div class="section2">
-        <div class="row about" id="about-us">
+        <div class="row about title" id="about-us">
             <h1> <span>ABOUT</span> INFINITUDE</h1>
         </div>
         
@@ -97,7 +97,7 @@
 
     </div> <!-- endsection2 -->
     <div class="section3">
-        <div class="row container-history">
+        <div class="row container-history title" id="history">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-offset-1 col-md-3 desc-history">

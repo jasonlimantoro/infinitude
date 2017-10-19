@@ -25,7 +25,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="#about-us">Vision and Mission</a></li>
-                                <li><a href="#">History</a></li>
+                                <li><a href="#history">History</a></li>
                                 <li><a href="#">Organization</a></li>
                             </ul>
                         </li>
