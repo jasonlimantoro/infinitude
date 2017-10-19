@@ -50,7 +50,7 @@
         </div>
     </div> <!-- endsection1 -->
     <div class="section2">
-        <div class="row about title" id="about-us">
+        <div class="row about">
             <h1> <span>ABOUT</span> INFINITUDE</h1>
         </div>
         
@@ -58,7 +58,7 @@
             <div class="col-md-7 col-xs-12 img-about">
                 <img src="/images/about us_BG.png" alt="about us" class="img-responsive">
             </div>
-            <div class="col-md-4 visible-md">
+            <div class="col-md-4 visible-md title" id="vision-and-mission">
                 <div class="vision">
                     <img src="logo" alt="logo">
                     <h3>VISION</h3>
@@ -138,7 +138,7 @@
         }
         $('body').scrollspy({
             target: '#navbar-menu',
-            offset: 70
+            offset: 100
         });
         
         let heightContainerHistory = document.getElementsByClassName('container-history')[0].clientHeight;
