@@ -27,21 +27,21 @@
         <div class="row rei">
             <div class="col-md-offset-2 col-md-2">
                 <img src="icon" alt="icon">
-                <h1>Reach</h1>
+                <h1>REACH</h1>
                 <p>
                     To reach out to youth and disadvantaged children in the rural areas in South East Asian countries
                 </p>
             </div>
             <div class="col-md-offset-1 col-md-2">
                 <img src="icon" alt="icon">
-                <h1>Engage</h1>
+                <h1>ENGAGE</h1>
                 <p>
                     To design an engaging and interactive sessions according to the age group and specific needs in the region
                 </p>
             </div>
             <div class="col-md-offset-1 col-md-2">
                 <img src="icon" alt="icon">
-                <h1>Impact</h1>
+                <h1>IMPACT</h1>
                 <p>
                     To make everlasting impact by providing healthcare knowledge and education the young generation
                 </p>
