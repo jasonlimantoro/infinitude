@@ -8564,6 +8564,27 @@ a:hover {
   color: #fc9d5d;
 }
 
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #fc9d5d;
+  border-radius: 50%;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .circle {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .circle {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 .section1 .row,
 .section2 .row,
 .section3 .row {
@@ -8636,31 +8657,43 @@ a:hover {
   right: 15px;
 }
 
-.section3 .row .desc-history {
+.section3 .container-history .desc-history {
   text-align: center;
+  padding-bottom: 10px;
 }
 
-.section3 .row .img-history {
-  background-image: url("/images/History_BG.png");
-  background-size: cover;
-}
-
-.section3 .row .img-history img {
-  visibility: hidden;
-}
-
-.section3 .row .toolbar .glyphicon {
+.section3 .container-history .desc-history .toolbar .glyphicon {
   color: white !important;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.section3 .row .toolbar .content-container {
+.section3 .container-history .desc-history .toolbar .content-container {
   color: white;
   background-color: #fc9d5d;
   border: 1px solid #fc9d5d;
   border-radius: 5px;
   padding: 10px 15px;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .section3 .container-history .desc-history {
+    padding-bottom: 0px;
+  }
+}
+
+.section3 .container-history .img-history {
+  background-image: url("/images/History_BG.png");
+  background-size: cover;
+}
+
+.section3 .container-history .img-history img {
+  visibility: hidden;
+}
+
+.section3 .container-history .interactive .circle {
+  position: relative;
+  bottom: 20px;
 }
 
 body {

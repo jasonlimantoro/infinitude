@@ -1,7 +1,15 @@
 // circle 
 .circle {
-    width: 50px;
-    height: 50px;
+    width: $circle-diameter-desktop * $ratio-circle-mobile-to-dekstop;
+    height: $circle-diameter-desktop * $ratio-circle-mobile-to-dekstop;
     background-color: $orange-default;
     border-radius: 50%;
+    @include media-query (laptop-retina) {
+        width: $circle-diameter-desktop;
+        height: $circle-diameter-desktop;
+    }
+    @include media-query (ipad, both) {
+        width: $circle-diameter-desktop * $ratio-circle-tablet-to-desktop;
+        height: $circle-diameter-desktop * $ratio-circle-tablet-to-desktop;
+    }
 }

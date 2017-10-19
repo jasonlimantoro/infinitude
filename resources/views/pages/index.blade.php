@@ -97,25 +97,33 @@
 
     </div> <!-- endsection2 -->
     <div class="section3">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-3 desc-history">
-                <img src="icon" alt="icon">
-                <h3>HISTORY</h3>
-                <p>The founder initiated to build up this community after conducting informal seminars with youth from secondary to tertiary students</p>
-                <div class="toolbar">
-                    <span class="glyphicon glyphicon-arrow-left"></span>
-                    <span class="content-container">
-                        FOUNDED
-                    </span>
-                    <span class="glyphicon glyphicon-arrow-right"></span>
-                
+        <div class="row container-history">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-3 desc-history">
+                        <img src="icon" alt="icon">
+                        <h3>HISTORY</h3>
+                        <p>The founder initiated to build up this community after conducting informal seminars with youth from secondary to tertiary students</p>
+                        <div class="toolbar">
+                            <span class="glyphicon glyphicon-arrow-left"></span>
+                            <span class="content-container">
+                                FOUNDED
+                            </span>
+                            <span class="glyphicon glyphicon-arrow-right"></span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-8 img-history">
+                        <img src="/images/History_BG.png" alt="history" class="img-responsive">
+                    
+                    </div>    
+                </div>
+                <div class="row interactive">
+                    <div class="col-md-offset-2 col-md-10 col-xs-12">
+                        <div class="circle"></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-8 img-history">
-                <img src="/images/History_BG.png" alt="history" class="img-responsive">
-            
-            </div>
-            
         </div>
     </div>
 
@@ -132,6 +140,13 @@
             target: '#navbar-menu',
             offset: 70
         });
+        
+        let heightContainerHistory = document.getElementsByClassName('container-history')[0].clientHeight;
+        let heightDescHistory = document.getElementsByClassName('desc-history')[0].clientHeight;
+        let diff = heightContainerHistory - heightDescHistory;
+        let positionCircle = Math.round(0.2 * diff);
+        $('.section3 .interactive .circle').css('bottom', positionCircle);
+
     </script>
     
 @endsection

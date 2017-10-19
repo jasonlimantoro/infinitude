@@ -42,6 +42,12 @@ $orange-default: #fc9d5d;
 $black-default: #232221;
 $dark-grey-default: #302d2c;
 
+// components
+// circle
+$circle-diameter-desktop: 50px;
+$ratio-circle-mobile-to-dekstop: 0.6;
+$ratio-circle-tablet-to-desktop: 0.8;
+
 // screen-width
 /* ----------- iPhone 4 and 4S ----------- */
 $screen-xxxs-min: 320px;

@@ -69,9 +69,27 @@
 }
 
 .section3 {
-    .row {
+    .container-history {
         .desc-history {
             text-align: center;
+            padding-bottom: 10px;
+            .toolbar {
+                .glyphicon {
+                    color: white !important;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                .content-container {
+                    color: white;
+                    background-color: $orange-default;
+                    border: 1px solid $orange-default;
+                    border-radius: 5px;
+                    padding: 10px 15px;
+                }
+            }
+            @include media-query(laptop-retina) {
+                padding-bottom: 0px;
+            }
         }
         .img-history {
             background-image: url("/images/History_BG.png");
@@ -80,18 +98,10 @@
                 visibility: hidden
             }
         }
-        .toolbar {
-            .glyphicon {
-                color: white !important;
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-            .content-container {
-                color: white;
-                background-color: $orange-default;
-                border: 1px solid $orange-default;
-                border-radius: 5px;
-                padding: 10px 15px;
+        .interactive {
+            .circle {
+                position: relative;
+                bottom: 20px;
             }
         }
     }
