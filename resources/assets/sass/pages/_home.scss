@@ -79,9 +79,20 @@
             img {
                 visibility: hidden
             }
-            
-            // padding-left: 0px;
-            // padding-right: 0px;
+        }
+        .toolbar {
+            .glyphicon {
+                color: white !important;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .content-container {
+                color: white;
+                background-color: $orange-default;
+                border: 1px solid $orange-default;
+                border-radius: 5px;
+                padding: 10px 15px;
+            }
         }
     }
 }

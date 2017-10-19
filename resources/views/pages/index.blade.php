@@ -102,6 +102,14 @@
                 <img src="icon" alt="icon">
                 <h3>HISTORY</h3>
                 <p>The founder initiated to build up this community after conducting informal seminars with youth from secondary to tertiary students</p>
+                <div class="toolbar">
+                    <span class="glyphicon glyphicon-arrow-left"></span>
+                    <span class="content-container">
+                        FOUNDED
+                    </span>
+                    <span class="glyphicon glyphicon-arrow-right"></span>
+                
+                </div>
             </div>
             <div class="col-md-7 img-history">
                 <img src="/images/History_BG.png" alt="history" class="img-responsive">

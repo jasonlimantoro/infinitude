@@ -8649,6 +8649,20 @@ a:hover {
   visibility: hidden;
 }
 
+.section3 .row .toolbar .glyphicon {
+  color: white !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section3 .row .toolbar .content-container {
+  color: white;
+  background-color: #fc9d5d;
+  border: 1px solid #fc9d5d;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
 body {
   position: relative;
 }
