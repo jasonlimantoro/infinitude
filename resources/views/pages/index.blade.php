@@ -118,9 +118,9 @@
                     
                     </div>    
                 </div>
-                <div class="row interactive">
+                <div class="row interactive visible-md">
                     <div class="col-md-offset-2 col-md-10 col-xs-12">
-                        <div class="circle"></div>
+                    {{--  circles go here  --}}
                     </div>
                 </div>
             </div>

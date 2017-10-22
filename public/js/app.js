@@ -31693,11 +31693,46 @@ module.exports = function spread(callback) {
 /* 35 */
 /***/ (function(module, exports) {
 
-var heightContainerHistory = document.getElementsByClassName('container-history')[0].clientHeight;
-var heightDescHistory = document.getElementsByClassName('desc-history')[0].clientHeight;
-var diff = heightContainerHistory - heightDescHistory;
-var positionCircle = Math.round(0.2 * diff);
-$('.section3 .interactive .circle').css('bottom', positionCircle);
+function createCircle(bottom, left) {
+    // bottom argument is the position of the circle
+
+    // Create DOM element and assign style to it
+    var div = document.createElement("div");
+    div.className = 'circle';
+    div.style.bottom = bottom + 'px';
+    div.style.left = left + 'px';
+    div.style.display = 'inline-block';
+
+    // Append the DOM to the container
+    var container = document.querySelector('.section3 .interactive div');
+    container.appendChild(div);
+}
+
+function calculateBottom(percentage) {
+    var heightContainerHistory = document.getElementsByClassName('container-history')[0].clientHeight;
+    var heightDescHistory = document.getElementsByClassName('desc-history')[0].clientHeight;
+    var diff = heightContainerHistory - heightDescHistory;
+    var positionCircleBottom = percentage * diff;
+    return positionCircleBottom;
+}
+function calculateLeft(percentage) {
+    var widthContainer = document.querySelector('.interactive').clientWidth;
+    var positionCircleLeft = percentage * widthContainer;
+    return positionCircleLeft;
+}
+
+var percentageBottom = 0.2;
+var percentageLeft = 0.14;
+var bottom = calculateBottom(percentageBottom);
+var left = calculateLeft(percentageLeft);
+
+for (var index = 0; index < 6; index++) {
+    createCircle(bottom, left);
+    percentageBottom += 0.13 + index * 0.04;
+    percentageLeft += 0.08;
+    bottom = calculateBottom(percentageBottom);
+    left = calculateLeft(percentageLeft);
+}
 
 /***/ }),
 /* 36 */
