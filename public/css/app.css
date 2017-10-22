@@ -8663,6 +8663,11 @@ a:hover {
   right: 15px;
 }
 
+.section3 a.prev,
+.section3 a.next {
+  cursor: pointer;
+}
+
 .section3 a.prev:hover,
 .section3 a.next:hover {
   text-decoration: none !important;
@@ -8688,13 +8693,13 @@ a:hover {
 .section3 .container-history .desc-history .slides-container .prev {
   position: absolute;
   top: 85%;
-  right: 75%;
+  right: 85%;
 }
 
 .section3 .container-history .desc-history .slides-container .next {
   position: absolute;
   top: 85%;
-  left: 75%;
+  left: 85%;
 }
 
 .section3 .container-history .desc-history .slides-container .content-container {

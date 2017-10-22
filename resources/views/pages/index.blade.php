@@ -142,9 +142,9 @@
                                     THIRD PROJECT
                                 </span>
                             </div>
-                            
-                            <a href="#" class="prev glyphicon glyphicon-arrow-left"></a>
-                            <a href="#" class="next glyphicon glyphicon-arrow-right"></a>
+
+                            <a class="prev glyphicon glyphicon-arrow-left" onclick="plusSlide(-1)"></a>
+                            <a class="next glyphicon glyphicon-arrow-right" onclick="plusSlide(1)"></a>
                         </div>
                     </div>
                     <div class="col-md-8 img-history">

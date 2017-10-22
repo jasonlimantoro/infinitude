@@ -1,6 +1,35 @@
-function createCircle(bottom, left) {
-    // bottom argument is the position of the circle
+// Make these window functions
+window.showSlides = showSlides;
+window.plusSlide = plusSlide;
+window.currentSlide = currentSlide;
 
+// Slide functions
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlide(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName('slide');
+    if (n > slides.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = slides.length}
+    // hide other slides
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    // display current slide
+    slides[slideIndex-1].style.display = "block"; 
+}
+
+function createCircle(bottom, left) {
+    // bottom and left arguments are the position of the circle
     // Create DOM element and assign style to it
     let div = document.createElement("div");
     div.className = 'circle';
@@ -38,5 +67,4 @@ for (var index = 0; index < 6 ; index++) {
     percentageLeft += 0.08;
     bottom = calculateBottom(percentageBottom);
     left = calculateLeft(percentageLeft);
-
 }

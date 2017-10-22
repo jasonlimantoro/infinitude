@@ -27,6 +27,6 @@
     
     {{--  Specific Javascript file (if any)  --}}
     @yield('script')
-    
+
 </body>
 </html>

@@ -73,6 +73,7 @@
 
 .section3 {
     a.prev, a.next {
+        cursor: pointer;
         &:hover {
             text-decoration: none !important;
         }
@@ -93,12 +94,12 @@
                 .prev {
                     position: absolute;
                     top: 85%;
-                    right: 75%
+                    right: 85%
                 }
                 .next {
                     position: absolute;
                     top: 85%;
-                    left: 75%;
+                    left: 85%;
                 }
                 .content-container {
                     color: white;
