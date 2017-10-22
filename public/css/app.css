@@ -8663,18 +8663,41 @@ a:hover {
   right: 15px;
 }
 
+.section3 a.prev:hover,
+.section3 a.next:hover {
+  text-decoration: none !important;
+}
+
 .section3 .container-history .desc-history {
   text-align: center;
   padding-bottom: 10px;
 }
 
-.section3 .container-history .desc-history .toolbar .glyphicon {
+.section3 .container-history .desc-history .slides-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.section3 .container-history .desc-history .slides-container .glyphicon {
   color: white !important;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.section3 .container-history .desc-history .toolbar .content-container {
+.section3 .container-history .desc-history .slides-container .prev {
+  position: absolute;
+  top: 85%;
+  right: 75%;
+}
+
+.section3 .container-history .desc-history .slides-container .next {
+  position: absolute;
+  top: 85%;
+  left: 75%;
+}
+
+.section3 .container-history .desc-history .slides-container .content-container {
   color: white;
   background-color: #fc9d5d;
   border: 1px solid #fc9d5d;

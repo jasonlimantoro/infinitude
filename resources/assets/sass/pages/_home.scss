@@ -72,15 +72,33 @@
 }
 
 .section3 {
+    a.prev, a.next {
+        &:hover {
+            text-decoration: none !important;
+        }
+    }
     .container-history {
         .desc-history {
             text-align: center;
             padding-bottom: 10px;
-            .toolbar {
+            .slides-container {
+                max-width: 1000px;
+                position: relative;
+                margin: auto;
                 .glyphicon {
                     color: white !important;
                     padding-left: 15px;
                     padding-right: 15px;
+                }
+                .prev {
+                    position: absolute;
+                    top: 85%;
+                    right: 75%
+                }
+                .next {
+                    position: absolute;
+                    top: 85%;
+                    left: 75%;
                 }
                 .content-container {
                     color: white;

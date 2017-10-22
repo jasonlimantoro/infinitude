@@ -103,14 +103,15 @@
                     <div class="col-md-offset-1 col-md-3 desc-history">
                         <img src="icon" alt="icon">
                         <h3>HISTORY</h3>
-                        <p>The founder initiated to build up this community after conducting informal seminars with youth from secondary to tertiary students</p>
-                        <div class="toolbar">
-                            <a href="#" class="prev"><span class="glyphicon glyphicon-arrow-left"></span></a>
-                            <span class="content-container">
-                                FOUNDED
-                            </span>
-                            <a href="#" class="next"><span class="glyphicon glyphicon-arrow-right"></span></a>
-                            
+                        <div class="slides-container">
+                            <div class="slide">
+                                <p>The founder initiated to build up this community after conducting informal seminars with youth from secondary to tertiary students</p>
+                                <span class="content-container">
+                                    FOUNDED
+                                </span>
+                            </div>
+                            <a href="#" class="prev glyphicon glyphicon-arrow-left"></a>
+                            <a href="#" class="next glyphicon glyphicon-arrow-right"></a>
                         </div>
                     </div>
                     <div class="col-md-8 img-history">
