@@ -1,4 +1,5 @@
-<div class="container" style="background-color:grey">
-    <h1>Footer Section</h1>
-    
-</div>
+<footer>
+    <div class="container-fluid">
+        <h1>Contact Us</h1>
+    </div>
+</footer>
