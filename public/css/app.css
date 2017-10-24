@@ -8554,7 +8554,11 @@ footer .container-fluid {
   background-image: url("/images/contact_us_BG.png");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 300px;
+  min-height: 500px;
+}
+
+footer p.copyright {
+  text-align: center;
 }
 
 h1,
@@ -8619,6 +8623,42 @@ a:hover {
   to {
     background-color: blue;
   }
+}
+
+form {
+  text-align: center;
+}
+
+form .form-group label {
+  color: white;
+}
+
+form .form-group .form-control {
+  color: white;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 0;
+  border-bottom: 2px solid #fc9d5d;
+}
+
+form .form-group .form-control:focus {
+  border-color: transparent;
+  border-bottom: 2px solid #fc9d5d;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-contact-us {
+  margin-top: 5%;
+  background-color: transparent;
+  border-radius: 0;
+  border: 1px solid #fc9d5d;
+  color: white;
+}
+
+.btn-contact-us:hover {
+  background-color: #fc9d5d;
+  color: white;
 }
 
 .section1 .row,

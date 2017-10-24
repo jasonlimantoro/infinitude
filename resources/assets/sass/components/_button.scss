@@ -1,0 +1,11 @@
+.btn-contact-us {
+    margin-top: 5%;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid $orange-default;
+    color: white;
+    &:hover {
+        background-color: $orange-default;
+        color: white;
+    }
+}

@@ -1,0 +1,20 @@
+form {
+    text-align: center;
+    .form-group {
+        label {
+            color: white;
+        }
+        .form-control {
+            color: white;
+            background-color: transparent;
+            border: 0px; // to remove the default border
+            border-radius: 0;
+            border-bottom: 2px solid $orange-default;
+            &:focus {
+                border-color: transparent;
+                border-bottom: 2px solid $orange-default;
+                box-shadow: none;
+            }
+        }
+    }
+}
