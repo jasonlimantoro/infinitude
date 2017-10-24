@@ -86,6 +86,9 @@
                 max-width: 1000px;
                 position: relative;
                 margin: auto;
+                .slide p {
+                    min-height: 100px;
+                }
                 .glyphicon {
                     color: white !important;
                     padding-left: 15px;

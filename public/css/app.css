@@ -8684,6 +8684,10 @@ a:hover {
   margin: auto;
 }
 
+.section3 .container-history .desc-history .slides-container .slide p {
+  min-height: 100px;
+}
+
 .section3 .container-history .desc-history .slides-container .glyphicon {
   color: white !important;
   padding-left: 15px;
