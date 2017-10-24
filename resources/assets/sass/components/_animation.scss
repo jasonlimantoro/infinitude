@@ -1,0 +1,12 @@
+@keyframes interactive-circle {
+    from {
+        background-color: $orange-default;
+        // width: $circle-diameter-desktop;
+        // height: $circle-diameter-desktop;
+    }
+    to {
+        background-color: blue;
+        // width: 1.2 * $circle-diameter-desktop;
+        // height: 1.2 * $circle-diameter-desktop;
+    }
+}
