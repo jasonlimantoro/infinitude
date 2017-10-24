@@ -8554,7 +8554,6 @@ footer .container-fluid {
   background-image: url("/images/contact_us_BG.png");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 500px;
 }
 
 footer p.copyright {
@@ -8656,7 +8655,8 @@ form .form-group .form-control:focus {
   color: white;
 }
 
-.btn-contact-us:hover {
+.btn-contact-us:hover,
+.btn-contact-us:focus {
   background-color: #fc9d5d;
   color: white;
 }
