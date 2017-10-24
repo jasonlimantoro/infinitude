@@ -1,6 +1,6 @@
 <footer>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row title" id="contact-us">
             <h1>Contact Us</h1>
             <form>
                 <div class="form-group">
