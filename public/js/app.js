@@ -31734,7 +31734,18 @@ function createCircle(bottom, left) {
     div.className = 'circle';
     div.style.bottom = bottom + 'px';
     div.style.left = left + 'px';
-    div.style.display = 'inline-block';
+
+    // Append the DOM to the container
+    var container = document.querySelector('.section3 .interactive div');
+    container.appendChild(div);
+}
+function createDate(bottom, left, node) {
+    var div = document.createElement('h4');
+    // add node to the date
+    div.appendChild(node);
+    div.className = 'date';
+    div.style.bottom = bottom + 'px';
+    div.style.left = left + 'px';
 
     // Append the DOM to the container
     var container = document.querySelector('.section3 .interactive div');
@@ -31754,15 +31765,25 @@ function calculateLeft(percentage) {
     return positionCircleLeft;
 }
 
-var percentageBottom = 0.2;
-var percentageLeft = 0.14;
+// Initialized values
+var percentageBottom = 0.05;
+var percentageLeft = 0.15;
 var bottom = calculateBottom(percentageBottom);
 var left = calculateLeft(percentageLeft);
 
+// The date array
+var date_array = ['SEP 2016', 'JAN 2017', 'APR 2017', 'MAY 2017', 'AUG 2017', 'DEC 2017'];
 for (var index = 0; index < 6; index++) {
+    nodeDate = document.createTextNode(date_array[index]);
+    createDate(bottom + 60, left - 15, nodeDate);
     createCircle(bottom, left);
-    percentageBottom += 0.13 + index * 0.04;
-    percentageLeft += 0.08;
+    // Exponentially rising
+    percentageBottom += 0.13 + index * 0.05;
+
+    // Constant distance to the right
+    percentageLeft += 0.12;
+
+    // Update bottom and left calculations
     bottom = calculateBottom(percentageBottom);
     left = calculateLeft(percentageLeft);
 }
