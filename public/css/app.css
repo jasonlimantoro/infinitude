@@ -8585,6 +8585,26 @@ a:hover {
   }
 }
 
+@-webkit-keyframes interactive-circle {
+  from {
+    background-color: #fc9d5d;
+  }
+
+  to {
+    background-color: blue;
+  }
+}
+
+@keyframes interactive-circle {
+  from {
+    background-color: #fc9d5d;
+  }
+
+  to {
+    background-color: blue;
+  }
+}
+
 .section1 .row,
 .section2 .row,
 .section3 .row {
@@ -8732,6 +8752,12 @@ a:hover {
 .section3 .container-history .interactive .circle {
   position: absolute;
   display: inline-block;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.section3 .container-history .interactive .circle.active {
+  background-color: #bd4e03;
 }
 
 .section3 .container-history .interactive .date {

@@ -127,6 +127,10 @@
             .circle {
                 position: absolute;
                 display: inline-block;
+                transition: all 1s;
+                &.active {
+                    background-color: $dark-orange-default;
+                }
             }
             .date {
                 position: absolute;
