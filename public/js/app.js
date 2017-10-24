@@ -31698,33 +31698,27 @@ window.showSlides = showSlides;
 window.plusSlide = plusSlide;
 window.currentSlide = currentSlide;
 
-// Slide functions
-var slideIndex = 1;
-showSlides(slideIndex);
+// Initialized values
+var percentageBottom = 0.05;
+var percentageLeft = 0.15;
+var bottom = calculateBottom(percentageBottom);
+var left = calculateLeft(percentageLeft);
 
-function plusSlide(n) {
-    showSlides(slideIndex += n);
-}
+// The date array
+var date_array = ['SEP 2016', 'JAN 2017', 'APR 2017', 'MAY 2017', 'AUG 2017', 'DEC 2017'];
+for (var index = 0; index < 6; index++) {
+    nodeDate = document.createTextNode(date_array[index]);
+    createDate(bottom + 60, left - 15, nodeDate);
+    createCircle(bottom, left);
+    // Exponentially rising
+    percentageBottom += 0.13 + index * 0.05;
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+    // Constant distance to the right
+    percentageLeft += 0.12;
 
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName('slide');
-    if (n > slides.length) {
-        slideIndex = 1;
-    }
-    if (n < 1) {
-        slideIndex = slides.length;
-    }
-    // hide other slides
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    // display current slide
-    slides[slideIndex - 1].style.display = "block";
+    // Update bottom and left calculations
+    bottom = calculateBottom(percentageBottom);
+    left = calculateLeft(percentageLeft);
 }
 
 function createCircle(bottom, left) {
@@ -31754,7 +31748,7 @@ function createDate(bottom, left, node) {
 
 function calculateBottom(percentage) {
     var heightContainerHistory = document.getElementsByClassName('container-history')[0].clientHeight;
-    var heightDescHistory = document.getElementsByClassName('desc-history')[0].clientHeight;
+    var heightDescHistory = document.getElementsByClassName('img-history')[0].clientHeight;
     var diff = heightContainerHistory - heightDescHistory;
     var positionCircleBottom = percentage * diff;
     return positionCircleBottom;
@@ -31765,27 +31759,41 @@ function calculateLeft(percentage) {
     return positionCircleLeft;
 }
 
-// Initialized values
-var percentageBottom = 0.05;
-var percentageLeft = 0.15;
-var bottom = calculateBottom(percentageBottom);
-var left = calculateLeft(percentageLeft);
+// Slide functions
+var slideIndex = 1;
+showSlides(slideIndex);
 
-// The date array
-var date_array = ['SEP 2016', 'JAN 2017', 'APR 2017', 'MAY 2017', 'AUG 2017', 'DEC 2017'];
-for (var index = 0; index < 6; index++) {
-    nodeDate = document.createTextNode(date_array[index]);
-    createDate(bottom + 60, left - 15, nodeDate);
-    createCircle(bottom, left);
-    // Exponentially rising
-    percentageBottom += 0.13 + index * 0.05;
+function plusSlide(n) {
+    showSlides(slideIndex += n);
+}
 
-    // Constant distance to the right
-    percentageLeft += 0.12;
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
 
-    // Update bottom and left calculations
-    bottom = calculateBottom(percentageBottom);
-    left = calculateLeft(percentageLeft);
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName('slide');
+    var circles = document.getElementsByClassName('circle');
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
+    if (n < 1) {
+        slideIndex = slides.length;
+    }
+
+    for (i = 0; i < slides.length; i++) {
+        // hide other slides
+        slides[i].style.display = "none";
+
+        // remove active class from other circles
+        circles[i].className = circles[i].className.replace(' active', '');
+    }
+    // display current slide
+    slides[slideIndex - 1].style.display = "block";
+
+    // add active class to current circle
+    circles[slideIndex - 1].className += ' active';
 }
 
 /***/ }),
