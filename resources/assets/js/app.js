@@ -6,6 +6,7 @@
  */
 
 require('./bootstrap');
+require('./helpers/normalize');
 require('./components/interactive');
 
 window.Vue = require('vue');
