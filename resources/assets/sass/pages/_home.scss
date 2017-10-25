@@ -82,9 +82,6 @@
         background-image: url("/images/History_BG.png");
         background-size: cover;
         position: relative;
-        @include media-query(laptop-retina) {
-            height: 630px;
-        }
         .desc-history {
             text-align: center;
             padding-bottom: 10px;

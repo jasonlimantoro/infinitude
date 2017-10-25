@@ -788,6 +788,7 @@ module.exports = __webpack_require__(41);
  */
 
 __webpack_require__(10);
+__webpack_require__(52);
 __webpack_require__(35);
 
 window.Vue = __webpack_require__(36);
@@ -42230,6 +42231,30 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */
+/***/ (function(module, exports) {
+
+// default height section, 80% of the screen view
+heightSection = screen.availHeight * 0.8;
+
+// Array of section needs to be set
+var container = ['.section3 .container-history'];
+
+for (var i = 0; i < container.length; i++) {
+    $(container[i]).css('height', heightSection);
+}
 
 /***/ })
 /******/ ]);
