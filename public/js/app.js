@@ -31699,8 +31699,8 @@ window.plusSlide = plusSlide;
 window.currentSlide = currentSlide;
 
 // Initialized values
-var percentageBottom = 0.05;
-var percentageLeft = 0.15;
+var percentageBottom = 0.03;
+var percentageLeft = 0.05;
 var bottom = calculateBottom(percentageBottom);
 var left = calculateLeft(percentageLeft);
 
@@ -31711,10 +31711,10 @@ for (var index = 0; index < 6; index++) {
     createDate(bottom + 60, left - 15, nodeDate);
     createCircle(bottom, left);
     // Exponentially rising
-    percentageBottom += 0.13 + index * 0.05;
+    percentageBottom += 0.06 + index * 0.045;
 
     // Constant distance to the right
-    percentageLeft += 0.12;
+    percentageLeft += 0.15;
 
     // Update bottom and left calculations
     bottom = calculateBottom(percentageBottom);
@@ -31730,7 +31730,7 @@ function createCircle(bottom, left) {
     div.style.left = left + 'px';
 
     // Append the DOM to the container
-    var container = document.querySelector('.section3 .interactive div');
+    var container = document.querySelector('.section3 .interactive');
     container.appendChild(div);
 }
 function createDate(bottom, left, node) {
@@ -31742,15 +31742,15 @@ function createDate(bottom, left, node) {
     div.style.left = left + 'px';
 
     // Append the DOM to the container
-    var container = document.querySelector('.section3 .interactive div');
+    var container = document.querySelector('.section3 .interactive');
     container.appendChild(div);
 }
 
 function calculateBottom(percentage) {
     var heightContainerHistory = document.getElementsByClassName('container-history')[0].clientHeight;
-    var heightDescHistory = document.getElementsByClassName('img-history')[0].clientHeight;
+    var heightDescHistory = document.querySelector('.slide-header').clientHeight + document.querySelector('.slide') + document.querySelector + 11;
     var diff = heightContainerHistory - heightDescHistory;
-    var positionCircleBottom = percentage * diff;
+    var positionCircleBottom = percentage * heightContainerHistory;
     return positionCircleBottom;
 }
 function calculateLeft(percentage) {

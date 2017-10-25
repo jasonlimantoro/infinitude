@@ -4,8 +4,8 @@ window.plusSlide = plusSlide;
 window.currentSlide = currentSlide;
 
 // Initialized values
-let percentageBottom = 0.05;
-let percentageLeft = 0.15;
+let percentageBottom = 0.03;
+let percentageLeft = 0.05;
 let bottom = calculateBottom(percentageBottom);
 let left = calculateLeft(percentageLeft);
 
@@ -16,10 +16,10 @@ for (var index = 0; index < 6 ; index++) {
     createDate(bottom + 60, left - 15, nodeDate);
     createCircle(bottom, left);
     // Exponentially rising
-    percentageBottom += 0.13 + (index * 0.05);
+    percentageBottom += 0.06 + (index * 0.045);
 
     // Constant distance to the right
-    percentageLeft += 0.12;
+    percentageLeft += 0.15;
 
     // Update bottom and left calculations
     bottom = calculateBottom(percentageBottom);
@@ -36,7 +36,7 @@ function createCircle(bottom, left) {
     div.style.left = left + 'px';
     
     // Append the DOM to the container
-    let container = document.querySelector('.section3 .interactive div');
+    let container = document.querySelector('.section3 .interactive');
     container.appendChild(div);
 }
 function createDate(bottom, left, node) {
@@ -48,15 +48,15 @@ function createDate(bottom, left, node) {
     div.style.left = left + 'px';
 
     // Append the DOM to the container
-    let container = document.querySelector('.section3 .interactive div');
+    let container = document.querySelector('.section3 .interactive');
     container.appendChild(div);
 }
 
 function calculateBottom(percentage) {
     let heightContainerHistory = document.getElementsByClassName('container-history')[0].clientHeight;
-    let heightDescHistory = document.getElementsByClassName('img-history')[0].clientHeight;
+    let heightDescHistory = document.querySelector('.slide-header').clientHeight + document.querySelector('.slide') + document.querySelector + 11;
     let diff = heightContainerHistory - heightDescHistory;
-    let positionCircleBottom = percentage * diff;
+    let positionCircleBottom = percentage * heightContainerHistory;
     return positionCircleBottom;
 
 }

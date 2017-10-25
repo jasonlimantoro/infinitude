@@ -8749,6 +8749,18 @@ form .form-group .form-control:focus {
   text-decoration: none !important;
 }
 
+.section3 .container-history {
+  background-image: url("/images/History_BG.png");
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .section3 .container-history {
+    height: 630px;
+  }
+}
+
 .section3 .container-history .desc-history {
   text-align: center;
   padding-bottom: 10px;
@@ -8796,13 +8808,9 @@ form .form-group .form-control:focus {
   }
 }
 
-.section3 .container-history .img-history {
-  background-image: url("/images/History_BG.png");
-  background-size: cover;
-}
-
-.section3 .container-history .img-history img {
-  visibility: hidden;
+.section3 .container-history .interactive {
+  position: absolute;
+  bottom: 0px;
 }
 
 .section3 .container-history .interactive .circle {

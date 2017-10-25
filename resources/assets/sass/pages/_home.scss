@@ -79,6 +79,12 @@
         }
     }
     .container-history {
+        background-image: url("/images/History_BG.png");
+        background-size: cover;
+        position: relative;
+        @include media-query(laptop-retina) {
+            height: 630px;
+        }
         .desc-history {
             text-align: center;
             padding-bottom: 10px;
@@ -116,14 +122,9 @@
                 padding-bottom: 0px;
             }
         }
-        .img-history {
-            background-image: url("/images/History_BG.png");
-            background-size: cover;
-            img {
-                visibility: hidden
-            }
-        }
         .interactive {
+            position: absolute;
+            bottom: 0px;
             .circle {
                 position: absolute;
                 display: inline-block;
