@@ -42264,7 +42264,7 @@ if (screenWidth > 1200) {
 }
 
 // Array of section needs to be set
-var container = ['.section3 .container-history'];
+var container = ['.section3 .container-history', '.section4 .row'];
 
 for (var i = 0; i < container.length; i++) {
     $(container[i]).css('height', heightSection);

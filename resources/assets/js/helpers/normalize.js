@@ -17,7 +17,8 @@ if (screenWidth > 1200) {
 
 // Array of section needs to be set
 let container = [
-    '.section3 .container-history'
+    '.section3 .container-history',
+    '.section4 .row'
 ]
 
 for (var i = 0; i < container.length; i++) {

@@ -8662,13 +8662,15 @@ form .form-group .form-control:focus {
 
 .section1 .row,
 .section2 .row,
-.section3 .row {
+.section3 .row,
+.section4 .row {
   background-color: #302d2c;
 }
 
 .section1 .title,
 .section2 .title,
-.section3 .title {
+.section3 .title,
+.section4 .title {
   padding-top: 50px;
 }
 
