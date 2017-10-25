@@ -31702,6 +31702,16 @@ window.currentSlide = currentSlide;
 // Initialized values
 var percentageBottom = 0.03;
 var percentageLeft = 0.05;
+var baseRise = 0.06;
+var exponentRise = 0.045;
+if (screen.availWidth >= 1400 && screen.availWidth < 1600) {
+    percentageLeft = 0.1;
+    exponentRise = 0.05;
+} else if (screen.availWidth >= 1600) {
+    percentageLeft = 0.12;
+    exponentRise = 0.05;
+    baseRise = 0.06;
+}
 var bottom = calculateBottom(percentageBottom);
 var left = calculateLeft(percentageLeft);
 
@@ -31712,7 +31722,7 @@ for (var index = 0; index < 6; index++) {
     createDate(bottom + 60, left - 15, nodeDate);
     createCircle(bottom, left);
     // Exponentially rising
-    percentageBottom += 0.06 + index * 0.045;
+    percentageBottom += baseRise + index * exponentRise;
 
     // Constant distance to the right
     percentageLeft += 0.15;

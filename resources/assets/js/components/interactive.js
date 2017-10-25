@@ -6,6 +6,17 @@ window.currentSlide = currentSlide;
 // Initialized values
 let percentageBottom = 0.03;
 let percentageLeft = 0.05;
+let baseRise = 0.06;
+let exponentRise = 0.045;
+if (screen.availWidth >= 1400 && screen.availWidth < 1600) {
+    percentageLeft = 0.1;
+    exponentRise = 0.05;
+}
+else if (screen.availWidth >= 1600) {
+    percentageLeft = 0.12;
+    exponentRise = 0.05;
+    baseRise = 0.06;
+}
 let bottom = calculateBottom(percentageBottom);
 let left = calculateLeft(percentageLeft);
 
@@ -16,7 +27,7 @@ for (var index = 0; index < 6 ; index++) {
     createDate(bottom + 60, left - 15, nodeDate);
     createCircle(bottom, left);
     // Exponentially rising
-    percentageBottom += 0.06 + (index * 0.045);
+    percentageBottom += baseRise + (index * exponentRise);
 
     // Constant distance to the right
     percentageLeft += 0.15;
