@@ -52,19 +52,20 @@
         .mission {
             text-align: center;
             padding-top: 25px;
-            $bottom-vl: 130px;
+            $height-vl: 140px;
+            $bottom-vl: $height-vl;
             .vl-1 {
                 border-left: 1px solid $orange-default;
                 position: relative;
-                height: 130px;
+                height: $height-vl;
                 bottom: $bottom-vl;
                 right: 15px;
             }
             .vl-2 {
                 border-left: 1px solid $orange-default;
                 position: relative;
-                height: 130px;
-                bottom: $bottom-vl + 20;
+                height: $height-vl;
+                bottom: $bottom-vl + 23;
                 right: 15px;
             }
         }
