@@ -8378,12 +8378,10 @@ button.close {
   border-radius: 0;
 }
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  .navbar-default {
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-  }
+.navbar-default.navbar-sticky {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
 }
 
 .navbar-default .navbar-collapse {
@@ -8826,11 +8824,5 @@ form .form-group .form-control:focus {
 
 body {
   position: relative;
-}
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  body {
-    padding-top: 70px;
-  }
 }
 

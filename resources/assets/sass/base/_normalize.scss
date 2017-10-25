@@ -1,8 +1,4 @@
 body {
     // for scroll-spy in order to work properly
     position: relative;
-    // to normalize body because of navbar-fixed-top
-    @include media-query(laptop-retina) {
-        padding-top:70px;
-    }
 }
