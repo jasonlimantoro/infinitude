@@ -26,7 +26,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="#vision-and-mission">Vision and Mission</a></li>
                                 <li><a href="#history">History</a></li>
-                                <li><a href="#">Organization</a></li>
+                                <li><a href="#organization">Organization</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">

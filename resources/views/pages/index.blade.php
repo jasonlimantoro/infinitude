@@ -153,7 +153,12 @@
     </div> <!-- endsection3 -->
 
     <div class="section4">
-        <div class="row">
+        <div class="row title" id="organization">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h3>ORGANIZATION</h3>
+                </div>
+            </div>
         </div>
     </div>
 
