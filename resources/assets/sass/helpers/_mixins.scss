@@ -135,6 +135,15 @@
                 @content;
         }
     }
+    @else if $device == large-desktop {
+        @media screen and 
+        (min-device-width: 1400px) and 
+        (max-device-width: 1900px) and 
+        (-webkit-min-device-pixel-ratio: 2) and 
+        (min-resolution: 192dpi) { 
+                @content;
+        }
+    }
     @else if $device == galaxy-s5 {
         @media screen 
         and (device-width: 360px) 
