@@ -12,7 +12,7 @@ if (screenWidth > 1200) {
     $('body').css('padding-top', 70);
 
     // reduce the height section
-    heightSection = screenHeight * 0.8
+    heightSection = screenHeight * 0.9;
 }
 
 // Array of section needs to be set
