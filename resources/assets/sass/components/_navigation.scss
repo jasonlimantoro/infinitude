@@ -7,7 +7,7 @@
     margin-bottom: 0px;
     border: 0;
     border-radius: 0;
-    @include media-query(laptop-retina) {
+    &.navbar-sticky {
         position: fixed;
         z-index: 1000;
         top: 0;
