@@ -8901,6 +8901,7 @@ form .form-group .form-control:focus {
 .section4 .organization-slide-container .next {
   position: absolute;
   top: 50%;
+  right: 10%;
 }
 
 body {
@@ -8911,5 +8912,15 @@ body {
   content: " ";
   display: block;
   clear: both;
+}
+
+.row-center {
+  text-align: center;
+}
+
+.row-center .col-center {
+  float: none;
+  margin: auto;
+  display: inline-block;
 }
 

@@ -157,9 +157,9 @@
                 <div class="section-title">
                     <h3>ORGANIZATION</h3>
                 </div>
-                <div class="row">
+                <div class="row row-center">
                     <div class="organization-slide-container clearfix">
-                        <div class="col-md-offset-2 col-md-3 col-xs-4 profile">
+                        <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
                                     <img src="/images/photos/Winel.jpg" alt="Winel" class="img-responsive">
@@ -171,7 +171,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-4 profile">
+                        <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
                                     <img src="/images/photos/Christine.jpg" alt="" class="img-responsive">
@@ -183,7 +183,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-4 profile">
+                        <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
                                     <img src="/images/photos/Emma.jpg" alt="" class="img-responsive">

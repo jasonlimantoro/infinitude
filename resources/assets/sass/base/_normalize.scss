@@ -8,3 +8,12 @@ body {
     display: block;
     clear: both;
 }
+
+.row-center {
+    text-align: center;
+    .col-center {
+        float: none;
+        margin: auto;
+        display: inline-block;
+    }
+}
