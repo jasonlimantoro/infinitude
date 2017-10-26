@@ -158,7 +158,7 @@
                     <h3>ORGANIZATION</h3>
                 </div>
                 <div class="row">
-                    <div class="organization-slide-container">
+                    <div class="organization-slide-container clearfix">
                         <div class="col-md-offset-2 col-md-3 col-xs-4 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
@@ -195,6 +195,8 @@
                                 </div>
                             </div>
                         </div>
+                        <a class="prev glyphicon glyphicon-arrow-left"></a>
+                        <a class="next glyphicon glyphicon-arrow-right"></a>
                     </div>
                 </div>
             </div>

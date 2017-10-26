@@ -8767,6 +8767,10 @@ form .form-group .form-control:focus {
   margin: auto;
 }
 
+.section3 .container-history .desc-history .slides-container .slide {
+  display: none;
+}
+
 .section3 .container-history .desc-history .slides-container .slide p {
   min-height: 100px;
 }
@@ -8838,6 +8842,10 @@ form .form-group .form-control:focus {
   text-align: center;
 }
 
+.section4 .organization-slide-container {
+  position: relative;
+}
+
 .section4 .organization-slide-container .profile-box {
   border: 1px solid white;
 }
@@ -8884,7 +8892,24 @@ form .form-group .form-control:focus {
   color: black;
 }
 
+.section4 .organization-slide-container .prev {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.section4 .organization-slide-container .next {
+  position: absolute;
+  top: 50%;
+}
+
 body {
   position: relative;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
 }
 

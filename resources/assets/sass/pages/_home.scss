@@ -90,9 +90,13 @@
                 max-width: 1000px;
                 position: relative;
                 margin: auto;
-                .slide p {
-                    min-height: 100px;
+                .slide  {
+                    display: none;
+                    p {
+                        min-height: 100px;
+                    }
                 }
+                
                 .glyphicon {
                     color: white !important;
                     padding-left: 15px;
@@ -152,6 +156,7 @@
         }
     }
     .organization-slide-container {
+        position: relative;
         .profile-box {
             border: 1px solid white;
             .profile-img {
@@ -193,6 +198,16 @@
                     }
                 }
             }
+        }
+        .prev {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+        }
+
+        .next {
+            position: absolute;
+            top: 50%;
         }
     }
 }
