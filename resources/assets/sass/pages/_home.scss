@@ -199,14 +199,21 @@
                 }
             }
         }
-        .prev {
+        .prev, .next {
             position: absolute;
+            font-size: 20px;
+            color: white;
+            &:hover {
+                text-decoration: none;
+            }
+
+        }
+        .prev {
             top: 50%;
             left: 10%;
         }
 
         .next {
-            position: absolute;
             top: 50%;
             right: 10%;
         }

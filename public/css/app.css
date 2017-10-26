@@ -8579,7 +8579,8 @@ a {
 }
 
 a:hover {
-  color: #fc9d5d;
+  color: #fc9d5d !important;
+  text-decoration: none;
 }
 
 .circle {
@@ -8892,14 +8893,24 @@ form .form-group .form-control:focus {
   color: black;
 }
 
-.section4 .organization-slide-container .prev {
+.section4 .organization-slide-container .prev,
+.section4 .organization-slide-container .next {
   position: absolute;
+  font-size: 20px;
+  color: white;
+}
+
+.section4 .organization-slide-container .prev:hover,
+.section4 .organization-slide-container .next:hover {
+  text-decoration: none;
+}
+
+.section4 .organization-slide-container .prev {
   top: 50%;
   left: 10%;
 }
 
 .section4 .organization-slide-container .next {
-  position: absolute;
   top: 50%;
   right: 10%;
 }

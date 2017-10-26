@@ -10,6 +10,7 @@ p {
 a {
     color: inherit;
     &:hover {
-        color: $orange-default;
+        color: $orange-default !important;
+        text-decoration: none;
     }
 }
