@@ -2,9 +2,14 @@
 window.showProfile = showProfile;
 window.plusProfile = plusProfile;
 
-var slideProfile = 1;
 var next = true;
-showProfile(slideProfile);
+var profileNumber = 0;
+showProfile(profileNumber);
+
+function mmod (n, m) {
+    // n mod m
+    return ((n % m) + m) % m;
+}
 
 function plusProfile(n) {
     if (n == -1) {
@@ -13,29 +18,33 @@ function plusProfile(n) {
     else {
         next = true;
     }
-    showProfile(slideProfile += n, next);
+    showProfile(profileNumber += n, next);
 }
 
 function currentProfile(n) {
-    showProfile(slideProfile = n);
+    showProfile(profileNumber = n);
 }
 
 function showProfile(n, next=true) {
     // the profile for each person (array)
     let profiles = document.getElementsByClassName('profile');
+    let mod = profiles.length;
     
     // To keep sliding
-    if (n == profiles.length-1) {slideProfile = 1}
-    if (n < 1) {slideProfile = profiles.length}
+    profileNumber = mmod(n, mod);
 
-    for (var i = slideProfile - 1; i <= slideProfile + 1; i++) {
+    addClassArray = [mmod(profileNumber, mod), mmod((profileNumber+1), mod), mmod((profileNumber+2), mod)];
+    for (var i = 0; i < addClassArray.length; i++) {
         // Display three profiles at a time
-        $(profiles[i]).addClass('show-profile');
+        $(profiles[addClassArray[i]]).addClass('show-profile');
     }
     if (next) {
-        $(profiles[slideProfile-2]).removeClass('show-profile');
+        // remove the rightmost profile
+        removeprofileIndex = mmod((addClassArray[0] - 1), mod);
     }
     else {
-        $(profiles[slideProfile+1]).removeClass('show-profile');
+        // remove the leftmost profile
+        removeprofileIndex = mmod((addClassArray[addClassArray.length - 1] + 1), mod);
     }
+    $(profiles[removeprofileIndex]).removeClass('show-profile');
 }
