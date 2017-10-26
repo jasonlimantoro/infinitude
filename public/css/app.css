@@ -8847,6 +8847,14 @@ form .form-group .form-control:focus {
   position: relative;
 }
 
+.section4 .organization-slide-container .profile {
+  display: none;
+}
+
+.section4 .organization-slide-container .profile.show-profile {
+  display: inline-block !important;
+}
+
 .section4 .organization-slide-container .profile-box {
   border: 1px solid white;
 }
@@ -8903,6 +8911,7 @@ form .form-group .form-control:focus {
 .section4 .organization-slide-container .prev:hover,
 .section4 .organization-slide-container .next:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .section4 .organization-slide-container .prev {

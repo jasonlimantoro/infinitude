@@ -307,8 +307,8 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="prev glyphicon glyphicon-arrow-left"></a>
-                        <a class="next glyphicon glyphicon-arrow-right"></a>
+                        <a class="prev glyphicon glyphicon-arrow-left" onclick="plusProfile(-1)"></a>
+                        <a class="next glyphicon glyphicon-arrow-right" onclick="plusProfile(1)"></a>
                     </div>
                 </div>
             </div>

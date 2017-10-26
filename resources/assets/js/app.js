@@ -8,6 +8,7 @@
 require('./bootstrap');
 require('./helpers/normalize');
 require('./components/interactive');
+require('./components/carousel');
 
 window.Vue = require('vue');
 

@@ -157,6 +157,12 @@
     }
     .organization-slide-container {
         position: relative;
+        .profile {
+            display: none;
+            &.show-profile {
+                display: inline-block !important;
+            }
+        }
         .profile-box {
             border: 1px solid white;
             .profile-img {
@@ -205,6 +211,7 @@
             color: white;
             &:hover {
                 text-decoration: none;
+                cursor: pointer;
             }
 
         }

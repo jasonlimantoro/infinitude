@@ -790,6 +790,7 @@ module.exports = __webpack_require__(42);
 __webpack_require__(10);
 __webpack_require__(35);
 __webpack_require__(36);
+__webpack_require__(53);
 
 window.Vue = __webpack_require__(37);
 
@@ -42269,6 +42270,66 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */
+/***/ (function(module, exports) {
+
+// custom carousel-profile
+window.showProfile = showProfile;
+window.plusProfile = plusProfile;
+
+var slideProfile = 1;
+var next = true;
+showProfile(slideProfile);
+
+function plusProfile(n) {
+    if (n == -1) {
+        next = false;
+    } else {
+        next = true;
+    }
+    showProfile(slideProfile += n, next);
+}
+
+function currentProfile(n) {
+    showProfile(slideProfile = n);
+}
+
+function showProfile(n) {
+    var next = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+
+    // the profile for each person (array)
+    var profiles = document.getElementsByClassName('profile');
+
+    // To keep sliding
+    if (n == profiles.length - 1) {
+        slideProfile = 1;
+    }
+    if (n < 1) {
+        slideProfile = profiles.length;
+    }
+
+    for (var i = slideProfile - 1; i <= slideProfile + 1; i++) {
+        // Display three profiles at a time
+        $(profiles[i]).addClass('show-profile');
+    }
+    if (next) {
+        $(profiles[slideProfile - 2]).removeClass('show-profile');
+    } else {
+        $(profiles[slideProfile + 1]).removeClass('show-profile');
+    }
+}
 
 /***/ })
 /******/ ]);
