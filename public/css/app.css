@@ -8838,6 +8838,15 @@ form .form-group .form-control:focus {
   text-align: center;
 }
 
+.section4 .organization-slide-container .profile-box .profile-info {
+  text-align: center;
+}
+
+.section4 .organization-slide-container .profile-box .profile-info .profile-name {
+  color: white;
+  text-decoration: underline;
+}
+
 body {
   position: relative;
 }

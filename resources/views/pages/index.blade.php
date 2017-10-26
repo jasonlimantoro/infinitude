@@ -161,17 +161,35 @@
                     <div class="organization-slide-container">
                         <div class="col-md-offset-2 col-md-3 col-xs-3 profile">
                             <div class="profile-box">
-                                <img src="/images/photos/Winel.jpg" alt="Winel" class="img-responsive">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Winel.jpg" alt="Winel" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <h2 class="profile-name">Winel Sutanto</h2>
+                                    <p class="profile-position">Vice President</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-xs-3 profile">
                             <div class="profile-box">
-                                <img src="/images/photos/Christine.jpg" alt="" class="img-responsive">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Christine.jpg" alt="" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <h2 class="profile-name">Christina Liwang</h2>
+                                    <p class="profile-position">Founder & President</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-xs-3 profile">
                             <div class="profile-box">
-                                <img src="/images/photos/Emma.jpg" alt="" class="img-responsive">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Emma.jpg" alt="" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <h2 class="profile-name">Emmanuela Michelle</h2>
+                                    <p class="profile-position">Honorary Secretary</p>
+                                </div>
                             </div>
                         </div>
                     </div>

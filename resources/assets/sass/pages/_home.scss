@@ -144,13 +144,25 @@
     .container-organization {
         background-image: url('/images/organisation_BG.png');
         background-size: cover;
-        // margin-left: -15px;
-        // margin-right: -15px;
     }
     .row {
         background-color: transparent !important;
         .section-title {
             text-align: center;
+        }
+    }
+    .organization-slide-container {
+        .profile-box {
+            .profile-img {
+
+            }
+            .profile-info {
+                text-align: center;
+                .profile-name {
+                    color: white;
+                    text-decoration: underline;
+                }
+            }
         }
     }
 }
