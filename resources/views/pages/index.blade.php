@@ -195,6 +195,118 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Gisele.jpg" alt="Gisele" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Gisele</p>
+                                    <hr>
+                                    <p class="profile-position">Management Committee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Sampoerna.jpg" alt="Sampoerna" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Sampoerna Adya W.</p>
+                                    <p class="profile-position">Honorary Treasurer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Jason.jpg" alt="Jason" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Jason Gunawan L</p>
+                                    <p class="profile-position">IT Head</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Placeholder.jpg" alt="Placeholder" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Hartanto</p>
+                                    <p class="profile-position">Management Committee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Vincent.jpg" alt="Vincent" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Vincent Tjhan</p>
+                                    <p class="profile-position">Management Committee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Placeholder.jpg" alt="Placeholder" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Bernard Ricardo, Ph.D</p>
+                                    <p class="profile-position">Education Advisors</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/Placeholder.jpg" alt="Placeholder" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Yoana Arlina, Ph.D</p>
+                                    <p class="profile-position">Education Advisors</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/healthcare.png" alt="Healthcare" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Frans Liwang, MD</p>
+                                    <p class="profile-position">Healthcare Advisors</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/healthcare.png" alt="Healthcare" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Novita S., MD</p>
+                                    <p class="profile-position">Healthcare Advisors</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-4 col-center profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/healthcare.png" alt="Healthcare" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Ferry Liwang</p>
+                                    <p class="profile-position">Healthcare Advisors</p>
+                                </div>
+                            </div>
+                        </div>
                         <a class="prev glyphicon glyphicon-arrow-left"></a>
                         <a class="next glyphicon glyphicon-arrow-right"></a>
                     </div>
