@@ -151,17 +151,34 @@
             </div>
         </div>
     </div> <!-- endsection3 -->
-
     <div class="section4">
-        <div class="row title" id="organization">
+        <div class="row title container-organization" id="organization">
             <div class="col-md-12">
                 <div class="section-title">
                     <h3>ORGANIZATION</h3>
                 </div>
+                <div class="row">
+                    <div class="organization-slide-container">
+                        <div class="col-md-offset-2 col-md-3 col-xs-3 profile">
+                            <div class="profile-box">
+                                <img src="/images/photos/Winel.jpg" alt="Winel" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-3 profile">
+                            <div class="profile-box">
+                                <img src="/images/photos/Christine.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-3 profile">
+                            <div class="profile-box">
+                                <img src="/images/photos/Emma.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-
+    </div> <!-- endsection4 -->
 @endsection
 
 

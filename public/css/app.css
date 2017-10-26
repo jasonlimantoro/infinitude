@@ -8825,9 +8825,13 @@ form .form-group .form-control:focus {
   color: white;
 }
 
-.section4 .row {
+.section4 .container-organization {
   background-image: url("/images/organisation_BG.png");
   background-size: cover;
+}
+
+.section4 .row {
+  background-color: transparent !important;
 }
 
 .section4 .row .section-title {

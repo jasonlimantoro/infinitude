@@ -141,9 +141,14 @@
 }
 
 .section4 {
-    .row {
+    .container-organization {
         background-image: url('/images/organisation_BG.png');
         background-size: cover;
+        // margin-left: -15px;
+        // margin-right: -15px;
+    }
+    .row {
+        background-color: transparent !important;
         .section-title {
             text-align: center;
         }

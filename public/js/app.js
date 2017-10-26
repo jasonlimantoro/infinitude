@@ -773,7 +773,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(9);
-module.exports = __webpack_require__(41);
+module.exports = __webpack_require__(42);
 
 
 /***/ }),
@@ -788,10 +788,10 @@ module.exports = __webpack_require__(41);
  */
 
 __webpack_require__(10);
-__webpack_require__(52);
 __webpack_require__(35);
+__webpack_require__(36);
 
-window.Vue = __webpack_require__(36);
+window.Vue = __webpack_require__(37);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -799,7 +799,7 @@ window.Vue = __webpack_require__(36);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', __webpack_require__(37));
+Vue.component('example-component', __webpack_require__(38));
 
 var app = new Vue({
   el: '#app'
@@ -31694,6 +31694,34 @@ module.exports = function spread(callback) {
 /* 35 */
 /***/ (function(module, exports) {
 
+screenHeight = screen.availHeight;
+screenWidth = screen.availWidth;
+
+// default height section, 95% of the screen view
+heightSection = screenHeight * 0.95;
+
+// if device is a desktop
+if (screenWidth > 1200) {
+    // add sticky-navbar
+    $('.navbar-default').addClass('navbar-sticky');
+    // fix body padding
+    $('body').css('padding-top', 70);
+
+    // reduce the height section
+    heightSection = screenHeight * 0.83;
+}
+
+// Array of section needs to be set
+var container = ['.section3 .container-history', '.section4 .container-organization'];
+
+for (var i = 0; i < container.length; i++) {
+    $(container[i]).css('height', heightSection);
+}
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports) {
+
 // Make these window functions
 window.showSlides = showSlides;
 window.plusSlide = plusSlide;
@@ -31808,7 +31836,7 @@ function showSlides(n) {
 }
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42008,15 +42036,15 @@ module.exports = Vue$3;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
-var normalizeComponent = __webpack_require__(38)
+var normalizeComponent = __webpack_require__(39)
 /* script */
-var __vue_script__ = __webpack_require__(39)
+var __vue_script__ = __webpack_require__(40)
 /* template */
-var __vue_template__ = __webpack_require__(40)
+var __vue_template__ = __webpack_require__(41)
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
@@ -42056,7 +42084,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports) {
 
 /* globals __VUE_SSR_CONTEXT__ */
@@ -42165,7 +42193,7 @@ module.exports = function normalizeComponent (
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42194,7 +42222,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -42237,48 +42265,10 @@ if (false) {
 }
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */
-/***/ (function(module, exports) {
-
-screenHeight = screen.availHeight;
-screenWidth = screen.availWidth;
-
-// default height section, 95% of the screen view
-heightSection = screenHeight * 0.95;
-
-// if device is a desktop
-if (screenWidth > 1200) {
-    // add sticky-navbar
-    $('.navbar-default').addClass('navbar-sticky');
-    // fix body padding
-    $('body').css('padding-top', 70);
-
-    // reduce the height section
-    heightSection = screenHeight * 0.83;
-}
-
-// Array of section needs to be set
-var container = ['.section3 .container-history', '.section4 .row'];
-
-for (var i = 0; i < container.length; i++) {
-    $(container[i]).css('height', heightSection);
-}
 
 /***/ })
 /******/ ]);
