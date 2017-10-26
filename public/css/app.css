@@ -8854,6 +8854,12 @@ form .form-group .form-control:focus {
   margin-bottom: 10px;
 }
 
+.section4 .organization-slide-container .profile-box .profile-info .profile-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 .section4 .organization-slide-container .profile-box .profile-info .profile-name,
 .section4 .organization-slide-container .profile-box .profile-info .profile-position {
   color: white;

@@ -155,7 +155,6 @@
         .profile-box {
             border: 1px solid white;
             .profile-img {
-
             }
             .profile-info {
                 text-align: center;
@@ -165,6 +164,11 @@
                     width: 50%;
                     margin-top: 0px;
                     margin-bottom: 10px;
+                }
+                .profile-name {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 5px;
                 }
                 .profile-name, .profile-position {
                     color: white;
