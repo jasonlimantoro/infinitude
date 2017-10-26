@@ -159,37 +159,37 @@
                 </div>
                 <div class="row">
                     <div class="organization-slide-container">
-                        <div class="col-md-offset-2 col-md-3 col-xs-3 profile">
+                        <div class="col-md-offset-2 col-md-3 col-xs-4 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
                                     <img src="/images/photos/Winel.jpg" alt="Winel" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
-                                    <h2 class="profile-name">Winel Sutanto</h2>
+                                    <p class="profile-name">Winel Sutanto</p>
                                     <hr>
                                     <p class="profile-position">Vice President</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-3 profile">
+                        <div class="col-md-3 col-xs-4 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
                                     <img src="/images/photos/Christine.jpg" alt="" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
-                                    <h2 class="profile-name">Christina Liwang</h2>
+                                    <p class="profile-name">Christina Liwang</p>
                                     <hr>
                                     <p class="profile-position">Founder & President</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-xs-3 profile">
+                        <div class="col-md-3 col-xs-4 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
                                     <img src="/images/photos/Emma.jpg" alt="" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
-                                    <h2 class="profile-name">Emmanuela Michelle</h2>
+                                    <p class="profile-name">Emmanuela Michelle</p>
                                     <hr>
                                     <p class="profile-position">Honorary Secretary</p>
                                 </div>
