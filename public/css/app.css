@@ -8838,13 +8838,44 @@ form .form-group .form-control:focus {
   text-align: center;
 }
 
-.section4 .organization-slide-container .profile-box .profile-info {
-  text-align: center;
+.section4 .organization-slide-container .profile-box {
+  border: 1px solid white;
 }
 
-.section4 .organization-slide-container .profile-box .profile-info .profile-name {
+.section4 .organization-slide-container .profile-box .profile-info {
+  text-align: center;
   color: white;
-  text-decoration: underline;
+}
+
+.section4 .organization-slide-container .profile-box .profile-info hr {
+  border: 1px solid black;
+  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.section4 .organization-slide-container .profile-box .profile-info .profile-name,
+.section4 .organization-slide-container .profile-box .profile-info .profile-position {
+  color: white;
+}
+
+.section4 .organization-slide-container .profile-box:hover {
+  border-color: #fc9d5d;
+  background-color: #fc9d5d;
+}
+
+.section4 .organization-slide-container .profile-box:hover .profile-info {
+  text-align: center;
+  color: black;
+}
+
+.section4 .organization-slide-container .profile-box:hover .profile-info hr {
+  border: 1px solid white;
+}
+
+.section4 .organization-slide-container .profile-box:hover .profile-info .profile-name,
+.section4 .organization-slide-container .profile-box:hover .profile-info .profile-position {
+  color: black;
 }
 
 body {

@@ -153,14 +153,40 @@
     }
     .organization-slide-container {
         .profile-box {
+            border: 1px solid white;
             .profile-img {
 
             }
             .profile-info {
                 text-align: center;
-                .profile-name {
+                color: white;
+                hr {
+                    border: 1px solid black;
+                    width: 50%;
+                    margin-top: 0px;
+                    margin-bottom: 10px;
+                }
+                .profile-name, .profile-position {
                     color: white;
-                    text-decoration: underline;
+                }
+            }
+
+            // hover on profile-box
+            &:hover {
+                border-color: $orange-default;
+                background-color: $orange-default;
+                .profile-img {
+            
+                }
+                .profile-info {
+                    text-align: center;
+                    color: black;
+                    hr {
+                        border: 1px solid white;
+                    }
+                    .profile-name, .profile-position {
+                        color: black;
+                    }
                 }
             }
         }

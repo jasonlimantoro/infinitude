@@ -166,6 +166,7 @@
                                 </div>
                                 <div class="profile-info">
                                     <h2 class="profile-name">Winel Sutanto</h2>
+                                    <hr>
                                     <p class="profile-position">Vice President</p>
                                 </div>
                             </div>
@@ -177,6 +178,7 @@
                                 </div>
                                 <div class="profile-info">
                                     <h2 class="profile-name">Christina Liwang</h2>
+                                    <hr>
                                     <p class="profile-position">Founder & President</p>
                                 </div>
                             </div>
@@ -188,6 +190,7 @@
                                 </div>
                                 <div class="profile-info">
                                     <h2 class="profile-name">Emmanuela Michelle</h2>
+                                    <hr>
                                     <p class="profile-position">Honorary Secretary</p>
                                 </div>
                             </div>
