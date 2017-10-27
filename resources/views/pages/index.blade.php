@@ -162,7 +162,7 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Winel.jpg" alt="Winel" class="img-responsive">
+                                    <img src="/images/photos/_frame_winel.png" alt="Winel" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Winel Sutanto</p>
@@ -174,7 +174,7 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Christine.jpg" alt="" class="img-responsive">
+                                    <img src="/images/photos/_frame_christine.png" alt="" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Christina Liwang</p>
@@ -186,7 +186,7 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Emma.jpg" alt="" class="img-responsive">
+                                    <img src="/images/photos/_frame_emma.png" alt="" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Emmanuela Michelle</p>
@@ -199,7 +199,7 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Gisele.jpg" alt="Gisele" class="img-responsive">
+                                    <img src="/images/photos/_frame_gisele.png" alt="Gisele" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Gisele</p>
@@ -211,10 +211,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Sampoerna.jpg" alt="Sampoerna" class="img-responsive">
+                                    <img src="/images/photos/_frame_sampoerna.png" alt="Sampoerna" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Sampoerna Adya W.</p>
+                                    <hr>
                                     <p class="profile-position">Honorary Treasurer</p>
                                 </div>
                             </div>
@@ -222,10 +223,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Jason.jpg" alt="Jason" class="img-responsive">
+                                    <img src="/images/photos/_frame_jason.png" alt="Jason" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Jason Gunawan L</p>
+                                    <hr>
                                     <p class="profile-position">IT Head</p>
                                 </div>
                             </div>
@@ -233,10 +235,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Placeholder.jpg" alt="Placeholder" class="img-responsive">
+                                    <img src="/images/photos/_frame_placeholder.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Hartanto</p>
+                                    <hr>
                                     <p class="profile-position">Management Committee</p>
                                 </div>
                             </div>
@@ -244,10 +247,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Vincent.jpg" alt="Vincent" class="img-responsive">
+                                    <img src="/images/photos/_frame_vincent.png" alt="Vincent" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Vincent Tjhan</p>
+                                    <hr>
                                     <p class="profile-position">Management Committee</p>
                                 </div>
                             </div>
@@ -255,10 +259,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Placeholder.jpg" alt="Placeholder" class="img-responsive">
+                                    <img src="/images/photos/_frame_placeholder.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Bernard Ricardo, Ph.D</p>
+                                    <hr>
                                     <p class="profile-position">Education Advisors</p>
                                 </div>
                             </div>
@@ -266,10 +271,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/Placeholder.jpg" alt="Placeholder" class="img-responsive">
+                                    <img src="/images/photos/_frame_placeholder.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Yoana Arlina, Ph.D</p>
+                                    <hr>
                                     <p class="profile-position">Education Advisors</p>
                                 </div>
                             </div>
@@ -277,10 +283,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/healthcare.png" alt="Healthcare" class="img-responsive">
+                                    <img src="/images/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Frans Liwang, MD</p>
+                                    <hr>
                                     <p class="profile-position">Healthcare Advisors</p>
                                 </div>
                             </div>
@@ -288,10 +295,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/healthcare.png" alt="Healthcare" class="img-responsive">
+                                    <img src="/images/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Novita S., MD</p>
+                                    <hr>
                                     <p class="profile-position">Healthcare Advisors</p>
                                 </div>
                             </div>
@@ -299,10 +307,11 @@
                         <div class="col-md-3 col-xs-4 col-center profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/healthcare.png" alt="Healthcare" class="img-responsive">
+                                    <img src="/images/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Ferry Liwang</p>
+                                    <hr>
                                     <p class="profile-position">Healthcare Advisors</p>
                                 </div>
                             </div>
