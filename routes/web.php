@@ -2,4 +2,4 @@
 
 // Page
 Route::get('/', 'PagesController@index');
-Route::post('/send', 'PagesController@send' );
+Route::post('/send', 'VisitorsController@send' );
