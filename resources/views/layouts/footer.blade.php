@@ -2,24 +2,25 @@
     <div class="container-fluid">
         <div class="row title" id="contact-us">
             <h1>Contact Us</h1>
-            <form>
+            <form method="POST" action="/send">
+                {{ csrf_field() }}
                 <div class="form-group">
                     <label for="name" class="sr-only control-label">Name:</label>
                     <div class="col-md-offset-2 col-md-4">
-                        <input type="text" class="form-control" id="name" placeholder="Name" required>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email" class="sr-only control-label">Email address:</label>
                     <div class="col-md-4">
-                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="message" class="sr-only control-label">Message:</label>
                     <div class="col-md-offset-2 col-md-8">
-                        <textarea name="message" id="message" class="form-control" placeholder="Message"></textarea>
+                        <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
                     </div>
                 </div>
                 <div class="form-group">
