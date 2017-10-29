@@ -30,6 +30,7 @@ class VisitorContact extends Mailable
     {
         return $this->view('mails.visitor')
                     ->from($this->visitor['email'])
+                    ->subject('Visitor Comments')
                     -> with([
                         'visitorName' => $this->visitor['name'],
                         'visitorMessage' => $this->visitor['message']
