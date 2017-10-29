@@ -7,7 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hai from {{ $visitorName }}</h1>
-    <p>Message: {{ $visitorMessage }} </p>
+    <p>Dear Infinitude Administrator, </p>
+    <p>{{ $visitorMessage }} </p>
+    <br>
+    <br>
+    <p>Sincerely, </p>
+    <p>{{ $visitorName }}</p>
 </body>
 </html>
