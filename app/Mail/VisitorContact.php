@@ -16,6 +16,7 @@ class VisitorContact extends Mailable
      *
      * @return void
      */
+    protected $visitor;
     public function __construct($visitor)
     {
         $this->visitor = $visitor;
@@ -29,10 +30,10 @@ class VisitorContact extends Mailable
     public function build()
     {
         return $this->view('mails.visitor')
-                    ->from($this->visitor['email'])
                     ->subject('Visitor Comments')
                     -> with([
                         'visitorName' => $this->visitor['name'],
+                        'visitorEmail' => $this->visitor['email'],
                         'visitorMessage' => $this->visitor['message']
                     ]);
     }

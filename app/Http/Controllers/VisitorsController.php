@@ -15,8 +15,8 @@ class VisitorsController extends Controller
             'email' => request('email'),
             'message' => request('message')
         ];
-        // Send the email to the administrator
-        \Mail::to('admin@infinitudecommunity.org')->send(new VisitorContact($visitor));
+        // Send the email to the administrator's gmail
+        \Mail::to('jasonlimantoro99@gmail.com')->send(new VisitorContact($visitor));
 
         if (! \Mail::failures()) {
             // upon sucessful, save it to the database

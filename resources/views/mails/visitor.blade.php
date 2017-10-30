@@ -7,11 +7,10 @@
     <title>Document</title>
 </head>
 <body>
+
     <p>Dear Infinitude Administrator, </p>
-    <p>{{ $visitorMessage }} </p>
-    <br>
-    <br>
-    <p>Sincerely, </p>
-    <p>{{ $visitorName }}</p>
+    <p>{{ $visitorName }} < {{ $visitorEmail }} > wrote:  </p>
+    <p> {{ $visitorMessage }} </p>
+
 </body>
 </html>
