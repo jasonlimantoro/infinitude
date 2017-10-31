@@ -773,7 +773,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(9);
-module.exports = __webpack_require__(42);
+module.exports = __webpack_require__(43);
 
 
 /***/ }),
@@ -790,9 +790,9 @@ module.exports = __webpack_require__(42);
 __webpack_require__(10);
 __webpack_require__(35);
 __webpack_require__(36);
-__webpack_require__(53);
+__webpack_require__(37);
 
-window.Vue = __webpack_require__(37);
+window.Vue = __webpack_require__(38);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -800,7 +800,7 @@ window.Vue = __webpack_require__(37);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', __webpack_require__(38));
+Vue.component('example-component', __webpack_require__(39));
 
 var app = new Vue({
   el: '#app'
@@ -31838,6 +31838,61 @@ function showSlides(n) {
 
 /***/ }),
 /* 37 */
+/***/ (function(module, exports) {
+
+// custom carousel-profile
+window.showProfile = showProfile;
+window.plusProfile = plusProfile;
+
+var next = true;
+var profileNumber = 0;
+showProfile(profileNumber);
+
+function mmod(n, m) {
+    // n mod m
+    return (n % m + m) % m;
+}
+
+function plusProfile(n) {
+    if (n == -1) {
+        next = false;
+    } else {
+        next = true;
+    }
+    showProfile(profileNumber += n, next);
+}
+
+function currentProfile(n) {
+    showProfile(profileNumber = n);
+}
+
+function showProfile(n) {
+    var next = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+
+    // the profile for each person (array)
+    var profiles = document.getElementsByClassName('profile');
+    var mod = profiles.length;
+
+    // To keep sliding
+    profileNumber = mmod(n, mod);
+
+    addClassArray = [mmod(profileNumber, mod), mmod(profileNumber + 1, mod), mmod(profileNumber + 2, mod)];
+    for (var i = 0; i < addClassArray.length; i++) {
+        // Display three profiles at a time
+        $(profiles[addClassArray[i]]).addClass('show-profile');
+    }
+    if (next) {
+        // remove the rightmost profile
+        removeprofileIndex = mmod(addClassArray[0] - 1, mod);
+    } else {
+        // remove the leftmost profile
+        removeprofileIndex = mmod(addClassArray[addClassArray.length - 1] + 1, mod);
+    }
+    $(profiles[removeprofileIndex]).removeClass('show-profile');
+}
+
+/***/ }),
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42037,15 +42092,15 @@ module.exports = Vue$3;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
-var normalizeComponent = __webpack_require__(39)
+var normalizeComponent = __webpack_require__(40)
 /* script */
-var __vue_script__ = __webpack_require__(40)
+var __vue_script__ = __webpack_require__(41)
 /* template */
-var __vue_template__ = __webpack_require__(41)
+var __vue_template__ = __webpack_require__(42)
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
@@ -42085,7 +42140,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports) {
 
 /* globals __VUE_SSR_CONTEXT__ */
@@ -42194,7 +42249,7 @@ module.exports = function normalizeComponent (
 
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42223,7 +42278,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -42266,75 +42321,10 @@ if (false) {
 }
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */
-/***/ (function(module, exports) {
-
-// custom carousel-profile
-window.showProfile = showProfile;
-window.plusProfile = plusProfile;
-
-var next = true;
-var profileNumber = 0;
-showProfile(profileNumber);
-
-function mmod(n, m) {
-    // n mod m
-    return (n % m + m) % m;
-}
-
-function plusProfile(n) {
-    if (n == -1) {
-        next = false;
-    } else {
-        next = true;
-    }
-    showProfile(profileNumber += n, next);
-}
-
-function currentProfile(n) {
-    showProfile(profileNumber = n);
-}
-
-function showProfile(n) {
-    var next = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-
-    // the profile for each person (array)
-    var profiles = document.getElementsByClassName('profile');
-    var mod = profiles.length;
-
-    // To keep sliding
-    profileNumber = mmod(n, mod);
-
-    addClassArray = [mmod(profileNumber, mod), mmod(profileNumber + 1, mod), mmod(profileNumber + 2, mod)];
-    for (var i = 0; i < addClassArray.length; i++) {
-        // Display three profiles at a time
-        $(profiles[addClassArray[i]]).addClass('show-profile');
-    }
-    if (next) {
-        // remove the rightmost profile
-        removeprofileIndex = mmod(addClassArray[0] - 1, mod);
-    } else {
-        // remove the leftmost profile
-        removeprofileIndex = mmod(addClassArray[addClassArray.length - 1] + 1, mod);
-    }
-    $(profiles[removeprofileIndex]).removeClass('show-profile');
-}
 
 /***/ })
 /******/ ]);
