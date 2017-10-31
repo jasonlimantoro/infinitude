@@ -323,6 +323,60 @@
             </div>
         </div>
     </div> <!-- endsection4 -->
+    <div class="section5">
+        <div class="row container-program">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h3>PROGRAM</h3>
+                    <p>How <strong>INFINITUDE</strong> works</p>
+                </div>
+                <div class="row thumbnail-container">
+                    
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img src="/images/program_forum_BG.png" alt="forum" class="img-responsive">
+                            <div class="caption">
+                                <img src="/images/icons/program_forum.png" alt="icon_forum" class="img-responsive">
+                                <h4 class="thumbnail-title">Forum</h4>
+                                <p>
+                                    Forum is an active group discussion, with more open questions and followed by experts’ opinion.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img src="/images/program_seminar_BG.png" alt="seminar" class="img-responsive">
+                            <div class="caption">
+                                <img src="/images/icons/program_seminar.png" alt="icon_seminar" class="img-responsive">
+                                <h4 class="thumbnail-title">Seminar</h4>
+                                <p>
+                                    Seminar is a classroom setting session, followed by small groups discussion and consultation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img src="/images/program_workshop_BG.png" alt="workshop" class="img-responsive">
+                            <div class="caption">
+                                <img src="/images/icons/program_workshop.png" alt="icon_workshop" class="img-responsive">
+                                <h4 class="thumbnail-title">Workshop</h4>
+                                <p>
+                                    Workshop begins with a short theoretical session, followed by a practical training, emphasizing in applying the knowledge
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
 
 

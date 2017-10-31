@@ -1,4 +1,4 @@
-.section1, .section2, .section3, .section4 {
+.section1, .section2, .section3, .section4, .section5 {
     .row {
         background-color: $dark-grey-default;
     }
@@ -223,6 +223,34 @@
         .next {
             top: 50%;
             right: 10%;
+        }
+    }
+}
+
+.section5 {
+    .section-title {
+        text-align: center;
+    }
+    .thumbnail-container {
+        .thumbnail {
+            padding: 0;
+            background-color: white;
+            @include media-query(laptop-retina) {
+                min-height: 550px;
+            }
+            .caption {
+                text-align: center;
+                img {
+                    max-width: 20% !important;
+                    display: initial !important;
+                }
+                p {
+                    color: black;
+                }
+                .thumbnail-title {
+                    text-decoration: underline $orange-default;
+                }
+            }
         }
     }
 }

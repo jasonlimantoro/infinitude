@@ -8665,14 +8665,16 @@ form .form-group .form-control:focus {
 .section1 .row,
 .section2 .row,
 .section3 .row,
-.section4 .row {
+.section4 .row,
+.section5 .row {
   background-color: #302d2c;
 }
 
 .section1 .title,
 .section2 .title,
 .section3 .title,
-.section4 .title {
+.section4 .title,
+.section5 .title {
   padding-top: 50px;
 }
 
@@ -8923,6 +8925,39 @@ form .form-group .form-control:focus {
 .section4 .organization-slide-container .next {
   top: 50%;
   right: 10%;
+}
+
+.section5 .section-title {
+  text-align: center;
+}
+
+.section5 .thumbnail-container .thumbnail {
+  padding: 0;
+  background-color: white;
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .section5 .thumbnail-container .thumbnail {
+    min-height: 550px;
+  }
+}
+
+.section5 .thumbnail-container .thumbnail .caption {
+  text-align: center;
+}
+
+.section5 .thumbnail-container .thumbnail .caption img {
+  max-width: 20% !important;
+  display: initial !important;
+}
+
+.section5 .thumbnail-container .thumbnail .caption p {
+  color: black;
+}
+
+.section5 .thumbnail-container .thumbnail .caption .thumbnail-title {
+  -webkit-text-decoration: underline #fc9d5d;
+          text-decoration: underline #fc9d5d;
 }
 
 body {
