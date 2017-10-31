@@ -8960,6 +8960,23 @@ form .form-group .form-control:focus {
           text-decoration: underline #fc9d5d;
 }
 
+.section5 .thumbnail-container .thumbnail:hover {
+  background-color: #fc9d5d;
+}
+
+.section5 .thumbnail-container .thumbnail:hover .caption .thumbnail-title {
+  color: white;
+}
+
+.section5 .thumbnail-container .thumbnail:hover .caption p {
+  color: white;
+}
+
+.section5 .thumbnail-container .thumbnail:hover .caption .thumbnail-title {
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
 body {
   position: relative;
 }

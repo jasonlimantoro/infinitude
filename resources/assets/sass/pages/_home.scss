@@ -251,6 +251,20 @@
                     text-decoration: underline $orange-default;
                 }
             }
+            &:hover {
+                background-color: $orange-default;
+                .caption {
+                    .thumbnail-title {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                    }
+                    .thumbnail-title {
+                        text-decoration-color: black;
+                    }
+                }
+            }
         }
     }
 }
