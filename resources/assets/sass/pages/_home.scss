@@ -267,4 +267,27 @@
             }
         }
     }
+    .working-guide-container {
+        .working-guide-slider {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .first-icon {
+                margin-left: 12%;
+            }
+            img {
+                max-width: 50%;
+                padding: 10px;
+                border: solid 1px white;
+                border-radius: 50%;
+                &:hover {
+                    background-color: $orange-default;
+                }
+            }
+            .hl {
+                position: absolute;
+                top: 50%;
+                background-color: white;
+            }
+        }
+    }
 }

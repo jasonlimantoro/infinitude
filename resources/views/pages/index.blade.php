@@ -374,6 +374,34 @@
 
 
                 </div>
+
+                <div class="row working-guide-container row-center">
+                    <h4>Working Guide</h4>
+
+                    <div class="col-md-12 col-center">
+                        <div class="row working-guide-slider">
+                            <div class="col-md-offset-2 col-md-2 first-icon">
+                                <img src="/images/icons/program_lightbulb.png" alt="lightbulb" class="img-responsive">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="/images/icons/program_search.png" alt="search" class="img-responsive">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="/images/icons/program_papers.png" alt="lightbulb" class="img-responsive">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="/images/icons/program_logistic.png" alt="lightbulb" class="img-responsive">
+                            </div>
+                            <div class="hl">
+                                
+                            </div>
+
+                            <div class="col-md-2">
+                                <img src="/images/icons/program_goals.png" alt="lightbulb" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
