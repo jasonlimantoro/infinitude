@@ -8978,12 +8978,13 @@ form .form-group .form-control:focus {
 }
 
 .section5 .working-guide-container .working-guide-slider {
+  position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .section5 .working-guide-container .working-guide-slider .icon {
-  z-index: 1000;
+  z-index: 100;
 }
 
 .section5 .working-guide-container .working-guide-slider .icon:first-child {
@@ -9011,6 +9012,10 @@ form .form-group .form-control:focus {
   border-radius: 25px;
 }
 
+.section5 .working-guide-caption img {
+  max-width: 7%;
+}
+
 body {
   position: relative;
 }
@@ -9029,5 +9034,9 @@ body {
   float: none;
   margin: auto;
   display: inline-block;
+}
+
+.row-center img {
+  display: inline-block !important;
 }
 
