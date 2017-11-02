@@ -24,7 +24,7 @@
                                 <img src="/images/photos/_frame_christine.png" alt="" class="img-responsive">
                             </div>
                             <div class="profile-info">
-                                <p class="profile-name">Christina Liwang</p>
+                                <p class="profile-name">Christine Liwang</p>
                                 <hr>
                                 <p class="profile-position">Founder & President</p>
                             </div>
@@ -49,9 +49,9 @@
                                 <img src="/images/photos/_frame_gisele.png" alt="Gisele" class="img-responsive">
                             </div>
                             <div class="profile-info">
-                                <p class="profile-name">Gisele</p>
+                                <p class="profile-name">Gisele Suroto</p>
                                 <hr>
-                                <p class="profile-position">Management Committee</p>
+                                <p class="profile-position">Honorary Treasurer</p>
                             </div>
                         </div>
                     </div>
@@ -61,9 +61,9 @@
                                 <img src="/images/photos/_frame_sampoerna.png" alt="Sampoerna" class="img-responsive">
                             </div>
                             <div class="profile-info">
-                                <p class="profile-name">Sampoerna Adya W.</p>
+                                <p class="profile-name">Sampoerna Adya</p>
                                 <hr>
-                                <p class="profile-position">Honorary Treasurer</p>
+                                <p class="profile-position">Management Committee</p>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                             <div class="profile-info">
                                 <p class="profile-name">Bernard Ricardo, Ph.D</p>
                                 <hr>
-                                <p class="profile-position">Education Advisors</p>
+                                <p class="profile-position">Education Advisor</p>
                             </div>
                         </div>
                     </div>
@@ -121,9 +121,9 @@
                                 <img src="/images/photos/_frame_placeholder.png" alt="Placeholder" class="img-responsive">
                             </div>
                             <div class="profile-info">
-                                <p class="profile-name">Yoana Arlina, Ph.D</p>
+                                <p class="profile-name">Yoanna Arlina, Ph.D</p>
                                 <hr>
-                                <p class="profile-position">Education Advisors</p>
+                                <p class="profile-position">Education Advisor</p>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                             <div class="profile-info">
                                 <p class="profile-name">Frans Liwang, MD</p>
                                 <hr>
-                                <p class="profile-position">Healthcare Advisors</p>
+                                <p class="profile-position">Healthcare Advisor</p>
                             </div>
                         </div>
                     </div>
@@ -145,9 +145,9 @@
                                 <img src="/images/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
                             </div>
                             <div class="profile-info">
-                                <p class="profile-name">Novita S., MD</p>
+                                <p class="profile-name">Novita Suprapto, MD</p>
                                 <hr>
-                                <p class="profile-position">Healthcare Advisors</p>
+                                <p class="profile-position">Healthcare Advisor</p>
                             </div>
                         </div>
                     </div>
@@ -157,9 +157,9 @@
                                 <img src="/images/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
                             </div>
                             <div class="profile-info">
-                                <p class="profile-name">Ferry Liwang</p>
+                                <p class="profile-name">Ferry Liwang, MD</p>
                                 <hr>
-                                <p class="profile-position">Healthcare Advisors</p>
+                                <p class="profile-position">Healthcare Advisor</p>
                             </div>
                         </div>
                     </div>
