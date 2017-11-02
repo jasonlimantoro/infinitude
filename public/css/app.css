@@ -8662,22 +8662,6 @@ form .form-group .form-control:focus {
   color: white;
 }
 
-.section1 .row,
-.section2 .row,
-.section3 .row,
-.section4 .row,
-.section5 .row {
-  background-color: #302d2c;
-}
-
-.section1 .title,
-.section2 .title,
-.section3 .title,
-.section4 .title,
-.section5 .title {
-  padding-top: 50px;
-}
-
 .section1 .row:first-child {
   background-image: url("/images/Home_BG.png");
   background-size: cover;
@@ -9028,6 +9012,22 @@ form .form-group .form-control:focus {
 
 .section5 .working-guide-container .working-guide-caption .caption-container .caption-text {
   padding-top: 25px;
+}
+
+.section1 .row,
+.section2 .row,
+.section3 .row,
+.section4 .row,
+.section5 .row {
+  background-color: #302d2c;
+}
+
+.section1 .title,
+.section2 .title,
+.section3 .title,
+.section4 .title,
+.section5 .title {
+  padding-top: 50px;
 }
 
 body {

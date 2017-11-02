@@ -1,0 +1,82 @@
+.section4 {
+    .container-organization {
+        background-image: url('/images/organisation_BG.png');
+        background-size: cover;
+    }
+    .row {
+        background-color: transparent !important;
+        .section-title {
+            text-align: center;
+        }
+    }
+    .organization-slide-container {
+        position: relative;
+        .profile {
+            display: none;
+            &.show-profile {
+                display: inline-block !important;
+            }
+        }
+        .profile-box {
+            border: 1px solid white;
+            .profile-img {
+            }
+            .profile-info {
+                text-align: center;
+                color: white;
+                hr {
+                    border: 1px solid black;
+                    width: 50%;
+                    margin-top: 0px;
+                    margin-bottom: 10px;
+                }
+                .profile-name {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                .profile-name, .profile-position {
+                    color: white;
+                }
+            }
+
+            // hover on profile-box
+            &:hover {
+                border-color: $orange-default;
+                background-color: $orange-default;
+                .profile-img {
+            
+                }
+                .profile-info {
+                    text-align: center;
+                    color: black;
+                    hr {
+                        border: 1px solid white;
+                    }
+                    .profile-name, .profile-position {
+                        color: black;
+                    }
+                }
+            }
+        }
+        .prev, .next {
+            position: absolute;
+            font-size: 20px;
+            color: white;
+            &:hover {
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+        }
+        .prev {
+            top: 50%;
+            left: 10%;
+        }
+
+        .next {
+            top: 50%;
+            right: 10%;
+        }
+    }
+}

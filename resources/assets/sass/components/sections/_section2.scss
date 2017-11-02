@@ -1,0 +1,46 @@
+.section2 {
+    .row.about {
+        padding-top: 50px;
+        h1 {
+            @include media-query(laptop-retina) {
+                margin-left: 10%;
+            }
+            span {
+                font-weight: 100;
+            }
+            
+        }
+        
+    }
+    .row.bg-about {
+        .img-about {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .vision {
+            width: initial !important;
+            text-align: center;
+            padding-bottom: 25px;
+        }
+        .mission {
+            text-align: center;
+            padding-top: 25px;
+            $height-vl: 140px;
+            $bottom-vl: $height-vl;
+            .vl-1 {
+                border-left: 1px solid $orange-default;
+                position: relative;
+                height: $height-vl;
+                bottom: $bottom-vl;
+                right: 15px;
+            }
+            .vl-2 {
+                border-left: 1px solid $orange-default;
+                position: relative;
+                height: $height-vl;
+                bottom: $bottom-vl + 23;
+                right: 15px;
+            }
+        }
+    }
+}

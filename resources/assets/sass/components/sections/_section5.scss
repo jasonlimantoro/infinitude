@@ -1,0 +1,91 @@
+.section5 {
+    .section-title {
+        text-align: center;
+    }
+    .thumbnail-container {
+        .thumbnail {
+            padding: 0;
+            background-color: white;
+            .caption {
+                text-align: center;
+                img {
+                    max-width: 20% !important;
+                    display: initial !important;
+                }
+                p {
+                    color: black;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                .thumbnail-title {
+                    text-decoration: underline $orange-default;
+                }
+            }
+            &:hover {
+                background-color: $orange-default;
+                .caption {
+                    .thumbnail-title {
+                        color: white;
+                    }
+                    p {
+                        color: white;
+                    }
+                    .thumbnail-title {
+                        text-decoration-color: white;
+                    }
+                }
+            }
+        }
+    }
+    .working-guide-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .working-guide-slider {
+            position: relative;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .icon {
+                z-index: 100;
+                &:first-child {
+                    margin-left: 8.3%;
+                }
+            }
+            img {
+                max-width: 50%;
+                padding: 10px;
+                border: solid 1px white;
+                border-radius: 50%;
+                background-color: $dark-grey-default;
+                &:hover, &.active {
+                    background-color: $orange-default;
+                }
+            }
+            .hl {
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                width: 80%;
+                border-top: solid 3px white;
+                border-radius: 25px;
+
+            }
+        }
+        .working-guide-caption {
+            img {
+                max-width: 7%;
+            }
+            .caption-container {
+                &:not(.show-caption) {
+                    display: none;
+                }
+                &.show-caption {
+                    display: inline;
+                }
+                .caption-text {
+                    padding-top: 25px;
+                }
+            }
+        }
+    }
+
+}

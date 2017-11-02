@@ -18,6 +18,22 @@
 @import "components/form";
 @import "components/button";
 
+// components - sections
+// Introduction
+@import "components/sections/section1";
+
+// About Us - Vision and Mission
+@import "components/sections/section2";
+
+// About Us - History
+@import "components/sections/section3";
+
+// About Us - Organization
+@import "components/sections/section4";
+
+// Programs - Forum, Seminar, Workshop
+@import "components/sections/section5";
+
 // pages
 @import "pages/home";
 
