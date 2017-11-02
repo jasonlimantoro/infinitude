@@ -8982,7 +8982,11 @@ form .form-group .form-control:focus {
   padding-bottom: 20px;
 }
 
-.section5 .working-guide-container .working-guide-slider .first-icon {
+.section5 .working-guide-container .working-guide-slider .icon {
+  z-index: 1000;
+}
+
+.section5 .working-guide-container .working-guide-slider .icon:first-child {
   margin-left: 12%;
 }
 
@@ -8991,6 +8995,7 @@ form .form-group .form-control:focus {
   padding: 10px;
   border: solid 1px white;
   border-radius: 50%;
+  background-color: #302d2c;
 }
 
 .section5 .working-guide-container .working-guide-slider img:hover {
@@ -9000,7 +9005,10 @@ form .form-group .form-control:focus {
 .section5 .working-guide-container .working-guide-slider .hl {
   position: absolute;
   top: 50%;
-  background-color: white;
+  left: 10%;
+  width: 80%;
+  border-top: solid 3px white;
+  border-radius: 25px;
 }
 
 body {
