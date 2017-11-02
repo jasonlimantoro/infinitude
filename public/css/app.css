@@ -8973,8 +8973,13 @@ form .form-group .form-control:focus {
 }
 
 .section5 .thumbnail-container .thumbnail:hover .caption .thumbnail-title {
-  -webkit-text-decoration-color: black;
-          text-decoration-color: black;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+}
+
+.section5 .working-guide-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section5 .working-guide-container .working-guide-slider {
@@ -9013,16 +9018,20 @@ form .form-group .form-control:focus {
   border-radius: 25px;
 }
 
-.section5 .working-guide-caption img {
+.section5 .working-guide-container .working-guide-caption img {
   max-width: 7%;
 }
 
-.section5 .working-guide-caption .caption-container:not(.show-caption) {
+.section5 .working-guide-container .working-guide-caption .caption-container:not(.show-caption) {
   display: none;
 }
 
-.section5 .working-guide-caption .caption-container.show-caption {
+.section5 .working-guide-container .working-guide-caption .caption-container.show-caption {
   display: inline;
+}
+
+.section5 .working-guide-container .working-guide-caption .caption-container .caption-text {
+  padding-top: 25px;
 }
 
 body {
