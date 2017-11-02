@@ -330,9 +330,9 @@
                     <h3>PROGRAM</h3>
                     <p>How <strong>INFINITUDE</strong> works</p>
                 </div>
-                <div class="row thumbnail-container">
+                <div class="row thumbnail-container row-center">
                     
-                    <div class="col-md-4">
+                    <div class="col-md-3 col-center">
                         <div class="thumbnail">
                             <img src="/images/program_forum_BG.png" alt="forum" class="img-responsive">
                             <div class="caption">
@@ -345,7 +345,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-3 col-center">
                         <div class="thumbnail">
                             <img src="/images/program_seminar_BG.png" alt="seminar" class="img-responsive">
                             <div class="caption">
@@ -358,7 +358,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-3 col-center">
                         <div class="thumbnail">
                             <img src="/images/program_workshop_BG.png" alt="workshop" class="img-responsive">
                             <div class="caption">

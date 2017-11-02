@@ -8936,12 +8936,6 @@ form .form-group .form-control:focus {
   background-color: white;
 }
 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  .section5 .thumbnail-container .thumbnail {
-    min-height: 550px;
-  }
-}
-
 .section5 .thumbnail-container .thumbnail .caption {
   text-align: center;
 }
@@ -8953,6 +8947,8 @@ form .form-group .form-control:focus {
 
 .section5 .thumbnail-container .thumbnail .caption p {
   color: black;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .section5 .thumbnail-container .thumbnail .caption .thumbnail-title {

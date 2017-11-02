@@ -235,9 +235,6 @@
         .thumbnail {
             padding: 0;
             background-color: white;
-            @include media-query(laptop-retina) {
-                min-height: 550px;
-            }
             .caption {
                 text-align: center;
                 img {
@@ -246,6 +243,8 @@
                 }
                 p {
                     color: black;
+                    padding-left: 20px;
+                    padding-right: 20px;
                 }
                 .thumbnail-title {
                     text-decoration: underline $orange-default;
