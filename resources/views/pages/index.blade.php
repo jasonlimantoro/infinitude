@@ -381,66 +381,85 @@
                     <div class="col-md-12 col-center">
                         <div class="row working-guide-slider">
                             <div class="col-md-2 icon">
-                                <img src="/images/icons/program_lightbulb.png" alt="lightbulb" class="img-responsive">
+                                <img src="/images/icons/program_lightbulb.png" alt="lightbulb" class="img-responsive" onclick="currentCaption(0)">
                             </div>
                             <div class="col-md-2 icon">
-                                <img src="/images/icons/program_search.png" alt="search" class="img-responsive">
+                                <img src="/images/icons/program_search.png" alt="search" class="img-responsive" onclick="currentCaption(1)">
                             </div>
                             <div class="col-md-2 icon">
-                                <img src="/images/icons/program_papers.png" alt="lightbulb" class="img-responsive">
+                                <img src="/images/icons/program_papers.png" alt="lightbulb" class="img-responsive" onclick="currentCaption(2)">
                             </div>
                             <div class="col-md-2 icon">
-                                <img src="/images/icons/program_logistic.png" alt="lightbulb" class="img-responsive">
+                                <img src="/images/icons/program_logistic.png" alt="lightbulb" class="img-responsive" onclick="currentCaption(3)">
                             </div>
                             <div class="col-md-2 icon">
-                                <img src="/images/icons/program_goals.png" alt="lightbulb" class="img-responsive">
+                                <img src="/images/icons/program_goals.png" alt="lightbulb" class="img-responsive" onclick="currentCaption(4)">
                             </div>
                             <div class="hl"></div>
                         </div>
                         <div class="working-guide-caption">
-                            <div class="caption-icon">
-                                <img src="/images/icons/program_lightbulb_hover.png" alt="lightbulb" class="img-responsive">
+                            <div class="caption-container">
+                                <div class="caption-icon">
+                                    <img src="/images/icons/program_lightbulb_hover.png" alt="lightbulb" class="img-responsive">
+                                </div>
+
+                                <div class="caption-text">
+                                    <p>
+                                        Actively search for and identify the needs in healthcare and education from the society
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="caption-text">
-                                <p>
-                                    Actively search for and identify the needs in healthcare and education from the society
-                                </p>
+                            <div class="caption-container">
+                                <div class="caption-icon">
+                                    <img src="/images/icons/program_search_hover.png" alt="search" class="img-responsive">
+                                </div>
+                                <div class="caption-text">
+                                    <p>
+                                        Identify the specific topics where we can fill the gap, then set up a voluntary team
+                                    </p>
+                                </div>
                             </div>
 
-                            <div class="caption-icon">
-                                <img src="/images/icons/program_search_hover.png" alt="search" class="img-responsive">
-                            </div>
-                            <div class="caption-text">
-                                <p>
-                                    Identify the specific topics where we can fill the gap, then set up a voluntary team
-                                </p>
-                            </div>
-                            <div class="caption-icon">
-                                <img src="/images/icons/program_papers_hover.png" alt="paper" class="img-responsive">
-                            </div>
-                            <div class="caption-text">
-                                <p>
-                                    Designing the details of the programs and materials together with our experts
+                            <div class="caption-container">
+                            
+                                <div class="caption-icon">
+                                    <img src="/images/icons/program_papers_hover.png" alt="paper" class="img-responsive">
+                                </div>
+                                <div class="caption-text">
+                                    <p>
+                                        Designing the details of the programs and materials together with our experts
 
-                                </p>
-                            </div>
-                            <div class="caption-icon">
-                                <img src="/images/icons/program_logistic_hover.png" alt="logistic" class="img-responsive">
-                            </div>
-                            <div class="caption-text">
-                                <p>
-                                    Planning for logistics and fundraising whenever needed 
+                                    </p>
+                                </div>
 
-                                </p>
                             </div>
-                            <div class="caption-icon">
-                                <img src="/images/icons/program_goals_hover.png" alt="goals" class="img-responsive">
+
+                            <div class="caption-container">
+                            
+                                <div class="caption-icon">
+                                    <img src="/images/icons/program_logistic_hover.png" alt="logistic" class="img-responsive">
+                                </div>
+                                <div class="caption-text">
+                                    <p>
+                                        Planning for logistics and fundraising whenever needed 
+
+                                    </p>
+                                </div>
+                            
                             </div>
-                            <div class="caption-text">
-                                <p>
-                                    Making an impact to the society 
-                                </p>
+
+                            <div class="caption-container">
+                            
+                                <div class="caption-icon">
+                                    <img src="/images/icons/program_goals_hover.png" alt="goals" class="img-responsive">
+                                </div>
+                                <div class="caption-text">
+                                    <p>
+                                        Making an impact to the society 
+                                    </p>
+                                </div>
+                            
                             </div>
                         </div>
                     </div>

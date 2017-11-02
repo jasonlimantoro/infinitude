@@ -9,6 +9,7 @@ require('./bootstrap');
 require('./helpers/normalize');
 require('./components/interactive');
 require('./components/carousel');
+require('./components/working_guide');
 
 window.Vue = require('vue');
 

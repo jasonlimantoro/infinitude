@@ -8988,7 +8988,7 @@ form .form-group .form-control:focus {
 }
 
 .section5 .working-guide-container .working-guide-slider .icon:first-child {
-  margin-left: 12%;
+  margin-left: 8.3%;
 }
 
 .section5 .working-guide-container .working-guide-slider img {
@@ -8999,7 +8999,8 @@ form .form-group .form-control:focus {
   background-color: #302d2c;
 }
 
-.section5 .working-guide-container .working-guide-slider img:hover {
+.section5 .working-guide-container .working-guide-slider img:hover,
+.section5 .working-guide-container .working-guide-slider img.active {
   background-color: #fc9d5d;
 }
 
@@ -9014,6 +9015,14 @@ form .form-group .form-control:focus {
 
 .section5 .working-guide-caption img {
   max-width: 7%;
+}
+
+.section5 .working-guide-caption .caption-container:not(.show-caption) {
+  display: none;
+}
+
+.section5 .working-guide-caption .caption-container.show-caption {
+  display: inline;
 }
 
 body {
