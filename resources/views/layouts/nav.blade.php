@@ -30,11 +30,11 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#programs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Forum</a></li>
-                                <li><a href="#">Seminar</a></li>
-                                <li><a href="#">Workshop</a></li>
+                                <li><a href="#programs">Forum</a></li>
+                                <li><a href="#programs">Seminar</a></li>
+                                <li><a href="#programs">Workshop</a></li>
                             </ul>
                         </li>
                     </ul>

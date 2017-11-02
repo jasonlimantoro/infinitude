@@ -19,7 +19,7 @@
                 </p>
 
                 <p>
-                    Find out about more programs <a href="#">here</a>
+                    Find out about more programs <a href="#programs">here</a>
                 </p>
             
             </div>
@@ -323,14 +323,14 @@
             </div>
         </div>
     </div> <!-- endsection4 -->
-    <div class="section5">
-        <div class="row container-program">
+    <div class="section5" >
+        <div class="row row-center container-program title" id="programs">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h3>PROGRAM</h3>
+                    <h3>PROGRAMS</h3>
                     <p>How <strong>INFINITUDE</strong> works</p>
                 </div>
-                <div class="row thumbnail-container row-center">
+                <div class="row thumbnail-container">
                     
                     <div class="col-md-3 col-center">
                         <div class="thumbnail">
@@ -375,7 +375,7 @@
 
                 </div>
 
-                <div class="row working-guide-container row-center">
+                <div class="row working-guide-container">
                     <h4>Working Guide</h4>
 
                     <div class="col-md-12 col-center">
