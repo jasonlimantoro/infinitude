@@ -31703,7 +31703,7 @@ screenWidth = screen.availWidth;
 heightSection = screenHeight * 0.95;
 
 // if device is a desktop
-if (screenWidth > 1200) {
+if (screenWidth > 1200 && screenWidth < 1400) {
     // add sticky-navbar
     $('.navbar-default').addClass('navbar-sticky');
     // fix body padding
