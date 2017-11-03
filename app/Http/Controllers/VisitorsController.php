@@ -16,6 +16,7 @@ class VisitorsController extends Controller
             'message' => request('message')
         ];
         $this->validate(request(), [
+            'name' => 'required|min:5',
             'email' => 'required|unique:visitors,email',
             'message' => 'required|max:200'
         ]);
