@@ -19,6 +19,7 @@ if (screenWidth > 1200) {
 
 // Array of section needs to be set
 let container = [
+    '.section1 .container-main-background',
     '.section3 .container-history',
     '.section4 .container-organization',
     '.section5 .container-program'

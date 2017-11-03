@@ -1,5 +1,5 @@
 <div class="section1">
-    <div class="row">
+    <div class="row container-main-background">
         
     </div>
     <div class="row welcome">
