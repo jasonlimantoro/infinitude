@@ -17,7 +17,7 @@ class VisitorsController extends Controller
         ];
         $this->validate(request(), [
             'name' => 'required|min:5',
-            'email' => 'required|unique:visitors,email',
+            'email' => 'required|email',
             'message' => 'required|max:200'
         ]);
 
@@ -27,6 +27,8 @@ class VisitorsController extends Controller
         if (! \Mail::failures()) {
             // upon sucessful, save it to the database
             Visitor::create($visitor);
+
+            // and send a flash message
             session()->flash('message', 'Thank you for contacting us! We will get back to you soon!');
         }
         // Redirect to the bottom page
