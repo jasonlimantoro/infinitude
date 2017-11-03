@@ -8560,6 +8560,11 @@ footer p.copyright {
   text-align: center;
 }
 
+@font-face {
+  font-family: Apercu;
+  src: url("/fonts/apercu/Apercu.otf");
+}
+
 h1,
 h2,
 h3,
