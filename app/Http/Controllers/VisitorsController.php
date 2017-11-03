@@ -27,6 +27,7 @@ class VisitorsController extends Controller
         if (! \Mail::failures()) {
             // upon sucessful, save it to the database
             Visitor::create($visitor);
+            session()->flash('message', 'Thank you for contacting us! We will get back to you soon!');
         }
         // Redirect to the bottom page
         return redirect('/#contact-us');

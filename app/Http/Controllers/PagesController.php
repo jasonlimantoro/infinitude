@@ -7,6 +7,7 @@ use App\Visitor;
 class PagesController extends Controller
 {
     public function index() {
+        // return session('message');
         return view('pages.index');
     }
 
