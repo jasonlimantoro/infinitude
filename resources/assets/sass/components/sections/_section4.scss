@@ -7,10 +7,12 @@
         background-color: transparent !important;
         .section-title {
             text-align: center;
+            margin-bottom: 10px;
         }
     }
     .organization-slide-container {
         position: relative;
+        margin-top: 25px;
         .profile {
             display: none;
             &.show-profile {

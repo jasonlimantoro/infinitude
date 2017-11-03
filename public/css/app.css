@@ -8851,10 +8851,12 @@ form .form-group .form-control:focus {
 
 .section4 .row .section-title {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .section4 .organization-slide-container {
   position: relative;
+  margin-top: 25px;
 }
 
 .section4 .organization-slide-container .profile {
