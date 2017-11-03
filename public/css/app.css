@@ -8556,6 +8556,10 @@ footer .container-fluid {
   background-repeat: no-repeat;
 }
 
+footer .alert li {
+  text-align: left;
+}
+
 footer p.copyright {
   text-align: center;
 }

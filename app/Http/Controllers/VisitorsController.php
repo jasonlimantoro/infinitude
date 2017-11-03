@@ -15,6 +15,11 @@ class VisitorsController extends Controller
             'email' => request('email'),
             'message' => request('message')
         ];
+        $this->validate(request(), [
+            'email' => 'required|unique:visitors,email',
+            'message' => 'required|max:200'
+        ]);
+
         // Send the email to the administrator's gmail
         \Mail::to('jasonlimantoro99@gmail.com')->send(new VisitorContact($visitor));
 
