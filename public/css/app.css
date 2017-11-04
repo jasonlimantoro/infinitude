@@ -8366,17 +8366,20 @@ button.close {
   }
 }
 
-.container-menu {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .navbar-default {
   background-color: #232221;
+  background-image: url("/images/Menu_top.png");
+  background-size: contain;
+  background-position: center;
   margin-bottom: 0px;
   border: 0;
   border-radius: 0;
   font-size: 14px;
+}
+
+.navbar-default .container-menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar-default.navbar-sticky {

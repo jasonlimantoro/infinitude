@@ -1,13 +1,16 @@
-.container-menu {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 .navbar-default {
     background-color: $black-default;
+    background-image: url('/images/Menu_top.png');
+    background-size: contain;
+    background-position: center;
     margin-bottom: 0px;
     border: 0;
     border-radius: 0;
     font-size: 14px;
+    .container-menu {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     &.navbar-sticky {
         position: fixed;
         z-index: 1000;
