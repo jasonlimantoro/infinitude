@@ -8901,6 +8901,10 @@ form .form-group .form-control:focus {
   transition: 1s ease;
 }
 
+.section4 .organization-slide-container .profile-box:hover .profile-img {
+  padding: 20px;
+}
+
 .section4 .organization-slide-container .profile-box:hover .profile-info {
   text-align: center;
   color: black;
