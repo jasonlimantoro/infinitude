@@ -23,6 +23,7 @@
             }
             &:hover {
                 background-color: $orange-default;
+                transition: 1s ease;
                 .caption {
                     .thumbnail-title {
                         color: white;
@@ -58,7 +59,12 @@
                 background-color: $dark-grey-default;
                 &:hover, &.active {
                     background-color: $orange-default;
+                    transition: 1s ease;
+                    // animation-name: hover-to-orange;
+                    // animation-timing-function: ease;
+                    // animation-duration: 1s;
                 }
+                
             }
             .hl {
                 position: absolute;

@@ -8897,6 +8897,8 @@ form .form-group .form-control:focus {
 .section4 .organization-slide-container .profile-box:hover {
   border-color: #fc9d5d;
   background-color: #fc9d5d;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .section4 .organization-slide-container .profile-box:hover .profile-info {
@@ -8967,6 +8969,8 @@ form .form-group .form-control:focus {
 
 .section5 .thumbnail-container .thumbnail:hover {
   background-color: #fc9d5d;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .section5 .thumbnail-container .thumbnail:hover .caption .thumbnail-title {
@@ -9012,6 +9016,8 @@ form .form-group .form-control:focus {
 .section5 .working-guide-container .working-guide-slider img:hover,
 .section5 .working-guide-container .working-guide-slider img.active {
   background-color: #fc9d5d;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .section5 .working-guide-container .working-guide-slider .hl {

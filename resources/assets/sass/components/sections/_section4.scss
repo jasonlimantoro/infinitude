@@ -46,8 +46,9 @@
             &:hover {
                 border-color: $orange-default;
                 background-color: $orange-default;
+                transition: 1s ease;
                 .profile-img {
-            
+                    
                 }
                 .profile-info {
                     text-align: center;
