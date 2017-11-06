@@ -8369,8 +8369,9 @@ button.close {
 .navbar-default {
   background-color: #232221;
   background-image: url("/images/Menu_top.png");
-  background-size: contain;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   margin-bottom: 0px;
   border: 0;
   border-radius: 0;
@@ -8526,20 +8527,20 @@ button.close {
   }
 }
 
-.navbar-brand.hidden-md.hidden-sm > img {
+.navbar-brand.visible-xs > img {
   max-width: 35%;
   position: absolute;
   top: 15px;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .navbar-brand.hidden-md.hidden-sm > img {
+  .navbar-brand.visible-xs > img {
     max-width: 20%;
   }
 }
 
 @media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .navbar-brand.hidden-md.hidden-sm > img {
+  .navbar-brand.visible-xs > img {
     max-width: 20%;
   }
 }
@@ -8874,6 +8875,10 @@ form .form-group .form-control:focus {
   border: 1px solid white;
 }
 
+.section4 .organization-slide-container .profile-box .profile-img {
+  padding: 20px;
+}
+
 .section4 .organization-slide-container .profile-box .profile-info {
   text-align: center;
   color: white;
@@ -8902,10 +8907,6 @@ form .form-group .form-control:focus {
   background-color: #fc9d5d;
   -webkit-transition: 1s ease;
   transition: 1s ease;
-}
-
-.section4 .organization-slide-container .profile-box:hover .profile-img {
-  padding: 20px;
 }
 
 .section4 .organization-slide-container .profile-box:hover .profile-info {

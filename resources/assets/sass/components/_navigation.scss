@@ -1,8 +1,9 @@
 .navbar-default {
     background-color: $black-default;
     background-image: url('/images/Menu_top.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     margin-bottom: 0px;
     border: 0;
     border-radius: 0;
@@ -122,7 +123,7 @@
     }
 }
 // logo in mobile devices
-.navbar-brand.hidden-md.hidden-sm > img {
+.navbar-brand.visible-xs > img {
     max-width: 35%;
     position: absolute;
     top: 15px;
