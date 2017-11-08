@@ -31,5 +31,30 @@
             }
 
         }
+        .be-involved-content-container {
+            .volunteer, .donator, .merchandise {
+                padding: 15px;
+                border: 1px solid white;
+            }
+            h2 {
+                color: white;
+                span {
+                    color: $orange-default;
+                }
+            }
+            p {
+                img {
+                    max-width: 2%;
+                    display: inline-block;
+                }
+            }
+            .price {
+                float: right;
+            }
+            .background-content {
+                display: inline-block;
+                max-width: 100%;
+            }
+        }
     }
 }
