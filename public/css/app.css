@@ -9057,7 +9057,8 @@ form .form-group .form-control:focus {
 .section2 .row,
 .section3 .row,
 .section4 .row,
-.section5 .row {
+.section5 .row,
+.section6 .row {
   background-color: #302d2c;
 }
 
@@ -9065,7 +9066,8 @@ form .form-group .form-control:focus {
 .section2 .title,
 .section3 .title,
 .section4 .title,
-.section5 .title {
+.section5 .title,
+.section6 .title {
   padding-top: 50px;
 }
 

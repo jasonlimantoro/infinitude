@@ -22,7 +22,7 @@ let container = [
     '.section1 .container-main-background',
     '.section3 .container-history',
     '.section4 .container-organization',
-    '.section5 .container-program'
+    '.section6 .container-be-involved'
 ]
 
 for (var i = 0; i < container.length; i++) {
