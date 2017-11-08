@@ -9053,6 +9053,39 @@ form .form-group .form-control:focus {
   padding-top: 25px;
 }
 
+.section6 .container-be-involved .section-title h1 {
+  margin-left: 10%;
+}
+
+.section6 .container-be-involved .be-involved-box-container {
+  margin-left: 11%;
+}
+
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content img {
+  max-width: 90%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content p {
+  color: #fc9d5d;
+  font-weight: bold;
+}
+
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content:hover {
+  background-color: #fc9d5d;
+}
+
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content:hover p {
+  color: white;
+}
+
 .section1 .row,
 .section2 .row,
 .section3 .row,
