@@ -21,7 +21,7 @@
                         color: $orange-default;
                         font-weight: bold;
                     }
-                    &:hover {
+                    &:hover, &.active {
                         background-color: $orange-default;
                         p {
                             color: white;
@@ -35,6 +35,12 @@
             .volunteer, .donator, .merchandise {
                 padding: 15px;
                 border: 1px solid white;
+            }
+            .involved {
+                display: none;
+                &.show-involved {
+                    display: block;
+                }
             }
             h2 {
                 color: white;
@@ -54,6 +60,13 @@
             .background-content {
                 display: inline-block;
                 max-width: 100%;
+            }
+            .merchandise {
+                .item {
+                    .item-description {
+                        font-size: 12px;
+                    }
+                }
             }
         }
     }

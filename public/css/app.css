@@ -9082,11 +9082,13 @@ form .form-group .form-control:focus {
   font-weight: bold;
 }
 
-.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content:hover {
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content:hover,
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content.active {
   background-color: #fc9d5d;
 }
 
-.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content:hover p {
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content:hover p,
+.section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content.active p {
   color: white;
 }
 
@@ -9095,6 +9097,14 @@ form .form-group .form-control:focus {
 .section6 .container-be-involved .be-involved-content-container .merchandise {
   padding: 15px;
   border: 1px solid white;
+}
+
+.section6 .container-be-involved .be-involved-content-container .involved {
+  display: none;
+}
+
+.section6 .container-be-involved .be-involved-content-container .involved.show-involved {
+  display: block;
 }
 
 .section6 .container-be-involved .be-involved-content-container h2 {
@@ -9117,6 +9127,10 @@ form .form-group .form-control:focus {
 .section6 .container-be-involved .be-involved-content-container .background-content {
   display: inline-block;
   max-width: 100%;
+}
+
+.section6 .container-be-involved .be-involved-content-container .merchandise .item .item-description {
+  font-size: 12px;
 }
 
 .section1 .row,

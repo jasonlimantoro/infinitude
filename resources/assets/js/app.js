@@ -10,6 +10,7 @@ require('./helpers/normalize');
 require('./components/interactive');
 require('./components/carousel');
 require('./components/working_guide');
+require('./components/involved');
 
 window.Vue = require('vue');
 

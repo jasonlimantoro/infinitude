@@ -792,6 +792,7 @@ __webpack_require__(35);
 __webpack_require__(36);
 __webpack_require__(37);
 __webpack_require__(38);
+__webpack_require__(55);
 
 window.Vue = __webpack_require__(39);
 
@@ -42364,6 +42365,45 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */
+/***/ (function(module, exports) {
+
+window.currentInvolved = currentInvolved;
+
+var involvedIndex = 0;
+showInvolved(involvedIndex);
+
+function currentInvolved(n) {
+    involvedIndex = n;
+    showInvolved(n);
+}
+
+function showInvolved(n) {
+    involveds = document.getElementsByClassName('involved');
+    boxes = document.getElementsByClassName('box-content');
+
+    $(involveds[n]).addClass('show-involved');
+    $(boxes[n]).addClass('active');
+
+    for (var i = 0; i < involveds.length; i++) {
+        if (i != n) {
+            $(involveds[i]).removeClass('show-involved');
+            $(boxes[i]).removeClass('active');
+        }
+    }
+}
 
 /***/ })
 /******/ ]);

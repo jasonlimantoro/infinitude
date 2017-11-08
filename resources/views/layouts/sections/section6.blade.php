@@ -6,19 +6,19 @@
                 <div class="row">
                     <div class="col-md-offset-1 col-md-2 be-involved-box-container">
                         <div class="row be-involved-box">
-                            <div class="col-md-12 box-content">
+                            <div class="col-md-12 box-content" onclick="currentInvolved(0);">
                                 <img src="/images/icons/Be volunteer.png" alt="volunteer" class="img-responsive">
                                 <p>Become a Volunteer</p> 
                             </div>
                         </div>
                         <div class="row be-involved-box">
-                            <div class="col-md-12 box-content">
+                            <div class="col-md-12 box-content" onclick="currentInvolved(1);">
                                 <img src="/images/icons/Be donator.png" alt="volunteer" class="img-responsive">
                                 <p>Become a Donator</p> 
                             </div>
                         </div>
                         <div class="row be-involved-box">
-                            <div class="col-md-12 box-content">
+                            <div class="col-md-12 box-content" onclick="currentInvolved(2);">
                                 <img src="/images/icons/merchandise.png" alt="volunteer" class="img-responsive">
                                 <p>Merchandise</p> 
                             </div>
@@ -26,7 +26,7 @@
                     
                     </div>
                     <div class="col-md-offset-1 col-md-6 be-involved-content-container">
-                        <div class="volunteer">
+                        <div class="volunteer involved">
                             <h2>BE OUR INFINITUDE BUDDY AND <br> START TO <span>MAKE A DIFFERENCE</span> TODAY</h2>
                             <p>
                                 Are you looking for an opportunity to make a difference and contribute back to the community? INFINITUDE is looking for volunteers (INFINITUDE buddies) who have the passion in educating young adults and children. We have various opportunities you could volunteer for:
@@ -47,7 +47,7 @@
                             {{--  <img src="/images/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content">     --}}
                         </div>
 
-                        <div class="donator">
+                        <div class="donator involved">
                             <h2>EVERY GIVING COUNTS AND CONTRIBUTE TO <span>MAKE AN EVERLASTING </span> IMPACT TO OTHERS</h2>
 
                             <p>
@@ -63,7 +63,7 @@
 
                         </div>
 
-                        <div class="merchandise">
+                        <div class="merchandise involved">
                             <h2> SUPPORT US BY PURCHASING OUR <span>MERCHANDISE</span></h2>
 
                             <p>
@@ -74,17 +74,23 @@
                                 <div class="row">
                                     <div class="col-md-4 item">
                                         <img src="/images/Be involved_merchandise_tshirt.png" alt="tshirt" class="img-responsive">
-                                        <p>INFINITUDE Tshirt   <strong class="price">$10</strong> </p>
+                                        <div class="item-description">
+                                            <p>INFINITUDE Tshirt   <strong class="price">$10</strong> </p>
+                                        </div>
                                     </div>
 
                                     <div class="col-md-4 item">
                                         <img src="/images/Be involved_merchandise_umbrella.png" alt="umbrella" class="img-responsive">
-                                        <p>INFINITUDE Umbrella <strong class="price">$12</strong> </p>
+                                        <div class="item-description">
+                                            <p>INFINITUDE Umbrella <strong class="price">$12</strong> </p>
+                                        </div>
                                     </div>
 
                                     <div class="col-md-4 item">
                                         <img src="/images/Be involved_merchandise_mug.png" alt="mug" class="img-responsive">
-                                        <p>INFINITUDE Mug <strong class="price">$15</strong> </p>
+                                        <div class="item-description">
+                                            <p>INFINITUDE Mug <strong class="price">$15</strong> </p>
+                                        </div>
                                     </div>
 
                                 </div>
