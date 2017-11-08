@@ -17,6 +17,9 @@
     {{--  Programs - Forum, Seminar Workshop  --}}
     @include('layouts.sections.section5')
 
+    {{--  Be Involved  --}}
+    @include('layouts.sections.section6')
+
 @endsection
 
 
