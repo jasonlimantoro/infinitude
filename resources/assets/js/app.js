@@ -11,6 +11,7 @@ require('./components/interactive');
 require('./components/carousel');
 require('./components/working_guide');
 require('./components/involved');
+require('./components/smoothScroll');
 
 window.Vue = require('vue');
 

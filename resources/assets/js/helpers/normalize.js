@@ -28,3 +28,12 @@ let container = [
 for (var i = 0; i < container.length; i++) {
     $(container[i]).css('height', heightSection);
 }
+
+// for section 6
+var boxes = document.getElementsByClassName('be-involved-box');
+var boxContents = document.getElementsByClassName('box-content');
+var involveds = document.getElementsByClassName('involved');
+var boxHeight = boxes[0].clientHeight * boxes.length - 10;
+for (let i = 0; i < involveds.length; i++) {
+    $(involveds[i]).css('min-height', boxHeight);
+}

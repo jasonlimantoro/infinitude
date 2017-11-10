@@ -1,13 +1,13 @@
 .section6 {
     .container-be-involved {
-        .section-title {
-            h1 {
-                margin-left: 10%;
-            }
+        h1 {
+            margin-left: 10%;
+            margin-bottom: 25px;
         }
         .be-involved-box-container {
             margin-left: 11%;
             .be-involved-box {
+                min-height: 213px;
                 .box-content {
                     text-align: center;
                     margin-bottom: 10px;
@@ -35,7 +35,7 @@
             .volunteer, .donator, .merchandise {
                 padding: 25px;
                 border: 1px solid white;
-                min-height: 517px;
+                // min-height: 600px;
             }
             .involved {
                 display: none;
@@ -60,11 +60,17 @@
             }
             .background-content {
                 display: inline-block;
-                max-width: 70%;
+                max-width: 60%;
                 position: absolute;
-                right: -15%;
-                bottom: -15%;
                 z-index: 200;
+                &.volunteer-img {
+                    right: 0;
+                    bottom: 0%;
+                }
+                &.donator-img {
+                    right: 0%;
+                    bottom: 0;
+                }
             }
             .merchandise {
                 .item {

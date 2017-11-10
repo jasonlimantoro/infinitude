@@ -773,7 +773,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(9);
-module.exports = __webpack_require__(44);
+module.exports = __webpack_require__(45);
 
 
 /***/ }),
@@ -792,9 +792,10 @@ __webpack_require__(35);
 __webpack_require__(36);
 __webpack_require__(37);
 __webpack_require__(38);
+__webpack_require__(39);
 __webpack_require__(55);
 
-window.Vue = __webpack_require__(39);
+window.Vue = __webpack_require__(40);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -802,7 +803,7 @@ window.Vue = __webpack_require__(39);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', __webpack_require__(40));
+Vue.component('example-component', __webpack_require__(41));
 
 var app = new Vue({
   el: '#app'
@@ -31723,6 +31724,15 @@ for (var i = 0; i < container.length; i++) {
     $(container[i]).css('height', heightSection);
 }
 
+// for section 6
+var boxes = document.getElementsByClassName('be-involved-box');
+var boxContents = document.getElementsByClassName('box-content');
+var involveds = document.getElementsByClassName('involved');
+var boxHeight = boxes[0].clientHeight * boxes.length - 10;
+for (var _i = 0; _i < involveds.length; _i++) {
+    $(involveds[_i]).css('min-height', boxHeight);
+}
+
 /***/ }),
 /* 36 */
 /***/ (function(module, exports) {
@@ -31933,6 +31943,35 @@ function showCaption(n) {
 
 /***/ }),
 /* 39 */
+/***/ (function(module, exports) {
+
+window.currentInvolved = currentInvolved;
+
+var involvedIndex = 0;
+showInvolved(involvedIndex);
+
+function currentInvolved(n) {
+    involvedIndex = n;
+    showInvolved(n);
+}
+
+function showInvolved(n) {
+    involveds = document.getElementsByClassName('involved');
+    boxes = document.getElementsByClassName('box-content');
+
+    $(involveds[n]).addClass('show-involved');
+    $(boxes[n]).addClass('active');
+
+    for (var i = 0; i < involveds.length; i++) {
+        if (i != n) {
+            $(involveds[i]).removeClass('show-involved');
+            $(boxes[i]).removeClass('active');
+        }
+    }
+}
+
+/***/ }),
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42132,15 +42171,15 @@ module.exports = Vue$3;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)))
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
-var normalizeComponent = __webpack_require__(41)
+var normalizeComponent = __webpack_require__(42)
 /* script */
-var __vue_script__ = __webpack_require__(42)
+var __vue_script__ = __webpack_require__(43)
 /* template */
-var __vue_template__ = __webpack_require__(43)
+var __vue_template__ = __webpack_require__(44)
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
@@ -42180,7 +42219,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports) {
 
 /* globals __VUE_SSR_CONTEXT__ */
@@ -42289,7 +42328,7 @@ module.exports = function normalizeComponent (
 
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42318,7 +42357,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 });
 
 /***/ }),
-/* 43 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -42361,13 +42400,12 @@ if (false) {
 }
 
 /***/ }),
-/* 44 */
+/* 45 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 45 */,
 /* 46 */,
 /* 47 */,
 /* 48 */,
@@ -42380,30 +42418,27 @@ if (false) {
 /* 55 */
 /***/ (function(module, exports) {
 
-window.currentInvolved = currentInvolved;
-
-var involvedIndex = 0;
-showInvolved(involvedIndex);
-
-function currentInvolved(n) {
-    involvedIndex = n;
-    showInvolved(n);
-}
-
-function showInvolved(n) {
-    involveds = document.getElementsByClassName('involved');
-    boxes = document.getElementsByClassName('box-content');
-
-    $(involveds[n]).addClass('show-involved');
-    $(boxes[n]).addClass('active');
-
-    for (var i = 0; i < involveds.length; i++) {
-        if (i != n) {
-            $(involveds[i]).removeClass('show-involved');
-            $(boxes[i]).removeClass('active');
+// Select all links with hashes
+$('a[href*="#"]')
+// Remove links that don't actually link to anything
+.not('[href="#"]').not('[href="#0"]').click(function (event) {
+    // On-page links
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top - 70
+            }, {
+                duration: 1500
+            });
         }
     }
-}
+});
 
 /***/ })
 /******/ ]);

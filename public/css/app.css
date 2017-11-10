@@ -9057,12 +9057,17 @@ form .form-group .form-control:focus {
   padding-top: 25px;
 }
 
-.section6 .container-be-involved .section-title h1 {
+.section6 .container-be-involved h1 {
   margin-left: 10%;
+  margin-bottom: 25px;
 }
 
 .section6 .container-be-involved .be-involved-box-container {
   margin-left: 11%;
+}
+
+.section6 .container-be-involved .be-involved-box-container .be-involved-box {
+  min-height: 213px;
 }
 
 .section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content {
@@ -9095,7 +9100,7 @@ form .form-group .form-control:focus {
 .section6 .container-be-involved .be-involved-content-container .volunteer,
 .section6 .container-be-involved .be-involved-content-container .donator,
 .section6 .container-be-involved .be-involved-content-container .merchandise {
-  padding: 15px;
+  padding: 25px;
   border: 1px solid white;
 }
 
@@ -9126,7 +9131,19 @@ form .form-group .form-control:focus {
 
 .section6 .container-be-involved .be-involved-content-container .background-content {
   display: inline-block;
-  max-width: 100%;
+  max-width: 60%;
+  position: absolute;
+  z-index: 200;
+}
+
+.section6 .container-be-involved .be-involved-content-container .background-content.volunteer-img {
+  right: 0;
+  bottom: 0%;
+}
+
+.section6 .container-be-involved .be-involved-content-container .background-content.donator-img {
+  right: 0%;
+  bottom: 0;
 }
 
 .section6 .container-be-involved .be-involved-content-container .merchandise .item .item-description {
@@ -9140,15 +9157,6 @@ form .form-group .form-control:focus {
 .section5 .row,
 .section6 .row {
   background-color: #302d2c;
-}
-
-.section1 .title,
-.section2 .title,
-.section3 .title,
-.section4 .title,
-.section5 .title,
-.section6 .title {
-  padding-top: 50px;
 }
 
 body {

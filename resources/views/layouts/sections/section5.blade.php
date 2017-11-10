@@ -2,7 +2,7 @@
     <div class="row row-center container-program title" id="programs">
         <div class="col-md-12">
             <div class="section-title">
-                <h3>PROGRAMS</h3>
+                <h1>PROGRAMS</h1>
                 <p>How <strong>INFINITUDE</strong> works</p>
             </div>
             <div class="row thumbnail-container">

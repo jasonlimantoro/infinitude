@@ -29,14 +29,7 @@
                                 <li><a href="#organization">Organization</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programs<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#programs">Forum</a></li>
-                                <li><a href="#programs">Seminar</a></li>
-                                <li><a href="#programs">Workshop</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="#programs">Programs</a></li>
                     </ul>
                 </div>
 
@@ -50,15 +43,7 @@
                 {{--  right-to-logo  --}}
                 <div class="col-sm-5 col-md-4 right-to-logo">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#be-involved" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Be Involved<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Become a Volunteer</a></li>
-                                <li><a href="#">Become a Donator</a></li>
-                                <li><a href="#">Infinitude Merchandise</a></li>
-                            </ul>
-                        </li>
-
+                        <li><a href="#be-involved">Be Involved</a></li>
                         <li class="dropdown">
                             <a href="#gallery" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
                             <ul class="dropdown-menu">
