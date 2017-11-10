@@ -33,8 +33,9 @@
         }
         .be-involved-content-container {
             .volunteer, .donator, .merchandise {
-                padding: 15px;
+                padding: 25px;
                 border: 1px solid white;
+                min-height: 517px;
             }
             .involved {
                 display: none;
@@ -59,7 +60,11 @@
             }
             .background-content {
                 display: inline-block;
-                max-width: 100%;
+                max-width: 70%;
+                position: absolute;
+                right: -15%;
+                bottom: -15%;
+                z-index: 200;
             }
             .merchandise {
                 .item {

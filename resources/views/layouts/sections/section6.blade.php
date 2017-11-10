@@ -1,5 +1,5 @@
 <div class="section6">
-    <div class="row container-be-involved">
+    <div class="row container-be-involved title" id="be-involved">
         <div class="row section-title">
             <h1>BE INVOLVED</h1>
             <div class="col-md-12">
@@ -44,7 +44,7 @@
                                 <img src="/images/icons/email.png" alt="email" class="icon">
                                 Send the form to our <strong> <a href="#">email</a></strong>
                             </p>
-                            {{--  <img src="/images/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content">     --}}
+                            <img src="/images/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content">   
                         </div>
 
                         <div class="donator involved">
@@ -59,7 +59,7 @@
                                 <img src="/images/icons/Donate.png" alt="donate">
                                 To make a donation click <a href="#"><strong>here</strong></a>
                             </p>
-                            {{--  <img src="/images/Be involved_Donatur_BG.png" alt="donatur">  --}}
+                            <img src="/images/Be involved_Donatur_BG.png" alt="donatur" class="img-responsive background-content">
 
                         </div>
 
@@ -75,14 +75,14 @@
                                     <div class="col-md-4 item">
                                         <img src="/images/Be involved_merchandise_tshirt.png" alt="tshirt" class="img-responsive">
                                         <div class="item-description">
-                                            <p>INFINITUDE Tshirt   <strong class="price">$10</strong> </p>
+                                            <p>INFINITUDE Tshirt<strong class="price">$10</strong> </p>
                                         </div>
                                     </div>
 
                                     <div class="col-md-4 item">
                                         <img src="/images/Be involved_merchandise_umbrella.png" alt="umbrella" class="img-responsive">
                                         <div class="item-description">
-                                            <p>INFINITUDE Umbrella <strong class="price">$12</strong> </p>
+                                            <p>INFINITUDE Umbrella<strong class="price">$12</strong> </p>
                                         </div>
                                     </div>
 
