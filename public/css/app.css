@@ -8956,6 +8956,7 @@ form .form-group .form-control:focus {
 .section5 .thumbnail-container .thumbnail {
   padding: 0;
   background-color: white;
+  border: none;
 }
 
 .section5 .thumbnail-container .thumbnail .caption {
@@ -8998,6 +8999,7 @@ form .form-group .form-control:focus {
 }
 
 .section5 .working-guide-container {
+  margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -9156,6 +9158,15 @@ form .form-group .form-control:focus {
 .section5 .row,
 .section6 .row {
   background-color: #302d2c;
+}
+
+.section1 .section-title,
+.section2 .section-title,
+.section3 .section-title,
+.section4 .section-title,
+.section5 .section-title,
+.section6 .section-title {
+  padding-top: 50px;
 }
 
 body {

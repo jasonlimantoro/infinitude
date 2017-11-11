@@ -1,6 +1,9 @@
 <div class="section6">
     <div class="row container-be-involved" id="be-involved">
-        <h1>BE INVOLVED</h1>
+
+        <div class="section-title">
+            <h1>BE INVOLVED</h1>
+        </div>
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-offset-1 col-md-2 be-involved-box-container">

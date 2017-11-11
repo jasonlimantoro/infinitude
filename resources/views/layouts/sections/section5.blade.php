@@ -1,10 +1,10 @@
 <div class="section5" >
     <div class="row row-center container-program title" id="programs">
+        <div class="section-title">
+            <h1>PROGRAMS</h1>
+            <p>How <strong>INFINITUDE</strong> works</p>
+        </div>
         <div class="col-md-12">
-            <div class="section-title">
-                <h1>PROGRAMS</h1>
-                <p>How <strong>INFINITUDE</strong> works</p>
-            </div>
             <div class="row thumbnail-container">
                 
                 <div class="col-md-3 col-center">
