@@ -8367,14 +8367,13 @@ button.close {
 }
 
 .navbar-default {
-  background-color: #232221;
+  background-color: transparent;
   background-image: url("/images/Menu_top.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 0px;
-  border: 0;
-  border-radius: 0;
+  border: none;
   font-size: 14px;
 }
 
@@ -9161,6 +9160,7 @@ form .form-group .form-control:focus {
 
 body {
   position: relative;
+  background-color: #302d2c;
 }
 
 .clearfix::after {

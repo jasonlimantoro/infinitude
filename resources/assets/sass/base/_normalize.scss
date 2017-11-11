@@ -1,6 +1,7 @@
 body {
     // for scroll-spy in order to work properly
     position: relative;
+    background-color: $dark-grey-default;
 }
 
 .clearfix::after {
