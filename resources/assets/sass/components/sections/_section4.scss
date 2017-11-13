@@ -14,11 +14,11 @@
         position: relative;
         margin-top: 25px;
         .profile {
-            display: none;
-            &.show-profile {
-                display: inline-block !important;
+            &:not(.slick-slide) {
+                display: none;
             }
         }
+        
         .profile-box {
             border: 1px solid white;
             .profile-img {
@@ -61,25 +61,6 @@
                     }
                 }
             }
-        }
-        .prev, .next {
-            position: absolute;
-            font-size: 20px;
-            color: white;
-            &:hover {
-                text-decoration: none;
-                cursor: pointer;
-            }
-
-        }
-        .prev {
-            top: 50%;
-            left: 10%;
-        }
-
-        .next {
-            top: 50%;
-            right: 10%;
         }
     }
 }

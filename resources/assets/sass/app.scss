@@ -9,6 +9,10 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
+// vendors
+@import "vendors/slick/slick";
+@import "vendors/slick/slick-theme";
+
 // components
 @import "components/navigation";
 @import "components/footer";
