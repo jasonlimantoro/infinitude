@@ -44,7 +44,7 @@
                             <img src="/images/icons/form.png" alt="form" class="icon">
                             Download the form <strong> <a href="#">here</a></strong> <br>
                             <img src="/images/icons/email.png" alt="email" class="icon">
-                            Send the form to our <strong> <a href="#">email</a></strong>
+                            Send the form to our <strong> <a href="mailto: {{ $mailto }}">email</a></strong>
                         </p>
                         <img src="/images/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content volunteer-img">   
                     </div>
