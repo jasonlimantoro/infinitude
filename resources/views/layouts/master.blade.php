@@ -7,6 +7,7 @@
     <title>Infinitude</title>
     {{--  Main css asset  --}}
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="shortcut icon" href="/images/Home_BG.png" type="image/x-icon">
 </head>
 <body>
     {{--  Navigation  --}}
