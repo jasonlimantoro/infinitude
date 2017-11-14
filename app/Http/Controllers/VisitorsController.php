@@ -9,27 +9,29 @@ use App\Mail\VisitorContact;
 class VisitorsController extends Controller
 {
     public function send() {
-        // create a new visitor from the requested data
-        $visitor = [
-            'name' => request('name'),
-            'email' => request('email'),
-            'message' => request('message')
-        ];
+        // Validate the form
         $this->validate(request(), [
             'name' => 'required|min:5',
             'email' => 'required|email',
             'message' => 'required|max:200'
-        ]);
+            ]);
+        
+        // create a new visitor from the requested data and save it to database
+        $visitor = Visitor::create(
+            request(
+                [
+                    'name', 
+                    'email', 
+                    'message'
+                ]
+        ));
 
         // Send the email to the administrator's gmail
         $mailto = 'jasonlimantoro99@gmail.com';
         \Mail::to($mailto)->send(new VisitorContact($visitor));
 
         if (! \Mail::failures()) {
-            // upon sucessful, save it to the database
-            Visitor::create($visitor);
-
-            // and send a flash message
+        // upon successful, send a flash message
             session()->flash('message', 'Thank you for contacting us! We will get back to you soon!');
         }
         // Redirect to the bottom page

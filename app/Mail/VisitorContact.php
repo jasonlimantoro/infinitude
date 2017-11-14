@@ -6,6 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use App\Visitor;
 
 class VisitorContact extends Mailable
 {
@@ -16,8 +17,8 @@ class VisitorContact extends Mailable
      *
      * @return void
      */
-    protected $visitor;
-    public function __construct($visitor)
+    public $visitor;
+    public function __construct(Visitor $visitor)
     {
         $this->visitor = $visitor;
     }
@@ -32,9 +33,9 @@ class VisitorContact extends Mailable
         return $this->view('mails.visitor')
                     ->subject('Visitor Comments')
                     -> with([
-                        'visitorName' => $this->visitor['name'],
-                        'visitorEmail' => $this->visitor['email'],
-                        'visitorMessage' => $this->visitor['message']
+                        'visitorName' => $this->visitor->name,
+                        'visitorEmail' => $this->visitor->email,
+                        'visitorMessage' => $this->visitor->message
                     ]);
     }
 }
