@@ -57,7 +57,7 @@
                 position: absolute;
                 display: inline-block;
                 transition: all 1s;
-                &.active {
+                &.active, &:hover {
                     background-color: $dark-orange-default;
                 }
             }
@@ -65,6 +65,9 @@
                 position: absolute;
                 display: inline-block;
                 color: white;
+                span {
+                    font-family: Apercu-Bold;
+                }
             }
         }
     }

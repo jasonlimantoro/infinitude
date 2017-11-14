@@ -21,11 +21,15 @@ let bottom = calculateBottom(percentageBottom);
 let left = calculateLeft(percentageLeft);
 
 // The date array
-let date_array = ['SEP 2016', 'JAN 2017', 'APR 2017', 'MAY 2017', 'AUG 2017', 'DEC 2017'];
+let month_array = ['SEP', 'JAN', 'APR', 'MAY', 'AUG', 'DEC'];
+let year_array = [' 2016', ' 2017', ' 2017', ' 2017', ' 2017', ' 2017'];
 for (var index = 0; index < 6 ; index++) {
-    nodeDate = document.createTextNode(date_array[index]);
-    createDate(bottom + 60, left - 15, nodeDate);
-    createCircle(bottom, left);
+    nodeSpan = document.createTextNode(year_array[index]);
+    spanElement = document.createElement('span');
+    spanElement.appendChild(nodeSpan);
+    nodeDate = document.createTextNode(month_array[index]);
+    createDate(bottom + 60, left - 25, nodeDate, spanElement, index + 1);
+    createCircle(bottom, left, index + 1);
     // Exponentially rising
     percentageBottom += baseRise + (index * exponentRise);
 
@@ -38,29 +42,36 @@ for (var index = 0; index < 6 ; index++) {
 
 }
 
-function createCircle(bottom, left) {
+function createCircle(bottom, left, slideNumber) {
     // bottom and left arguments are the position of the circle
     // Create DOM element and assign style to it
     let div = document.createElement("div");
     div.className = 'circle';
     div.style.bottom = bottom + 'px';
     div.style.left = left + 'px';
+    div.onclick = function () {
+        currentSlide(slideNumber);
+    } 
     
     // Append the DOM to the container
     let container = document.querySelector('.section3 .interactive');
     container.appendChild(div);
 }
-function createDate(bottom, left, node) {
-    let div = document.createElement('h4');
+function createDate(bottom, left, node, spanElement, index) {
+    let headingDate = document.createElement('h3');
     // add node to the date
-    div.appendChild(node);
-    div.className = 'date';
-    div.style.bottom = bottom + 'px';
-    div.style.left = left + 'px';
+    headingDate.appendChild(node);
+    headingDate.appendChild(spanElement);
+    headingDate.className = 'date';
+    headingDate.style.bottom = bottom + 'px';
+    headingDate.style.left = left + 'px';
+    if (index > 3) {
+        headingDate.style.color = 'black';
+    }
 
     // Append the DOM to the container
     let container = document.querySelector('.section3 .interactive');
-    container.appendChild(div);
+    container.appendChild(headingDate);
 }
 
 function calculateBottom(percentage) {
@@ -101,11 +112,11 @@ function showSlides(n) {
         slides[i].style.display = "none";
 
         // remove active class from other circles
-        circles[i].className = circles[i].className.replace(' active', '');
+        $(circles[i]).removeClass('active');
     }
     // display current slide
     slides[slideIndex-1].style.display = "block";
 
     // add active class to current circle
-    circles[slideIndex-1].className += ' active';
+    $(circles[slideIndex-1]).addClass('active');
 }

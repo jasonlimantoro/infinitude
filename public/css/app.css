@@ -8861,6 +8861,11 @@ footer p.copyright {
   src: url("/fonts/apercu/Apercu.otf");
 }
 
+@font-face {
+  font-family: Apercu-Bold;
+  src: url("/fonts/Apercu/Apercu-Bold.otf");
+}
+
 h1,
 h2,
 h3,
@@ -9112,7 +9117,8 @@ form .form-group .form-control:focus {
   transition: all 1s;
 }
 
-.section3 .container-history .interactive .circle.active {
+.section3 .container-history .interactive .circle.active,
+.section3 .container-history .interactive .circle:hover {
   background-color: #bd4e03;
 }
 
@@ -9120,6 +9126,10 @@ form .form-group .form-control:focus {
   position: absolute;
   display: inline-block;
   color: white;
+}
+
+.section3 .container-history .interactive .date span {
+  font-family: Apercu-Bold;
 }
 
 .section4 .container-organization {
