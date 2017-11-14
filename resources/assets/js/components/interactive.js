@@ -28,7 +28,7 @@ for (var index = 0; index < 6 ; index++) {
     spanElement = document.createElement('span');
     spanElement.appendChild(nodeSpan);
     nodeDate = document.createTextNode(month_array[index]);
-    createDate(bottom + 60, left - 25, nodeDate, spanElement, index + 1);
+    createDate(bottom + 45, left - 25, nodeDate, spanElement, index + 1);
     createCircle(bottom, left, index + 1);
     // Exponentially rising
     percentageBottom += baseRise + (index * exponentRise);

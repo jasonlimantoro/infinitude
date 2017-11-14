@@ -11,6 +11,9 @@
 
 h1, h2, h3, h4, h5, h6 {
     color: $orange-default;
+    span {
+        font-family: Apercu-Bold;
+    }
 }
 p {
     font-family: "Avenir";

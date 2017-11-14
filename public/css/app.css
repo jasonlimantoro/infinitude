@@ -8875,6 +8875,15 @@ h6 {
   color: #fc9d5d;
 }
 
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+  font-family: Apercu-Bold;
+}
+
 p {
   font-family: "Avenir";
   color: white;
@@ -9126,10 +9135,6 @@ form .form-group .form-control:focus {
   position: absolute;
   display: inline-block;
   color: white;
-}
-
-.section3 .container-history .interactive .date span {
-  font-family: Apercu-Bold;
 }
 
 .section4 .container-organization {

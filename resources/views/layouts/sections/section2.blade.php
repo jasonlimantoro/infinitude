@@ -1,6 +1,6 @@
 <div class="section2">
     <div class="row about">
-        <h1> <span>ABOUT</span> INFINITUDE</h1>
+        <h1> ABOUT <span>INFINITUDE</span></h1>
     </div>
     
     <div class="row bg-about">
