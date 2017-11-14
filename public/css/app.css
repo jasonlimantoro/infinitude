@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@charset "UTF-8";
 
 /* ----------- iPhone 4 and 4S ----------- */
 
@@ -8863,7 +8863,7 @@ footer p.copyright {
 
 @font-face {
   font-family: Apercu-Bold;
-  src: url("/fonts/Apercu/Apercu-Bold.otf");
+  src: url("/fonts/apercu/Apercu-Bold.otf");
 }
 
 h1,
