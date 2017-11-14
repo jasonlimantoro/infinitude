@@ -8822,10 +8822,6 @@ footer h1 {
   text-align: center;
 }
 
-footer img {
-  visibility: hidden;
-}
-
 footer .container-fluid {
   background-color: #302d2c;
   background-image: url("/images/contact_us_BG.png");
@@ -8833,8 +8829,13 @@ footer .container-fluid {
   background-repeat: no-repeat;
 }
 
+footer .container-fluid .social {
+  margin-bottom: 25px;
+}
+
 footer .alert.alert-danger li {
   text-align: left;
+  color: #a94442;
 }
 
 footer .alert.alert-success {

@@ -2,14 +2,14 @@ footer {
     h1 {
         text-align: center;
     }
-    img {
-        visibility: hidden;
-    }
     .container-fluid {
         background-color: $dark-grey-default;
         background-image: url('/images/contact_us_BG.png');
         background-size: cover;
         background-repeat: no-repeat;
+        .social {
+            margin-bottom: 25px;
+        }
     }
     .alert {
         &.alert-danger {

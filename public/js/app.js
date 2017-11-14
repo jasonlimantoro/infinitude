@@ -11011,9 +11011,8 @@ module.exports = __webpack_require__(42);
 
 /***/ }),
 /* 9 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
 __webpack_require__(10);
 
 // helpers
@@ -11021,13 +11020,13 @@ __webpack_require__(35);
 
 // components
 __webpack_require__(36);
+__webpack_require__(37);
 __webpack_require__(38);
 __webpack_require__(39);
-__webpack_require__(40);
 
 // components and their dependencies
+__webpack_require__(40);
 __webpack_require__(41);
-__webpack_require__(58);
 
 /***/ }),
 /* 10 */
@@ -31838,8 +31837,7 @@ function showSlides(n) {
 }
 
 /***/ }),
-/* 37 */,
-/* 38 */
+/* 37 */
 /***/ (function(module, exports) {
 
 window.currentCaption = currentCaption;
@@ -31875,7 +31873,7 @@ function showCaption(n) {
 }
 
 /***/ }),
-/* 39 */
+/* 38 */
 /***/ (function(module, exports) {
 
 window.currentInvolved = currentInvolved;
@@ -31904,7 +31902,7 @@ function showInvolved(n) {
 }
 
 /***/ }),
-/* 40 */
+/* 39 */
 /***/ (function(module, exports) {
 
 // Select all links with hashes
@@ -31930,7 +31928,7 @@ $('a[href*="#"]')
 });
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -32361,28 +32359,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 });
 
 /***/ }),
-/* 42 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */,
-/* 55 */,
-/* 56 */,
-/* 57 */,
-/* 58 */
+/* 41 */
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
@@ -32401,6 +32378,12 @@ $(document).ready(function () {
         }]
     });
 });
+
+/***/ }),
+/* 42 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
