@@ -22,7 +22,8 @@ class VisitorsController extends Controller
         ]);
 
         // Send the email to the administrator's gmail
-        \Mail::to('jasonlimantoro99@gmail.com')->send(new VisitorContact($visitor));
+        $mailto = 'jasonlimantoro99@gmail.com';
+        \Mail::to($mailto)->send(new VisitorContact($visitor));
 
         if (! \Mail::failures()) {
             // upon sucessful, save it to the database

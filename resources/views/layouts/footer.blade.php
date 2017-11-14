@@ -35,7 +35,7 @@
         </div>
         <div class="row row-center">
             <div class="col-md-1 col-xs-3 col-center">
-                <a href="mailto:jasonlimantoro99@gmail.com" target="_blank">
+                <a href="mailto:{{ $mailto }}" target="_blank">
                     <img src="/images/icons/mailto.png" alt="mailto" class="img-responsive">
                 </a>
             </div>

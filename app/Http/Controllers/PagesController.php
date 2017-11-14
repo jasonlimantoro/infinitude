@@ -7,8 +7,8 @@ use App\Visitor;
 class PagesController extends Controller
 {
     public function index() {
-        // return session('message');
-        return view('pages.index');
+        $mailto = 'jasonlimantoro99@gmail.com';
+        return view('pages.index', compact('mailto'));
     }
 
 }
