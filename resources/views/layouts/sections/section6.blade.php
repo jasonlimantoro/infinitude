@@ -101,7 +101,7 @@
 
                         <p>
                             <img src="/images/icons/email.png" alt="email" class="icon">
-                            To make a purchase, please <strong><a href="#">email</a></strong> us 
+                            To make a purchase, please <strong><a href="mailto: {{ $mailto }}">email</a></strong> us 
                         
                         </p>
                     
