@@ -89,23 +89,23 @@ function calculateLeft(percentage) {
 }
 
 // Slide functions
-var slideIndex = 1;
-showSlides(slideIndex);
+var modalSlideIndex = 1;
+showSlides(modalSlideIndex);
 
 function plusSlide(n) {
-    showSlides(slideIndex += n);
+    showSlides(modalSlideIndex += n);
 }
 
 function currentSlide(n) {
-    showSlides(slideIndex = n);
+    showSlides(modalSlideIndex = n);
 }
 
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName('slide');
     var circles = document.getElementsByClassName('circle');
-    if (n > slides.length) {slideIndex = 1} 
-    if (n < 1) {slideIndex = slides.length}
+    if (n > slides.length) {modalSlideIndex = 1} 
+    if (n < 1) {modalSlideIndex = slides.length}
 
     for (i = 0; i < slides.length; i++) {
         // hide other slides
@@ -115,8 +115,8 @@ function showSlides(n) {
         $(circles[i]).removeClass('active');
     }
     // display current slide
-    slides[slideIndex-1].style.display = "block";
+    slides[modalSlideIndex-1].style.display = "block";
 
     // add active class to current circle
-    $(circles[slideIndex-1]).addClass('active');
+    $(circles[modalSlideIndex-1]).addClass('active');
 }

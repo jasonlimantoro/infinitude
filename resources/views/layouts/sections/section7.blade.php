@@ -57,24 +57,24 @@
                     <div class="gallery sehat">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_1.png" alt="Wonder Woman" class="img-responsive">    
+                                <img src="/images/Wonder Woman_1.png" alt="Sehat 1" class="img-responsive" onclick="openModal();currentModalSlide(0)">    
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_2.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_2.png" alt="Sehat 2" class="img-responsive" onclick="openModal();currentModalSlide(1)">
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_3.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_3.png" alt="Sehat 3" class="img-responsive" onclick="openModal();currentModalSlide(2)">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_4.png" alt="Wonder Woman" class="img-responsive">    
+                                <img src="/images/Wonder Woman_4.png" alt="Sehat 4" class="img-responsive" onclick="openModal();currentModalSlide(3)">    
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_5.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_5.png" alt="Sehat 5" class="img-responsive" onclick="openModal();currentModalSlide(4)">
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_6.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_6.png" alt="Sehat 6" class="img-responsive" onclick="openModal();currentModalSlide(5)">
                             </div>
                         </div>
                     
@@ -82,54 +82,56 @@
                     <div class="gallery general-meeting">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_1.png" alt="Wonder Woman" class="img-responsive">    
+                                <img src="/images/Wonder Woman_1.png" alt="General 1" class="img-responsive" onclick="openModal();currentModalSlide(0)">    
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_2.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_2.png" alt="General 2" class="img-responsive" onclick="openModal();currentModalSlide(1)">
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_3.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_3.png" alt="General 3" class="img-responsive" onclick="openModal();currentModalSlide(2)">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_4.png" alt="Wonder Woman" class="img-responsive">    
+                                <img src="/images/Wonder Woman_4.png" alt="General 4" class="img-responsive" onclick="openModal();currentModalSlide(3)">    
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_5.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_5.png" alt="General 5" class="img-responsive" onclick="openModal();currentModalSlide(4)">
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_6.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_6.png" alt="General 6" class="img-responsive" onclick="openModal();currentModalSlide(5)">
                             </div>
                         </div>
                     </div>
                     <div class="gallery wonder-woman">
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_1.png" alt="Wonder Woman" class="img-responsive">    
+                                <img src="/images/Wonder Woman_1.png" alt="Wonder Woman" class="img-responsive" onclick="openModal();currentModalSlide(0)">    
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_2.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_2.png" alt="Wonder Woman" class="img-responsive" onclick="openModal();currentModalSlide(1)">
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_3.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_3.png" alt="Wonder Woman" class="img-responsive" onclick="openModal();currentModalSlide(2)">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_4.png" alt="Wonder Woman" class="img-responsive">    
+                                <img src="/images/Wonder Woman_4.png" alt="Wonder Woman" class="img-responsive" onclick="openModal();currentModalSlide(3)">    
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_5.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_5.png" alt="Wonder Woman" class="img-responsive" onclick="openModal();currentModalSlide(4)">
                             </div>
                             <div class="col-md-4">
-                                <img src="/images/Wonder Woman_6.png" alt="Wonder Woman" class="img-responsive">
+                                <img src="/images/Wonder Woman_6.png" alt="Wonder Woman" class="img-responsive" onclick="openModal();currentModalSlide(5)">
                             </div>
                         </div>
                     
                     </div>
                 </div>
             </div>
+
+            @include('layouts.modal')
 
         </div>
     </div>

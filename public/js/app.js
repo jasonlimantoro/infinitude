@@ -11024,6 +11024,7 @@ __webpack_require__(37);
 __webpack_require__(38);
 __webpack_require__(39);
 __webpack_require__(53);
+__webpack_require__(54);
 
 // components and their dependencies
 __webpack_require__(40);
@@ -31812,15 +31813,15 @@ function calculateLeft(percentage) {
 }
 
 // Slide functions
-var slideIndex = 1;
-showSlides(slideIndex);
+var modalSlideIndex = 1;
+showSlides(modalSlideIndex);
 
 function plusSlide(n) {
-    showSlides(slideIndex += n);
+    showSlides(modalSlideIndex += n);
 }
 
 function currentSlide(n) {
-    showSlides(slideIndex = n);
+    showSlides(modalSlideIndex = n);
 }
 
 function showSlides(n) {
@@ -31828,10 +31829,10 @@ function showSlides(n) {
     var slides = document.getElementsByClassName('slide');
     var circles = document.getElementsByClassName('circle');
     if (n > slides.length) {
-        slideIndex = 1;
+        modalSlideIndex = 1;
     }
     if (n < 1) {
-        slideIndex = slides.length;
+        modalSlideIndex = slides.length;
     }
 
     for (i = 0; i < slides.length; i++) {
@@ -31842,10 +31843,10 @@ function showSlides(n) {
         $(circles[i]).removeClass('active');
     }
     // display current slide
-    slides[slideIndex - 1].style.display = "block";
+    slides[modalSlideIndex - 1].style.display = "block";
 
     // add active class to current circle
-    $(circles[slideIndex - 1]).addClass('active');
+    $(circles[modalSlideIndex - 1]).addClass('active');
 }
 
 /***/ }),
@@ -32413,11 +32414,11 @@ $(document).ready(function () {
 
 window.currentGallery = currentGallery;
 
-var galleryIndex = 0;
+window.galleryIndex = 0;
 showGallery(galleryIndex);
 
 function currentGallery(n) {
-    galleryIndex = n;
+    window.galleryIndex = n;
     showGallery(n);
 }
 
@@ -32437,6 +32438,63 @@ function showGallery(n) {
             $(indicators[i]).removeClass('active');
         }
     }
+}
+
+/***/ }),
+/* 54 */
+/***/ (function(module, exports) {
+
+window.openModal = openModal;
+window.closeModal = closeModal;
+window.showModalSlides = showModalSlides;
+window.plusModalSlide = plusModalSlide;
+window.currentModalSlide = currentModalSlide;
+
+var modals = document.getElementsByClassName('modal');
+
+function openModal() {
+    activeModal = modals[galleryIndex];
+    activeModal.style.display = "block";
+}
+
+function closeModal() {
+    activeModal = modals[galleryIndex];
+    activeModal.style.display = "none";
+}
+
+var modalSlideIndex = 0;
+showModalSlides(modalSlideIndex);
+
+function plusModalSlide(n) {
+    showModalSlides(modalSlideIndex += n);
+}
+
+function currentModalSlide(n) {
+    showModalSlides(modalSlideIndex = n);
+}
+
+function showModalSlides(n) {
+    var activeModal = modals[galleryIndex];
+    var activeModalId = activeModal.id;
+    var slides = document.querySelectorAll("#" + activeModalId + " .modalSlide");
+    var dots = document.querySelectorAll("#" + activeModalId + " .modalSlideIndicator");
+    var captionText = document.querySelector("#" + activeModalId + " #caption");
+    if (n >= slides.length) {
+        modalSlideIndex = 0;
+    }
+    if (n < 0) {
+        modalSlideIndex = slides.length - 1;
+    }
+    $(slides[modalSlideIndex]).addClass('show');
+    $(dots[modalSlideIndex]).addClass('active');
+
+    for (var i = 0; i < slides.length; i++) {
+        if (i != modalSlideIndex) {
+            $(slides[i]).removeClass('show');
+            $(dots[i]).removeClass('active');
+        }
+    }
+    captionText.innerHTML = dots[modalSlideIndex].alt;
 }
 
 /***/ })

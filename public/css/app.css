@@ -8981,6 +8981,191 @@ form .form-group .form-control:focus {
   color: white;
 }
 
+#modalWonderWoman,
+#modalGeneral,
+#modalSehat {
+  background-color: black;
+  padding-top: 25px;
+  /* The Modal (background) */
+  /* Modal Content */
+  /* The Close Button */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Number text (1/3 etc) */
+}
+
+#modalWonderWoman .row > .column,
+#modalGeneral .row > .column,
+#modalSehat .row > .column {
+  padding: 0 8px;
+}
+
+#modalWonderWoman .row:after,
+#modalGeneral .row:after,
+#modalSehat .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#modalWonderWoman .column,
+#modalGeneral .column,
+#modalSehat .column {
+  float: left;
+  width: 16.66666667%;
+}
+
+#modalWonderWoman .modal,
+#modalGeneral .modal,
+#modalSehat .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+#modalWonderWoman .modal-content,
+#modalGeneral .modal-content,
+#modalSehat .modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+#modalWonderWoman .close,
+#modalGeneral .close,
+#modalSehat .close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  opacity: 1;
+}
+
+#modalWonderWoman .close:hover,
+#modalWonderWoman .close:focus,
+#modalGeneral .close:hover,
+#modalGeneral .close:focus,
+#modalSehat .close:hover,
+#modalSehat .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#modalWonderWoman .modalSlide,
+#modalGeneral .modalSlide,
+#modalSehat .modalSlide {
+  display: none;
+  background-color: black;
+}
+
+#modalWonderWoman .prev,
+#modalWonderWoman .next,
+#modalGeneral .prev,
+#modalGeneral .next,
+#modalSehat .prev,
+#modalSehat .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+#modalWonderWoman .next,
+#modalGeneral .next,
+#modalSehat .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#modalWonderWoman .prev,
+#modalGeneral .prev,
+#modalSehat .prev {
+  left: 0px;
+}
+
+#modalWonderWoman .prev:hover,
+#modalWonderWoman .next:hover,
+#modalGeneral .prev:hover,
+#modalGeneral .next:hover,
+#modalSehat .prev:hover,
+#modalSehat .next:hover {
+  background-color: #302d2c;
+}
+
+#modalWonderWoman .numbertext,
+#modalGeneral .numbertext,
+#modalSehat .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+#modalWonderWoman .caption-container,
+#modalGeneral .caption-container,
+#modalSehat .caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+#modalWonderWoman img.modalSlideIndicator,
+#modalGeneral img.modalSlideIndicator,
+#modalSehat img.modalSlideIndicator {
+  opacity: 0.6;
+}
+
+#modalWonderWoman img.modalSlideIndicator.active,
+#modalWonderWoman img.modalSlideIndicator:hover,
+#modalGeneral img.modalSlideIndicator.active,
+#modalGeneral img.modalSlideIndicator:hover,
+#modalSehat img.modalSlideIndicator.active,
+#modalSehat img.modalSlideIndicator:hover {
+  opacity: 1;
+}
+
+#modalWonderWoman img.hover-shadow,
+#modalGeneral img.hover-shadow,
+#modalSehat img.hover-shadow {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#modalWonderWoman .hover-shadow:hover,
+#modalGeneral .hover-shadow:hover,
+#modalSehat .hover-shadow:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .section1 .container-main-background {
   background-image: url("/images/Home_BG_reduced.png");
   background-size: cover;

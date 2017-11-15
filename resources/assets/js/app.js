@@ -9,6 +9,7 @@ require('./components/working_guide');
 require('./components/involved');
 require('./components/smoothScroll');
 require('./components/gallery');
+require('./components/modal');
 
 // components and their dependencies
 require('./vendors/slick/slick.min.js');

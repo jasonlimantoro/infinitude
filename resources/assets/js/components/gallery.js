@@ -1,10 +1,10 @@
 window.currentGallery = currentGallery;
 
-var galleryIndex = 0;
+window.galleryIndex = 0;
 showGallery(galleryIndex);
 
 function currentGallery(n) {
-    galleryIndex = n;
+    window.galleryIndex = n;
     showGallery(n);
 }
 
