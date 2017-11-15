@@ -1,5 +1,40 @@
 .section7 {
     .container-project {
-        height: 90vh;
+        height: 95vh;
+        .row {
+            margin-bottom: 25px;
+        }
+        .project-indicator-container {
+            .project-indicator {
+                img {
+                    opacity: 0.5;
+                }
+                &.active, &:hover {
+                    img {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .project-info-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            .project-info {
+                display: none;
+                &.show {
+                    min-height: 170px;
+                }
+            }
+        }
+        .gallery-container {
+            .gallery {
+                display: none;
+                .row {
+                    margin-bottom: 25px;
+                }
+            }
+        }
     }
 }
