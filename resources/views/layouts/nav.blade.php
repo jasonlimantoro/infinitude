@@ -44,15 +44,7 @@
                 <div class="col-sm-5 col-md-4 right-to-logo">
                     <ul class="nav navbar-nav">
                         <li><a href="#be-involved">Be Involved</a></li>
-                        <li class="dropdown">
-                            <a href="#gallery" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">General Meeting</a></li>
-                                <li><a href="#">Wonder Woman</a></li>
-                                <li><a href="#">Sehat Cerdas Bersama</a></li>
-                            </ul>
-                        </li>
-
+                        <li><a href="#project">Project</a></li>
                         <li><a href="#contact-us">Contact Us</a></li>
                     </ul>
                 </div>
