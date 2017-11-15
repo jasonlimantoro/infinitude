@@ -22,3 +22,9 @@ body {
         display: inline-block !important;
     }
 }
+
+img {
+    &:hover {
+        cursor: pointer;
+   }
+}
