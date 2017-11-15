@@ -34,6 +34,12 @@
                 .row {
                     margin-bottom: 25px;
                 }
+                img {
+                    opacity: 0.6;
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
             }
         }
     }

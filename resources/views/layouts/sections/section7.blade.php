@@ -53,7 +53,7 @@
             </div>
 
             <div class="row row-center gallery-container">
-                <div class="col-md-10 col-center gallery-container">
+                <div class="col-md-10 col-center">
                     <div class="gallery sehat">
                         <div class="row">
                             <div class="col-md-4">

@@ -9649,6 +9649,14 @@ form .form-group .form-control:focus {
   margin-bottom: 25px;
 }
 
+.section7 .container-project .gallery-container .gallery img {
+  opacity: 0.6;
+}
+
+.section7 .container-project .gallery-container .gallery img:hover {
+  opacity: 1;
+}
+
 .section1 .row,
 .section2 .row,
 .section3 .row,
@@ -9692,5 +9700,9 @@ body {
 
 .row-center img {
   display: inline-block !important;
+}
+
+img:hover {
+  cursor: pointer;
 }
 
