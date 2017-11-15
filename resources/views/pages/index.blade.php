@@ -20,6 +20,9 @@
     {{--  Be Involved  --}}
     @include('layouts.sections.section6')
 
+    {{--  Project  --}}
+    @include('layouts.sections.section7')
+
 @endsection
 
 
