@@ -11023,6 +11023,7 @@ __webpack_require__(36);
 __webpack_require__(37);
 __webpack_require__(38);
 __webpack_require__(39);
+__webpack_require__(53);
 
 // components and their dependencies
 __webpack_require__(40);
@@ -32395,6 +32396,48 @@ $(document).ready(function () {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */
+/***/ (function(module, exports) {
+
+window.currentGallery = currentGallery;
+
+var galleryIndex = 0;
+showGallery(galleryIndex);
+
+function currentGallery(n) {
+    galleryIndex = n;
+    showGallery(n);
+}
+
+function showGallery(n) {
+    var indicators = document.getElementsByClassName('project-indicator');
+    var infos = document.getElementsByClassName('project-info');
+    var galleries = document.getElementsByClassName('gallery');
+
+    $(galleries[n]).addClass('show');
+    $(infos[n]).addClass('show');
+    $(indicators[n]).addClass('active');
+
+    for (var i = 0; i < galleries.length; i++) {
+        if (i != n) {
+            $(galleries[i]).removeClass('show');
+            $(infos[i]).removeClass('show');
+            $(indicators[i]).removeClass('active');
+        }
+    }
+}
 
 /***/ })
 /******/ ]);

@@ -8982,7 +8982,7 @@ form .form-group .form-control:focus {
 }
 
 .section1 .container-main-background {
-  background-image: url("/images/Home_BG.png");
+  background-image: url("/images/Home_BG_reduced.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -9058,7 +9058,7 @@ form .form-group .form-control:focus {
 }
 
 .section3 .container-history {
-  background-image: url("/images/History_BG.png");
+  background-image: url("/images/History_BG_reduced.png");
   background-size: cover;
   position: relative;
 }
@@ -9415,7 +9415,49 @@ form .form-group .form-control:focus {
 }
 
 .section7 .container-project {
-  height: 90vh;
+  height: 95vh;
+}
+
+.section7 .container-project .row {
+  margin-bottom: 25px;
+}
+
+.section7 .container-project .project-indicator-container .project-indicator img {
+  opacity: 0.5;
+}
+
+.section7 .container-project .project-indicator-container .project-indicator.active img,
+.section7 .container-project .project-indicator-container .project-indicator:hover img {
+  opacity: 1;
+}
+
+.section7 .container-project .project-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+.section7 .container-project .project-info-container .project-info {
+  display: none;
+}
+
+.section7 .container-project .project-info-container .project-info.show {
+  min-height: 170px;
+}
+
+.section7 .container-project .gallery-container .gallery {
+  display: none;
+}
+
+.section7 .container-project .gallery-container .gallery .row {
+  margin-bottom: 25px;
 }
 
 .section1 .row,
@@ -9423,7 +9465,8 @@ form .form-group .form-control:focus {
 .section3 .row,
 .section4 .row,
 .section5 .row,
-.section6 .row {
+.section6 .row,
+.section7 .row {
   background-color: #302d2c;
 }
 
@@ -9432,7 +9475,8 @@ form .form-group .form-control:focus {
 .section3 .section-title,
 .section4 .section-title,
 .section5 .section-title,
-.section6 .section-title {
+.section6 .section-title,
+.section7 .section-title {
   padding-top: 50px;
 }
 
