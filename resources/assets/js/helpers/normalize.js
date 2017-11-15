@@ -22,7 +22,8 @@ let container = [
     '.section1 .container-main-background',
     '.section3 .container-history',
     '.section4 .container-organization',
-    // '.section6 .container-be-involved'
+    // '.section6 .container-be-involved',
+    // '.section7 .container-project'
 ]
 
 for (var i = 0; i < container.length; i++) {

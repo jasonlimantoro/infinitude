@@ -9414,6 +9414,10 @@ form .form-group .form-control:focus {
   font-size: 12px;
 }
 
+.section7 .container-project {
+  height: 90vh;
+}
+
 .section1 .row,
 .section2 .row,
 .section3 .row,
