@@ -21,6 +21,10 @@
             width: initial !important;
             text-align: center;
             padding-bottom: 25px;
+            img {
+                max-width: 20%;
+                display: inline-block;
+            }
         }
         .mission {
             text-align: center;
@@ -40,6 +44,10 @@
                 height: $height-vl;
                 bottom: $bottom-vl + 23;
                 right: 15px;
+            }
+            img {
+                max-width: 20%;
+                display: inline-block;
             }
         }
     }

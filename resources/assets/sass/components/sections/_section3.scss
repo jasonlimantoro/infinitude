@@ -12,6 +12,12 @@
         .desc-history {
             text-align: center;
             padding-bottom: 10px;
+            .slide-header {
+                img {
+                    max-width: 40%;
+                    display: inline-block;
+                }
+            }
             .slides-container {
                 max-width: 1000px;
                 position: relative;

@@ -2,7 +2,7 @@
     <div class="row container-history title" id="history">
         <div class="col-md-offset-2 col-md-3 desc-history">
             <div class="slide-header">
-                <img src="icon" alt="icon">
+                <img src="/images/icons/history.png" alt="icon" class="img-responsive">
                 <h3>HISTORY</h3>
             </div>
             <div class="slides-container">

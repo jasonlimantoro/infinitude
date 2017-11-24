@@ -40,27 +40,27 @@
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Sehat Cerdas_1.jpg" onclick="currentModalSlide(0)" alt="Sehat 1">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Sehat Cerdas_1_compact.jpg" onclick="currentModalSlide(0)" alt="Sehat 1">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Sehat Cerdas_2.jpg" onclick="currentModalSlide(1)" alt="Sehat 2">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Sehat Cerdas_2_compact.jpg" onclick="currentModalSlide(1)" alt="Sehat 2">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Sehat Cerdas_3.jpg" onclick="currentModalSlide(2)" alt="Sehat 3">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Sehat Cerdas_3_compact.jpg" onclick="currentModalSlide(2)" alt="Sehat 3">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Sehat Cerdas_4.jpg" onclick="currentModalSlide(3)" alt="Sehat 4">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Sehat Cerdas_4_compact.jpg" onclick="currentModalSlide(3)" alt="Sehat 4">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Sehat Cerdas_5.jpg" onclick="currentModalSlide(4)" alt="Sehat 5">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Sehat Cerdas_5_compact.jpg" onclick="currentModalSlide(4)" alt="Sehat 5">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Sehat Cerdas_6.jpg" onclick="currentModalSlide(5)" alt="Sehat 6">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Sehat Cerdas_6_compact.jpg" onclick="currentModalSlide(5)" alt="Sehat 6">
         </div>
     </div>
 </div>
@@ -108,27 +108,27 @@
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/General Meeting_1.jpg" onclick="currentModalSlide(0)" alt="General 1">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/General Meeting_1_compact.jpg" onclick="currentModalSlide(0)" alt="General 1">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/General Meeting_2.jpg" onclick="currentModalSlide(1)" alt="General 2">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/General Meeting_2_compact.jpg" onclick="currentModalSlide(1)" alt="General 2">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/General Meeting_3.jpg" onclick="currentModalSlide(2)" alt="General 3">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/General Meeting_3_compact.jpg" onclick="currentModalSlide(2)" alt="General 3">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/General Meeting_4.jpg" onclick="currentModalSlide(3)" alt="General 4">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/General Meeting_4_compact.jpg" onclick="currentModalSlide(3)" alt="General 4">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/General Meeting_5.jpg" onclick="currentModalSlide(4)" alt="General 5">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/General Meeting_5_compact.jpg" onclick="currentModalSlide(4)" alt="General 5">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/General Meeting_6.jpg" onclick="currentModalSlide(5)" alt="General 6">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/General Meeting_6_compact.jpg" onclick="currentModalSlide(5)" alt="General 6">
         </div>
     </div>
 </div>
@@ -175,27 +175,27 @@
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Wonder Woman_1.png" onclick="currentModalSlide(0)" alt="Wonder Woman 1">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Wonder Woman_1_compact.png" onclick="currentModalSlide(0)" alt="Wonder Woman 1">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Wonder Woman_2.png" onclick="currentModalSlide(1)" alt="Wonder Woman 2">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Wonder Woman_2_compact.png" onclick="currentModalSlide(1)" alt="Wonder Woman 2">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Wonder Woman_3.png" onclick="currentModalSlide(2)" alt="Wonder Woman 3">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Wonder Woman_3_compact.png" onclick="currentModalSlide(2)" alt="Wonder Woman 3">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Wonder Woman_4.png" onclick="currentModalSlide(3)" alt="Wonder Woman 4">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Wonder Woman_4_compact.png" onclick="currentModalSlide(3)" alt="Wonder Woman 4">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Wonder Woman_5.png" onclick="currentModalSlide(4)" alt="Wonder Woman 5">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Wonder Woman_5_compact.png" onclick="currentModalSlide(4)" alt="Wonder Woman 5">
         </div>
 
         <div class="column">
-            <img class="modalSlideIndicator img-responsive" src="/images/galleries/Wonder Woman_6.png" onclick="currentModalSlide(5)" alt="Wonder Woman 6">
+            <img class="modalSlideIndicator img-responsive" src="/images/galleries/compact/Wonder Woman_6_compact.png" onclick="currentModalSlide(5)" alt="Wonder Woman 6">
         </div>
     </div>
 </div>
