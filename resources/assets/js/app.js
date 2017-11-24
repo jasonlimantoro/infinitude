@@ -10,6 +10,7 @@ require('./components/involved');
 require('./components/smoothScroll');
 require('./components/gallery');
 require('./components/modal');
+require('./components/backToTop');
 
 // components and their dependencies
 require('./vendors/slick/slick.min.js');

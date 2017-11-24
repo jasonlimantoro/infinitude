@@ -33,5 +33,22 @@ footer {
     p.copyright {
         text-align: center;
     }
+    .back-to-top {
+        background: none;
+        margin: 0;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 70px;
+        height: 70px;
+        z-index: 100;
+        display: none;
+        text-decoration: none;
+        color: #ffffff;
+        
+        span.glyphicon {
+            font-size: 60px;
+        }
+    }
 
 }

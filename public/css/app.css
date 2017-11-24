@@ -8856,6 +8856,24 @@ footer p.copyright {
   text-align: center;
 }
 
+footer .back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .back-to-top span.glyphicon {
+  font-size: 60px;
+}
+
 @font-face {
   font-family: Apercu;
   src: url("/fonts/apercu/Apercu.otf");

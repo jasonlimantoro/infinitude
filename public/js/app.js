@@ -11025,6 +11025,7 @@ __webpack_require__(38);
 __webpack_require__(39);
 __webpack_require__(40);
 __webpack_require__(41);
+__webpack_require__(55);
 
 // components and their dependencies
 __webpack_require__(42);
@@ -32486,6 +32487,38 @@ $(document).ready(function () {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */
+/***/ (function(module, exports) {
+
+// FOR BACK TO TOP BUTTON
+var offset = 900; // the scroll point where the button will appear
+var duration = 500; // the animation of fade-in and fade-out
+var animationDuration = 1500;
+$(window).scroll(function () {
+    if ($(this).scrollTop() > offset) {
+        $('.back-to-top').fadeIn(duration);
+    } else {
+        $('.back-to-top').fadeOut(duration);
+    }
+});
+
+$('.back-to-top').click(function (event) {
+    event.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, animationDuration);
+    return false;
+});
 
 /***/ })
 /******/ ]);
