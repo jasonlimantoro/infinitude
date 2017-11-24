@@ -83,7 +83,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_placeholder.png" alt="Placeholder" class="img-responsive">
+                                    <img src="/images/photos/_frame_hartanto.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Hartanto</p>
@@ -107,7 +107,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_placeholder.png" alt="Placeholder" class="img-responsive">
+                                    <img src="/images/photos/_frame_bernard.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Bernard Ricardo, Ph.D</p>
@@ -119,7 +119,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_placeholder.png" alt="Placeholder" class="img-responsive">
+                                    <img src="/images/photos/_frame_yoanna.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Yoanna Arlina, Ph.D</p>
@@ -131,7 +131,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
+                                    <img src="/images/photos/_frame_frans.png" alt="Healthcare" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Frans Liwang, MD</p>
@@ -155,7 +155,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
+                                    <img src="/images/photos/_frame_ferry.png" alt="Healthcare" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Ferry Liwang, MD</p>
