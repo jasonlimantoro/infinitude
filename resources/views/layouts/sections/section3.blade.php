@@ -45,8 +45,8 @@
                     </span>
                 </div>
 
-                <a class="prev glyphicon glyphicon-arrow-left" onclick="plusSlide(-1)"></a>
-                <a class="next glyphicon glyphicon-arrow-right" onclick="plusSlide(1)"></a>
+                <a class="prev glyphicon glyphicon-chevron-left" onclick="plusSlide(-1)"></a>
+                <a class="next glyphicon glyphicon-chevron-right" onclick="plusSlide(1)"></a>
             </div>
         </div>
         <div class="col-md-offset-2 col-md-10 col-xs-12 interactive visible-md visible-lg">
