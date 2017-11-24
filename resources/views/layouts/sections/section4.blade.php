@@ -10,18 +10,6 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_winel.png" alt="Winel" class="img-responsive">
-                                </div>
-                                <div class="profile-info">
-                                    <p class="profile-name">Winel Sutanto</p>
-                                    <hr>
-                                    <p class="profile-position">Vice President</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-xs-6 profile">
-                            <div class="profile-box">
-                                <div class="profile-img">
                                     <img src="/images/photos/_frame_christine.png" alt="" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
@@ -31,6 +19,19 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-3 col-xs-6 profile">
+                            <div class="profile-box">
+                                <div class="profile-img">
+                                    <img src="/images/photos/_frame_winel.png" alt="Winel" class="img-responsive">
+                                </div>
+                                <div class="profile-info">
+                                    <p class="profile-name">Winel Sutanto</p>
+                                    <hr>
+                                    <p class="profile-position">Vice President</p>
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
