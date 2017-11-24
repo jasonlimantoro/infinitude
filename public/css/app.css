@@ -9218,7 +9218,6 @@ form .form-group .form-control:focus {
 }
 
 .section2 .row.bg-about .vision img {
-  max-width: 20%;
   display: inline-block;
 }
 
@@ -9244,7 +9243,6 @@ form .form-group .form-control:focus {
 }
 
 .section2 .row.bg-about .mission img {
-  max-width: 20%;
   display: inline-block;
 }
 
@@ -9270,7 +9268,7 @@ form .form-group .form-control:focus {
 }
 
 .section3 .container-history .desc-history .slide-header img {
-  max-width: 40%;
+  max-width: 30%;
   display: inline-block;
 }
 

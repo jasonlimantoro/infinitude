@@ -19,7 +19,7 @@
             <div class="mission">
                 <img src="/images/icons/mission.png" alt="logo" class="img-responsive">
                 <h3>MISSIONS</h3>
-                <div class="row-divider-mission">
+                <div class="row-divider-mission clearfix">
                     <div class="col-md-4">
                         <p>
                             To promote health awareness and healthy lifestyle
