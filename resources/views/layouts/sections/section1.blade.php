@@ -1,6 +1,6 @@
 <div class="section1">
     <div class="row container-main-background">
-        
+        <img src="/images/Home_BG.png" alt="Infinitude" class="img-responsive">
     </div>
     <div class="row welcome">
         <h1>WELCOME TO INFINITUDE</h1>

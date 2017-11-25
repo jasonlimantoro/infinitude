@@ -1,9 +1,8 @@
 .section1 {
     .container-main-background{
-        background-image: url("/images/Home_BG_reduced.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+        img {
+            min-width: 100%;
+        }
     }
     .row.welcome {
         text-align: center;
