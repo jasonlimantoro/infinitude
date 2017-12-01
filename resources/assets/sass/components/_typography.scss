@@ -1,12 +1,7 @@
-@font-face {
-    font-family: Apercu-Bold;
-    src: url('/fonts/apercu/Apercu-Bold.otf');
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: $orange-default;
     span {
-        font-family: Apercu-Bold;
+        font-weight: 900;
     }
 }
 p {
