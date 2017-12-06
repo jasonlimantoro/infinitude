@@ -1,9 +1,10 @@
 .navbar-default {
-    background-color: transparent;
-    background-image: url('/images/Menu_top.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: $dark-grey-default;
+    // background-color: transparent;
+    // background-image: url('/images/Menu_top.png');
+    // background-size: cover;
+    // background-position: center;
+    // background-repeat: no-repeat;
     margin-bottom: 0px;
     border: none;
     font-size: 14px;
