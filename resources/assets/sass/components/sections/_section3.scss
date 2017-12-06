@@ -8,6 +8,12 @@
     .container-history {
         background-image: url("/images/History_BG.png");
         background-size: cover;
+        @include media-query(iphone6, both) {
+            background-image: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         position: relative;
         .desc-history {
             text-align: center;
