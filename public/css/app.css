@@ -9200,6 +9200,10 @@ form .form-group .form-control:focus {
   }
 }
 
+.section2 .row.bg-about {
+  margin-bottom: 40px;
+}
+
 .section2 .row.bg-about .img-about {
   padding-left: 0px;
   padding-right: 0px;
@@ -9220,20 +9224,21 @@ form .form-group .form-control:focus {
   padding-top: 25px;
 }
 
-.section2 .row.bg-about .mission .vl-1 {
-  border-left: 1px solid #fc9d5d;
-  position: relative;
-  height: 140px;
-  bottom: 140px;
-  right: 15px;
+.section2 .row.bg-about .mission .divider-mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.section2 .row.bg-about .mission .vl-2 {
-  border-left: 1px solid #fc9d5d;
-  position: relative;
-  height: 140px;
-  bottom: 163px;
-  right: 15px;
+.section2 .row.bg-about .mission .divider-mission .col-md-4 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.section2 .row.bg-about .mission .divider-mission .col-md-4:nth-child(1),
+.section2 .row.bg-about .mission .divider-mission .col-md-4:nth-child(2) {
+  border-right: solid #fc9d5d 1px;
 }
 
 .section2 .row.bg-about .mission img {

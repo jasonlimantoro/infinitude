@@ -9,6 +9,7 @@
         
     }
     .row.bg-about {
+        margin-bottom: 40px;
         .img-about {
             padding-left: 0px;
             padding-right: 0px;
@@ -24,22 +25,16 @@
         .mission {
             text-align: center;
             padding-top: 25px;
-            $height-vl: 140px;
-            $bottom-vl: $height-vl;
-            .vl-1 {
-                border-left: 1px solid $orange-default;
-                position: relative;
-                height: $height-vl;
-                bottom: $bottom-vl;
-                right: 15px;
+            .divider-mission {
+                display: flex;
+                .col-md-4 {
+                    flex: 1;
+                    &:nth-child(1), &:nth-child(2) {
+                        border-right: solid $orange-default 1px;
+                    }
+                }
             }
-            .vl-2 {
-                border-left: 1px solid $orange-default;
-                position: relative;
-                height: $height-vl;
-                bottom: $bottom-vl + 23;
-                right: 15px;
-            }
+            
             img {
                 display: inline-block;
             }
