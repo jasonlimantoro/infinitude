@@ -47,6 +47,17 @@
         margin-top: 30px;
         padding-top: 20px;
         padding-bottom: 20px;
+        @include media-query(iphone6, both) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            .col-md-12 {
+                min-height: 60vh;
+            }
+        }
         .working-guide-slider {
             position: relative;
             padding-top: 20px;
@@ -56,6 +67,12 @@
                 &:first-child {
                     margin-left: 8.3%;
                 }
+                @include media-query(iphone6, both) {
+                    img {
+                        max-width: 150%;
+                        padding: 5px;
+                    }
+                } 
             }
             img {
                 max-width: 50%;
@@ -75,17 +92,17 @@
             .hl {
                 position: absolute;
                 top: 50%;
-                left: 10%;
-                width: 80%;
+                left: 0;
+                right: 0;
+                width: 70%;
+                margin-right: auto;
+                margin-left: auto;
                 border-top: solid 3px white;
                 border-radius: 25px;
 
             }
         }
         .working-guide-caption {
-            img {
-                max-width: 7%;
-            }
             .caption-container {
                 &:not(.show-caption) {
                     display: none;

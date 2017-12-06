@@ -7,7 +7,7 @@
         <div class="col-md-12">
             <div class="row thumbnail-container">
                 
-                <div class="col-md-3 col-center">
+                <div class="col-md-3 col-xs-10 col-center">
                     <div class="thumbnail">
                         <img src="/images/program_forum_BG.png" alt="forum" class="img-responsive">
                         <div class="caption">
@@ -20,7 +20,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-center">
+                <div class="col-md-3 col-xs-10 col-center">
                     <div class="thumbnail">
                         <img src="/images/program_seminar_BG.png" alt="seminar" class="img-responsive">
                         <div class="caption">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-center">
+                <div class="col-md-3 col-xs-10 col-center">
                     <div class="thumbnail">
                         <img src="/images/program_workshop_BG.png" alt="workshop" class="img-responsive">
                         <div class="caption">
@@ -51,23 +51,22 @@
             </div>
 
             <div class="row working-guide-container">
-                <h4>Working Guide</h4>
-
                 <div class="col-md-12 col-center">
+                    <h2>Working Guide</h2>
                     <div class="row working-guide-slider">
-                        <div class="col-md-2 icon">
+                        <div class="col-md-2 col-xs-2 icon">
                             <img src="/images/icons/program_lightbulb.png" alt="lightbulb" class="img-responsive" onclick="currentCaption(0)">
                         </div>
-                        <div class="col-md-2 icon">
+                        <div class="col-md-2 col-xs-2 icon">
                             <img src="/images/icons/program_search.png" alt="search" class="img-responsive" onclick="currentCaption(1)">
                         </div>
-                        <div class="col-md-2 icon">
+                        <div class="col-md-2 col-xs-2 icon">
                             <img src="/images/icons/program_papers.png" alt="lightbulb" class="img-responsive" onclick="currentCaption(2)">
                         </div>
-                        <div class="col-md-2 icon">
+                        <div class="col-md-2 col-xs-2 icon">
                             <img src="/images/icons/program_logistic.png" alt="lightbulb" class="img-responsive" onclick="currentCaption(3)">
                         </div>
-                        <div class="col-md-2 icon">
+                        <div class="col-md-2 col-xs-2 icon">
                             <img src="/images/icons/program_goals.png" alt="lightbulb" class="img-responsive" onclick="currentCaption(4)">
                         </div>
                         <div class="hl"></div>
