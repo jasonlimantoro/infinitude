@@ -9429,6 +9429,7 @@ form .form-group .form-control:focus {
 
 .section5 .thumbnail-container .thumbnail > img {
   background-color: #302d2c;
+  width: 100%;
 }
 
 .section5 .thumbnail-container .thumbnail .caption {
