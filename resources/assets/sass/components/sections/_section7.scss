@@ -1,6 +1,5 @@
 .section7 {
     .container-project {
-        height: 95vh;
         .row {
             margin-bottom: 25px;
         }
@@ -10,6 +9,7 @@
                     opacity: 0.5;
                 }
                 &.active, &:hover {
+                    border: solid 1px $orange-default;
                     img {
                         opacity: 1;
                     }

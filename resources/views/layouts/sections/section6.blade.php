@@ -12,19 +12,14 @@
                             <img src="/images/icons/Be volunteer.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Become a Volunteer</p> 
                         </div>
-                    {{--  </div>  --}}
-                    {{--  <div class="row be-involved-box">  --}}
                         <div class="col-md-12 col-xs-3 col-center box-content" onclick="currentInvolved(1);">
                             <img src="/images/icons/Be donator.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Become a Donator</p> 
                         </div>
-                    {{--  </div>  --}}
-                    {{--  <div class="row be-involved-box">  --}}
                         <div class="col-md-12 col-xs-3 col-center box-content" onclick="currentInvolved(2);">
                             <img src="/images/icons/merchandise.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Merchandise</p> 
                         </div>
-                    {{--  </div>  --}}
                     </div>
                 
                 </div>
