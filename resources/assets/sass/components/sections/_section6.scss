@@ -5,9 +5,11 @@
             margin-bottom: 25px;
         }
         .be-involved-box-container {
-            margin-left: 11%;
+            // margin-left: 11%;
             .be-involved-box {
-                min-height: 213px;
+                @include media-query(iphone6, portrait) {
+                    display: flex;
+                }
                 .box-content {
                     text-align: center;
                     margin-bottom: 10px;
@@ -20,12 +22,19 @@
                     p {
                         color: $orange-default;
                         font-weight: bold;
+                        @include media-query(iphone6, portrait) {
+                            font-size: $font-size-base - 2;
+                        }
                     }
                     &:hover, &.active {
                         background-color: $orange-default;
                         p {
                             color: white;
                         }
+                    }
+                    @include media-query(iphone6, both){
+                        flex: 1;
+                        margin: 0 10px 10px 10px;
                     }
                 }
             }

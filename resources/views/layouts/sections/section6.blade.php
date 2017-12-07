@@ -6,28 +6,29 @@
         </div>
         <div class="col-md-12">
             <div class="row">
-                <div class="col-md-offset-1 col-md-2 be-involved-box-container">
-                    <div class="row be-involved-box">
-                        <div class="col-md-12 box-content" onclick="currentInvolved(0);">
+                <div class="col-md-offset-1 col-md-2 col-xs-12 be-involved-box-container">
+                    <div class="row be-involved-box row-center">
+                        <div class="col-md-12 col-xs-3 col-center box-content" onclick="currentInvolved(0);">
                             <img src="/images/icons/Be volunteer.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Become a Volunteer</p> 
                         </div>
-                    </div>
-                    <div class="row be-involved-box">
-                        <div class="col-md-12 box-content" onclick="currentInvolved(1);">
+                    {{--  </div>  --}}
+                    {{--  <div class="row be-involved-box">  --}}
+                        <div class="col-md-12 col-xs-3 col-center box-content" onclick="currentInvolved(1);">
                             <img src="/images/icons/Be donator.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Become a Donator</p> 
                         </div>
-                    </div>
-                    <div class="row be-involved-box">
-                        <div class="col-md-12 box-content" onclick="currentInvolved(2);">
+                    {{--  </div>  --}}
+                    {{--  <div class="row be-involved-box">  --}}
+                        <div class="col-md-12 col-xs-3 col-center box-content" onclick="currentInvolved(2);">
                             <img src="/images/icons/merchandise.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Merchandise</p> 
                         </div>
+                    {{--  </div>  --}}
                     </div>
                 
                 </div>
-                <div class="col-md-offset-1 col-md-7 be-involved-content-container">
+                <div class="col-md-offset-1 col-md-7 col-xs-12 be-involved-content-container">
                     <div class="volunteer involved">
                         <h2>BE OUR INFINITUDE BUDDY AND <br> START TO <span>MAKE A DIFFERENCE</span> TODAY</h2>
                         <p>
@@ -46,7 +47,7 @@
                             <img src="/images/icons/email.png" alt="email" class="icon">
                             Send the form to our <strong> <a href="mailto: {{ $mailto }}">email</a></strong>
                         </p>
-                        <img src="/images/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content volunteer-img">   
+                        <img src="/images/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content volunteer-img hidden-xs">   
                     </div>
 
                     <div class="donator involved">
@@ -61,7 +62,7 @@
                             <img src="/images/icons/Donate.png" alt="donate">
                             To make a donation click <a href="#"><strong>here</strong></a>
                         </p>
-                        <img src="/images/Be involved_Donatur_BG.png" alt="donator" class="img-responsive background-content donator-img">
+                        <img src="/images/Be involved_Donatur_BG.png" alt="donator" class="img-responsive background-content donator-img hidden-xs">
 
                     </div>
 

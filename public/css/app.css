@@ -9571,12 +9571,12 @@ form .form-group .form-control:focus {
   margin-bottom: 25px;
 }
 
-.section6 .container-be-involved .be-involved-box-container {
-  margin-left: 11%;
-}
-
-.section6 .container-be-involved .be-involved-box-container .be-involved-box {
-  min-height: 213px;
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .section6 .container-be-involved .be-involved-box-container .be-involved-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content {
@@ -9596,6 +9596,12 @@ form .form-group .form-control:focus {
   font-weight: bold;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content p {
+    font-size: 13px;
+  }
+}
+
 .section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content:hover,
 .section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content.active {
   background-color: #fc9d5d;
@@ -9604,6 +9610,15 @@ form .form-group .form-control:focus {
 .section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content:hover p,
 .section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content.active p {
   color: white;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .section6 .container-be-involved .be-involved-box-container .be-involved-box .box-content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 10px 10px 10px;
+  }
 }
 
 .section6 .container-be-involved .be-involved-content-container .volunteer,
