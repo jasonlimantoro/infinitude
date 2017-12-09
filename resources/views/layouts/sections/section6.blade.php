@@ -42,9 +42,9 @@
 
                         <p>
                             <img src="/images/icons/form.png" alt="form" class="icon">
-                            Download the form <strong> <a href="#">here</a></strong> <br>
+                            Download the form <strong> <a href="/forms/Volunteer.pdf" target="_blank">here</a></strong> <br>
                             <img src="/images/icons/email.png" alt="email" class="icon">
-                            Send the form to our <strong> <a href="mailto: {{ $mailto }}">email</a></strong>
+                            Send the form to our <strong> <a href="mailto:{{ $mailto }}" target="_blank">email</a></strong>
                         </p>
                         <img src="/images/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content volunteer-img">   
                     </div>
@@ -59,7 +59,7 @@
 
                         <p>
                             <img src="/images/icons/Donate.png" alt="donate">
-                            To make a donation click <a href="#"><strong>here</strong></a>
+                            To make a donation, <a href="mailto:{{ $mailto }}" target="_blank"><strong>email us</strong></a>
                         </p>
                         <img src="/images/Be involved_Donatur_BG.png" alt="donator" class="img-responsive background-content donator-img">
 
@@ -101,7 +101,7 @@
 
                         <p>
                             <img src="/images/icons/email.png" alt="email" class="icon">
-                            To make a purchase, please <strong><a href="mailto: {{ $mailto }}">email</a></strong> us 
+                            To make a purchase, please <strong><a href="mailto:{{ $mailto }}" target="_blank">email us</a></strong>
                         
                         </p>
                     
