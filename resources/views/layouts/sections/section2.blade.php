@@ -5,7 +5,7 @@
     
     <div class="row bg-about">
         <div class="col-md-7 col-xs-12 img-about">
-            <img src="/images/about_us_BG.png" alt="about us" class="img-responsive">
+            <img src="{{ $ABOUTUS_BG }}" alt="about us" class="img-responsive">
         </div>
         <div class="col-md-4 visible-md title" id="vision-and-mission">
             <div class="vision">

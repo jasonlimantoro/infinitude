@@ -12,7 +12,7 @@ class ImagesController extends Controller
     }
 
     public function intervent() {
-        $img = \Image::make(url($this->imgPath))->encode('data-url');
+        $img = \Image::make(url($this->imgPath))->encode('data-url', 75);
         return $img;
     }
     
