@@ -31706,22 +31706,13 @@ if (screenWidth > 1200) {
     }
 }
 
-// Array of section needs to be set
-var container = [
-// '.section1 .container-main-background',
-'.section3 .container-history', '.section4 .container-organization'];
-
-for (var i = 0; i < container.length; i++) {
-    $(container[i]).css('height', heightSection);
-}
-
 // for section 6
 var boxes = document.getElementsByClassName('be-involved-box');
 var boxContents = document.getElementsByClassName('box-content');
 var involveds = document.getElementsByClassName('involved');
 var boxHeight = boxes[0].clientHeight * boxes.length - 10;
-for (var _i = 0; _i < involveds.length; _i++) {
-    $(involveds[_i]).css('min-height', boxHeight);
+for (var i = 0; i < involveds.length; i++) {
+    $(involveds[i]).css('min-height', boxHeight);
 }
 
 /***/ }),

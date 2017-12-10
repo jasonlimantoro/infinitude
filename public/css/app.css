@@ -9254,6 +9254,7 @@ form .form-group .form-control:focus {
   background-image: url("/images/History_BG.png");
   background-size: cover;
   position: relative;
+  height: 95vh;
 }
 
 .section3 .container-history .desc-history {
@@ -9333,6 +9334,10 @@ form .form-group .form-control:focus {
   position: absolute;
   display: inline-block;
   color: white;
+}
+
+.section4 .container-organization {
+  height: 95vh;
 }
 
 .section4 .row {
