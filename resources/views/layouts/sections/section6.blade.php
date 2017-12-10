@@ -9,19 +9,19 @@
                 <div class="col-md-offset-1 col-md-2 be-involved-box-container">
                     <div class="row be-involved-box">
                         <div class="col-md-12 box-content" onclick="currentInvolved(0);">
-                            <img src="/images/icons/Be volunteer.png" alt="volunteer" class="img-responsive be-involved-icon">
+                            <img src="/imagecache/original/icons/Be volunteer.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Become a Volunteer</p> 
                         </div>
                     </div>
                     <div class="row be-involved-box">
                         <div class="col-md-12 box-content" onclick="currentInvolved(1);">
-                            <img src="/images/icons/Be donator.png" alt="volunteer" class="img-responsive be-involved-icon">
+                            <img src="/imagecache/original/icons/Be donator.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Become a Donator</p> 
                         </div>
                     </div>
                     <div class="row be-involved-box">
                         <div class="col-md-12 box-content" onclick="currentInvolved(2);">
-                            <img src="/images/icons/merchandise.png" alt="volunteer" class="img-responsive be-involved-icon">
+                            <img src="/imagecache/original/icons/merchandise.png" alt="volunteer" class="img-responsive be-involved-icon">
                             <p>Merchandise</p> 
                         </div>
                     </div>
@@ -41,12 +41,12 @@
                         </ul>
 
                         <p>
-                            <img src="/images/icons/form.png" alt="form" class="icon">
+                            <img src="/imagecache/original/icons/form.png" alt="form" class="icon">
                             Download the form <strong> <a href="/forms/Volunteer.pdf" target="_blank">here</a></strong> <br>
-                            <img src="/images/icons/email.png" alt="email" class="icon">
+                            <img src="/imagecache/original/icons/email.png" alt="email" class="icon">
                             Send the form to our <strong> <a href="mailto:{{ $mailto }}" target="_blank">email</a></strong>
                         </p>
-                        <img src="/images/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content volunteer-img">   
+                        <img src="/imagecache/original/Be involved_Volunteer_BG.png" alt="involved" class="img-responsive background-content volunteer-img">   
                     </div>
 
                     <div class="donator involved">
@@ -58,10 +58,10 @@
                         </p>
 
                         <p>
-                            <img src="/images/icons/Donate.png" alt="donate">
+                            <img src="/imagecache/original/icons/Donate.png" alt="donate">
                             To make a donation, <a href="mailto:{{ $mailto }}" target="_blank"><strong>email us</strong></a>
                         </p>
-                        <img src="/images/Be involved_Donatur_BG.png" alt="donator" class="img-responsive background-content donator-img">
+                        <img src="/imagecache/original/Be involved_Donatur_BG.png" alt="donator" class="img-responsive background-content donator-img">
 
                     </div>
 
@@ -75,21 +75,21 @@
                         <div class="merchandise-images-container">
                             <div class="row">
                                 <div class="col-md-4 item">
-                                    <img src="/images/Be involved_merchandise_tshirt.png" alt="tshirt" class="img-responsive">
+                                    <img src="/imagecache/original/Be involved_merchandise_tshirt.png" alt="tshirt" class="img-responsive">
                                     <div class="item-description">
                                         <p>INFINITUDE Tshirt<strong class="price">$10</strong> </p>
                                     </div>
                                 </div>
 
                                 <div class="col-md-4 item">
-                                    <img src="/images/Be involved_merchandise_umbrella.png" alt="umbrella" class="img-responsive">
+                                    <img src="/imagecache/original/Be involved_merchandise_umbrella.png" alt="umbrella" class="img-responsive">
                                     <div class="item-description">
                                         <p>INFINITUDE Umbrella<strong class="price">$12</strong> </p>
                                     </div>
                                 </div>
 
                                 <div class="col-md-4 item">
-                                    <img src="/images/Be involved_merchandise_mug.png" alt="mug" class="img-responsive">
+                                    <img src="/imagecache/original/Be involved_merchandise_mug.png" alt="mug" class="img-responsive">
                                     <div class="item-description">
                                         <p>INFINITUDE Mug <strong class="price">$15</strong> </p>
                                     </div>
@@ -100,7 +100,7 @@
                         </div>
 
                         <p>
-                            <img src="/images/icons/email.png" alt="email" class="icon">
+                            <img src="/imagecache/original/icons/email.png" alt="email" class="icon">
                             To make a purchase, please <strong><a href="mailto:{{ $mailto }}" target="_blank">email us</a></strong>
                         
                         </p>

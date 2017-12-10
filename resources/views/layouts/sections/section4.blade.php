@@ -10,7 +10,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_christine.png" alt="" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_christine.png" alt="" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Christine Liwang</p>
@@ -22,7 +22,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_winel.png" alt="Winel" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_winel.png" alt="Winel" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Winel Sutanto</p>
@@ -35,7 +35,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_emma.png" alt="" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_emma.png" alt="" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Emmanuela Michelle</p>
@@ -48,7 +48,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_gisele.png" alt="Gisele" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_gisele.png" alt="Gisele" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Gisele Suroto</p>
@@ -60,7 +60,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_sampoerna.png" alt="Sampoerna" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_sampoerna.png" alt="Sampoerna" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Sampoerna Adya</p>
@@ -72,7 +72,7 @@
                         <div class="col-md-3 col-xs-4 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_jason.png" alt="Jason" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_jason.png" alt="Jason" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Jason Gunawan L</p>
@@ -84,7 +84,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_hartanto.png" alt="Placeholder" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_hartanto.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Hartanto</p>
@@ -96,7 +96,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_vincent.png" alt="Vincent" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_vincent.png" alt="Vincent" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Vincent Tjhan</p>
@@ -108,7 +108,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_bernard.png" alt="Placeholder" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_bernard.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Bernard Ricardo, Ph.D</p>
@@ -120,7 +120,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_yoanna.png" alt="Placeholder" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_yoanna.png" alt="Placeholder" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Yoanna Arlina, Ph.D</p>
@@ -132,7 +132,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_frans.png" alt="Healthcare" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_frans.png" alt="Healthcare" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Frans Liwang, MD</p>
@@ -144,7 +144,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_healthcare.png" alt="Healthcare" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Novita Suprapto, MD</p>
@@ -156,7 +156,7 @@
                         <div class="col-md-3 col-xs-6 profile">
                             <div class="profile-box">
                                 <div class="profile-img">
-                                    <img src="/images/photos/_frame_ferry.png" alt="Healthcare" class="img-responsive">
+                                    <img src="/imagecache/original/photos/_frame_ferry.png" alt="Healthcare" class="img-responsive">
                                 </div>
                                 <div class="profile-info">
                                     <p class="profile-name">Ferry Liwang, MD</p>

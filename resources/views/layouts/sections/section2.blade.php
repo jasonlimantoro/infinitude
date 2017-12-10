@@ -5,11 +5,11 @@
     
     <div class="row bg-about">
         <div class="col-md-7 col-xs-12 img-about">
-            <img src="/images/about_us_BG.png" alt="about us" class="img-responsive">
+            <img src="/imagecache/original/about_us_BG.png" alt="about us" class="img-responsive">
         </div>
         <div class="col-md-4 visible-md title" id="vision-and-mission">
             <div class="vision">
-                <img src="/images/icons/vision.png" alt="logo" class="img-responsive">
+                <img src="/imagecache/original/icons/vision.png" alt="logo" class="img-responsive">
                 <h3>VISION</h3>
                 <p>
                     To be a community that gives an everlasting impact in improving the quality of healthcare and education among youth and children in need in South East Asia region
@@ -17,7 +17,7 @@
             </div>
 
             <div class="mission">
-                <img src="/images/icons/mission.png" alt="logo" class="img-responsive">
+                <img src="/imagecache/original/icons/mission.png" alt="logo" class="img-responsive">
                 <h3>MISSIONS</h3>
                 <div class="row-divider-mission clearfix">
                     <div class="col-md-4">

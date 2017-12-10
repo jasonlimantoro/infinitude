@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a href="/" class="navbar-brand visible-xs">
-                <img src="/images/Infinitude_menu_logo.png" class="img-responsive" alt="logo">
+                <img src="/imagecache/original/Infinitude_menu_logo.png" class="img-responsive" alt="logo">
             </a>
         </div>
 
@@ -36,7 +36,7 @@
                 {{--  Logo Section  --}}
                 <div class="col-sm-2 col-md-2 logo hidden-xs">
                     <a href="/" class="navbar-brand">
-                        <img src="/images/Infinitude_menu_logo.png" class="img-responsive" alt="logo">
+                        <img src="/imagecache/original/Infinitude_menu_logo.png" class="img-responsive" alt="logo">
                     </a>
                 </div>
 

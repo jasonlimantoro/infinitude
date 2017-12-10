@@ -1,6 +1,6 @@
 <div class="section1">
     <div class="row container-main-background">
-        <img src="/images/Home_BG.png" alt="Infinitude" class="img-responsive">
+        <img src="/imagecache/original/Home_BG.png" alt="Infinitude" class="img-responsive">
     </div>
     <div class="row welcome">
         <h1>WELCOME TO INFINITUDE</h1>
@@ -22,21 +22,21 @@
     </div>
     <div class="row rei">
         <div class="col-md-offset-2 col-md-2">
-            <img src="/images/icons/reach.png" alt="icon" class="img-responsive">
+            <img src="/imagecache/original/icons/reach.png" alt="icon" class="img-responsive">
             <h1>REACH</h1>
             <p>
                 To reach out to youth and disadvantaged children in the rural areas in South East Asian countries
             </p>
         </div>
         <div class="col-md-offset-1 col-md-2">
-            <img src="/images/icons/engage.png" alt="icon" class="img-responsive">
+            <img src="/imagecache/original/icons/engage.png" alt="icon" class="img-responsive">
             <h1>ENGAGE</h1>
             <p>
                 To design an engaging and interactive sessions according to the age group and specific needs in the region
             </p>
         </div>
         <div class="col-md-offset-1 col-md-2">
-            <img src="/images/icons/impact.png" alt="icon" class="img-responsive">
+            <img src="/imagecache/original/icons/impact.png" alt="icon" class="img-responsive">
             <h1>IMPACT</h1>
             <p>
                 To make everlasting impact by providing healthcare knowledge and education the young generation

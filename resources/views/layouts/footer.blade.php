@@ -36,13 +36,13 @@
         <div class="row row-center">
             <div class="col-md-1 col-xs-3 col-center">
                 <a href="mailto:{{ $mailto }}" target="_blank">
-                    <img src="/images/icons/mailto.png" alt="mailto" class="img-responsive">
+                    <img src="/imagecache/original/icons/mailto.png" alt="mailto" class="img-responsive">
                 </a>
             </div>
 
             <div class="col-md-1 col-xs-3 col-center social">
                 <a href="https://www.instagram.com/infinitudecommunity" target="_blank">
-                    <img src="/images/icons/instagram.png" alt="instagram" class="img-responsive">
+                    <img src="/imagecache/original/icons/instagram.png" alt="instagram" class="img-responsive">
                 </a>
             </div>
         </div>
